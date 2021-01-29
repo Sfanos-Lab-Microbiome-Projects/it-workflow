@@ -2,7 +2,7 @@
 #SBATCH -c 12
 #SBATCH -t 10:00:00
 #SBATCH --mail-type=all
-#SBATCH --mail-user=cjone228@jhu.edu
+#SBATCH --mail-user=lpeiffe1@jh.edu
 #SBATCH --job-name="demux all atcc"
 #SBATCH --mem=20G
 #SBATCH -p parallel
