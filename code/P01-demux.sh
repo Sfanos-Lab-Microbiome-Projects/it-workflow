@@ -1,9 +1,12 @@
 #!/bin/bash
-#SBATCH -c 5
+#SBATCH -c 12
 #SBATCH -t 10:00:00
 #SBATCH --mail-type=all
 #SBATCH --mail-user=cjone228@jhu.edu
-#SBATCH --job-name=demux all atcc
+#SBATCH --job-name="demux all atcc"
+#SBATCH --mem=20G
+#SBATCH -p parallel
+#SBATCH --array=1-6
 
 source ~/.bashrc
 #source activate qiime2-2020.6
