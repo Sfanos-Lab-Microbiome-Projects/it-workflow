@@ -32,7 +32,7 @@ qiime dada2 denoise-pyro \
   --p-trim-left 0 \
   --p-trunc-len 0 \
   --p-max-ee 5 \
-  --i-demultiplexed-seqs ../external/P01-demux/$REGION/chip$i-$REGION-demux.qza \
+  --i-demultiplexed-seqs ../external/P01-demux/$REGION/atcc-chip$i-$REGION-demux.qza \
   --o-table ../external/P02-dada2/$REGION/chip$i-$REGION-table.qza \
   --o-representative-sequences ../external/P02-dada2/$REGION/chip$i-$REGION-rep-seqs.qza \
   --o-denoising-stats ../external/P02-dada2/$REGION/chip$i-$REGION-denoise-stats.qza \
@@ -41,8 +41,8 @@ qiime dada2 denoise-pyro \
   
 # export to viewable formats --
 qiime tools export \
---input-path ../external/A03-dada2/$REGION/chip$i-$REGION-denoise-stats.qza \
---output-path ../external/A03-dada2/$REGION/exported-denoise-stats/chip$i-$REGION-stats.tsv
+--input-path ../external/P02-dada2/$REGION/chip$i-$REGION-denoise-stats.qza \
+--output-path ../external/P02-dada2/$REGION/exported-denoise-stats/chip$i-$REGION-stats.tsv
 
 echo "tabulating DADA2 summary statistics"
 
