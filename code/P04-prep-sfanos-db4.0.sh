@@ -17,11 +17,11 @@ export LC_ALL
 # new and improved db of reference sequences
 qiime tools import \
   --type 'FeatureData[Sequence]' \
-  --input-path ../../db-devel/sfanos_db_v4.0.fasta \
-  --output-path ../../db-devel/sfanos_db_v4.0.fasta.qza
+  --input-path ../../../jwhite/db-devel/sfanos_db_v4.0.fasta \
+  --output-path ../external/db/sfanos_db_v4.0.fasta.qza
 
 qiime tools import \
   --type 'FeatureData[Taxonomy]' \
-  --input-path ../../db-devel/sfanos_db_v4.0.txt \
+  --input-path ../../../jwhite/db-devel/sfanos_db_v4.0.txt \
   --input-format HeaderlessTSVTaxonomyFormat \
-  --output-path ../../db-devel/sfanos_db_v4.0.txt.qza
+  --output-path ../external/db/sfanos_db_v4.0.txt.qza
