@@ -10,7 +10,7 @@
 
 # configure
 source ~/.bashrc
-source activate qiime2-2020.2
+source activate qiime2-2020.6
 
 outDir=../analysis/P00-tx-validation
 rm -r $outDir
