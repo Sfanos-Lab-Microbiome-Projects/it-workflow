@@ -17,9 +17,9 @@ rm -r $outDir
 mkdir -p $outDir
 
 # create data qza
-seqfna=../../primer-simulations/analysis/A04-simulate-seqs/extracted.1prcterr.fasta
-#seqfna=../../primer-simulations/analysis/A04-simulate-seqs/test.fasta
-inrepsqza=../../primer-simulations/analysis/A04-simulate-seqs/extracted.1prcterr.fasta.qza
+seqfna=../../../jwhite/primer-simulations/analysis/A04-simulate-seqs/extracted.1prcterr.fasta
+#seqfna=../../../jwhite/primer-simulations/analysis/A04-simulate-seqs/test.fasta
+inrepsqza=../../../jwhite/primer-simulations/analysis/A04-simulate-seqs/extracted.1prcterr.fasta.qza
 
 qiime tools import \
   --input-path $seqfna \
@@ -30,8 +30,8 @@ echo "$inrepsqza"
 
 qiime feature-classifier classify-consensus-vsearch \
   --i-query $inrepsqza \
-  --i-reference-reads ../../db-devel/sfanos_db_v4.0.fasta.qza \
-  --i-reference-taxonomy ../../db-devel/sfanos_db_v4.0.txt.qza \
+  --i-reference-reads ../external/db/sfanos_db_v4.0.fasta.qza \
+  --i-reference-taxonomy ../external/db/sfanos_db_v4.0.txt.qza \
   --p-perc-identity 0.97 \
   --p-threads 4 \
   --o-classification $outDir/classifications.qza \
