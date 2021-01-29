@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -c 1
 #SBATCH -t 10:00:00
-#SBATCH -p lrgmem
+#SBATCH -p parallel
 #SBATCH --mail-type=all
 #SBATCH --mail-user=cjone228@jhu.edu
 #SBATCH --job-name=import-db
