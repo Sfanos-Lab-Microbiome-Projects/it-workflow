@@ -1,0 +1,84 @@
+Note that users no longer need to load the SLURM module. You may remove 'module
+load slurm' from your scripts. 
+Please read this resource guide to understand the above behavior:
+https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
+
+Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) openmpi/3.1
+
+Note that users no longer need to load the SLURM module. You may remove 'module
+load slurm' from your scripts. 
+Please read this resource guide to understand the above behavior:
+https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
+v67
+R version 3.5.1 (2018-07-02) 
+Loading required package: Rcpp
+DADA2: 1.10.0 / Rcpp: 1.0.4.6 / RcppParallel: 5.0.0 
+1) Filtering ..
+2) Learning Error Rates
+91082160 total bases in 425616 reads from 1 samples will be used for learning the error rates.
+3) Denoise samples ..
+4) Remove chimeras (method = consensus)
+5) Report read numbers through the pipeline
+6) Write output
+Running external command line application(s). This may print messages to stdout and/or stderr.
+The command(s) being run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: run_dada_single.R /home-1/cjone228@jhu.edu/scratch/qiime2-archive-fynn_t_t/8a1e30d2-2fbd-4e25-89ee-cd599d4297a8/data /home-1/cjone228@jhu.edu/scratch/tmpybot_yhq/output.tsv.biom /home-1/cjone228@jhu.edu/scratch/tmpybot_yhq/track.tsv /home-1/cjone228@jhu.edu/scratch/tmpybot_yhq 0 0 5.0 2 Inf independent consensus 1.0 4 250000 -1 32
+
+Saved FeatureTable[Frequency] to: ../external/P02-dada2/v67/chip1-v67-table.qza
+Saved FeatureData[Sequence] to: ../external/P02-dada2/v67/chip1-v67-rep-seqs.qza
+Saved SampleData[DADA2Stats] to: ../external/P02-dada2/v67/chip1-v67-denoise-stats.qza
+Exported ../external/P02-dada2/v67/chip1-v67-denoise-stats.qza as DADA2StatsDirFmt to directory ../external/P02-dada2/v67/exported-denoise-stats/chip1-v67-stats.tsv
+tabulating DADA2 summary statistics
+Saved Visualization to: ../external/P02-dada2/v67/chip1-v67-denoise-stats.qzv
+R version 3.5.1 (2018-07-02) 
+Loading required package: Rcpp
+DADA2: 1.10.0 / Rcpp: 1.0.4.6 / RcppParallel: 5.0.0 
+1) Filtering .
+2) Learning Error Rates
+4103281 total bases in 19095 reads from 1 samples will be used for learning the error rates.
+3) Denoise samples .
+4) Remove chimeras (method = consensus)
+5) Report read numbers through the pipeline
+6) Write output
+Running external command line application(s). This may print messages to stdout and/or stderr.
+The command(s) being run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: run_dada_single.R /home-1/cjone228@jhu.edu/scratch/qiime2-archive-hqqvzmgf/d03f896f-ab8a-4c6c-9c8a-e449a05c969c/data /home-1/cjone228@jhu.edu/scratch/tmpw98i5eh9/output.tsv.biom /home-1/cjone228@jhu.edu/scratch/tmpw98i5eh9/track.tsv /home-1/cjone228@jhu.edu/scratch/tmpw98i5eh9 0 0 5.0 2 Inf independent consensus 1.0 4 250000 -1 32
+
+Saved FeatureTable[Frequency] to: ../external/P02-dada2/v67/chip2-v67-table.qza
+Saved FeatureData[Sequence] to: ../external/P02-dada2/v67/chip2-v67-rep-seqs.qza
+Saved SampleData[DADA2Stats] to: ../external/P02-dada2/v67/chip2-v67-denoise-stats.qza
+Exported ../external/P02-dada2/v67/chip2-v67-denoise-stats.qza as DADA2StatsDirFmt to directory ../external/P02-dada2/v67/exported-denoise-stats/chip2-v67-stats.tsv
+tabulating DADA2 summary statistics
+Saved Visualization to: ../external/P02-dada2/v67/chip2-v67-denoise-stats.qzv
+R version 3.5.1 (2018-07-02) 
+Loading required package: Rcpp
+DADA2: 1.10.0 / Rcpp: 1.0.4.6 / RcppParallel: 5.0.0 
+1) Filtering ..
+2) Learning Error Rates
+25867089 total bases in 118664 reads from 2 samples will be used for learning the error rates.
+3) Denoise samples ..
+4) Remove chimeras (method = consensus)
+5) Report read numbers through the pipeline
+6) Write output
+Running external command line application(s). This may print messages to stdout and/or stderr.
+The command(s) being run are below. These commands cannot be manually re-run as they will depend on temporary files that no longer exist.
+
+Command: run_dada_single.R /home-1/cjone228@jhu.edu/scratch/qiime2-archive-nlt3irop/9836f5c3-1a8a-47c8-88e1-ad236dc0ba48/data /home-1/cjone228@jhu.edu/scratch/tmpza2b1ejk/output.tsv.biom /home-1/cjone228@jhu.edu/scratch/tmpza2b1ejk/track.tsv /home-1/cjone228@jhu.edu/scratch/tmpza2b1ejk 0 0 5.0 2 Inf independent consensus 1.0 4 250000 -1 32
+
+Saved FeatureTable[Frequency] to: ../external/P02-dada2/v67/chip3-v67-table.qza
+Saved FeatureData[Sequence] to: ../external/P02-dada2/v67/chip3-v67-rep-seqs.qza
+Saved SampleData[DADA2Stats] to: ../external/P02-dada2/v67/chip3-v67-denoise-stats.qza
+Exported ../external/P02-dada2/v67/chip3-v67-denoise-stats.qza as DADA2StatsDirFmt to directory ../external/P02-dada2/v67/exported-denoise-stats/chip3-v67-stats.tsv
+tabulating DADA2 summary statistics
+Saved Visualization to: ../external/P02-dada2/v67/chip3-v67-denoise-stats.qzv
+Performing table merging
+Saved FeatureTable[Frequency] to: ../external/P02-dada2/v67/merged-v67-table.qza
+Saved FeatureData[Sequence] to: ../external/P02-dada2/v67/merged-v67-rep-seqs.qza
+Exported ../external/P02-dada2/v67/merged-v67-table.qza as BIOMV210DirFmt to directory ../external/P02-dada2/v67/merged
+Exported ../external/P02-dada2/v67/merged-v67-rep-seqs.qza as DNASequencesDirectoryFormat to directory ../external/P02-dada2/v67/merged
