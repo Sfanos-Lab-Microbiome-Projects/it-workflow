@@ -36,7 +36,7 @@ do
 
 qiime tools import \
   --type 'SampleData[SequencesWithQuality]' \
-  --input-path  ../data/manifests/chip$i/atcc-chip$i-$REGION.tsv \
+  --input-path  ../data/manifests/atcc-chip$i-$REGION.tsv \
   --output-path $outDir/$REGION/atcc-chip$i-$REGION-demux.qza \
   --input-format SingleEndFastqManifestPhred33V2
 
