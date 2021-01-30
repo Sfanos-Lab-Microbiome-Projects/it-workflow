@@ -7,7 +7,7 @@ my $outDir = "../analysis/P03-summarize-qc";
 `rm -r $outDir`;
 `mkdir $outDir`;
 # ------------------------
-my $files = `ls ../analysis/P02-dada2/v*/exported-denoise-stats/chip*/stats.tsv`;
+my $files = `ls ../external/P02-dada2/v*/exported-denoise-stats/chip*/stats.tsv`;
 chomp($files);
 my @files = split "\n", $files; # now the @files array holds the path to each sample
 # ------------------------
