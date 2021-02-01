@@ -1,0 +1,59 @@
+Feature ID	Taxon	Consensus
+05d7d7145b7fb932e49cd17a55814db5	Unassigned	1.0
+102e2e447395673bf8c4ca98900e8502	Unassigned	1.0
+1a1af578d05240a58afe8334648eb70f	Unassigned	1.0
+37f5e2e4e67164d416181bb86deae98a	Unassigned	1.0
+398c38637a7c07e5ab6e0b383fb47d11	Unassigned	1.0
+3b54c21dc458aad6bef0b895a008a999	Unassigned	1.0
+3fd512ab2543a51a0f6d3e3f5ee0b799	Unassigned	1.0
+4b7a9119a51ad23e913594c78bc5d0e9	Unassigned	1.0
+6d83c34c7d5ac72f2cda59a12d2f98bc	k__Bacteria; p__DeinococcusThermus; c__Deinococci; o__Deinococcales; f__Deinococcaceae; g__Deinococcus; s__Deinococcus_radiodurans	1.0
+75fbfefbdb3937860340ac76fd31068e	Unassigned	1.0
+7acd47b748c9f1cd32e0a6e17e6d253e	Unassigned	1.0
+7e080aec24208d91e7a40c1938f2c807	Unassigned	1.0
+9b0828d33517a6fc6957e9e9a1d5156f	Unassigned	1.0
+9c0a33f32dcd2db6c61d1d60d2c3a3d2	Unassigned	1.0
+9d7393d1cc1a683bf6257db3c38311ed	Unassigned	1.0
+9e31be0b73920efb4927da03660c302e	Unassigned	1.0
+9fde705fd377f224bf31d81a0d9a4ff4	Unassigned	1.0
+AB078819	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_acnes	0.8
+AB976555	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus_gasseri	1.0
+AF414809	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_gingivalis	1.0
+AF468821	k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter_sphaeroides	0.8
+AHVT01000016	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus	1.0
+AJ234037	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus	0.875
+AJ239309	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Neisseria; s__Neisseria_meningitidis	1.0
+AJ577290	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus_cereus	0.9
+ALZP01000053	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus; s__Enterococcus_faecalis	0.9
+AP013354	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Helicobacter; s__Helicobacter_pylori	1.0
+CP000260	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_dysgalactiae	0.7
+EU136687	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_dorei	0.5714285714285714
+EU156766	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_mutans	0.8
+EU239122	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas_aeruginosa	0.9
+FJ611793	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium_adolescentis	0.5714285714285714
+FR734081	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1; s__Clostridium_butyricum	0.6
+FW305997	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae	1.0
+GASM01010085	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_acnes	0.8
+HF545616	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Ruminococcus_1; s__Ruminococcus_bicirculans	1.0
+HM216570	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis	1.0
+JN020353	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium_adolescentis	1.0
+JX029051	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Pectobacterium; s__Pectobacterium_carotovorum	0.7
+KF600293	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Uruburuella; s__Uruburuella_sp	0.7
+KM087103	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis	0.9
+KP091275	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus	1.0
+LM996829	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Pectobacterium; s__Pectobacterium_carotovorum	0.7
+LN611370	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii	0.9
+U16122	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1; s__Clostridium_beijerinckii	0.6
+Y11332	k__Bacteria; p__DeinococcusThermus; c__Deinococci; o__Deinococcales; f__Deinococcaceae; g__Deinococcus; s__Deinococcus_radiodurans	1.0
+Y12593	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis	0.9
+adce0f9b69cc86b3eddaf4c3322bf5a9	Unassigned	1.0
+adde64d2c93efd9271ff9481f0439f40	Unassigned	1.0
+aedc894ad93f85aea9475de7b68ef7a3	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus_cereus	1.0
+b1c064401d4a40e2ca32cbb33fc6ddd7	Unassigned	1.0
+b64b40c12a7e55291797b109d773b550	Unassigned	1.0
+d3887916c49ab2456ba41eab98ac6760	Unassigned	1.0
+d56624e276343bbf65aa2388137b82a0	Unassigned	1.0
+db4c8a38081c5ac4b853a89e26b4b424	Unassigned	1.0
+e4127a377fb203e7e2e87bc7ceb2de9f	Unassigned	1.0
+f02dde18f93a28b0bbed70663db3e93e	Unassigned	1.0
+f90d515ed40349312ef6becf7f934222	Unassigned	1.0

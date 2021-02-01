@@ -24,8 +24,8 @@ mkdir -p $outDir/$REGION
 
 # open reference otu clustering
 # refer to the P02-dada2 outputs
-intableqza=../analysis/P02-merged-tables-seqs/P02-atcc-$REGION-table.qza
-inrepsqza=../analysis/P02-merged-tables-seqs/P02-atcc-$REGION-rep-seqs.qza
+intableqza=../external/P02-dada2/$REGION/merged-$REGION-table.qza
+inrepsqza=../external/P02-dada2/$REGION/merged-$REGION-rep-seqs.qza
 
 echo "$intableqza"
 echo "$inrepsqza"
