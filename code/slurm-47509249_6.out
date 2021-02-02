@@ -1,109 +1,0 @@
-Note that users no longer need to load the SLURM module. You may remove 'module
-load slurm' from your scripts. 
-Please read this resource guide to understand the above behavior:
-https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
-
-Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
-
-
-Due to MODULEPATH changes, the following have been reloaded:
-  1) openmpi/3.1
-
-Note that users no longer need to load the SLURM module. You may remove 'module
-load slurm' from your scripts. 
-Please read this resource guide to understand the above behavior:
-https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
-v9
-../external/P12-dada2/v9/patient-chip1-v9-table.qza
-../external/P12-dada2/v9/patient-chip1-v9-rep-seqs.qza
-Saved FeatureTable[Frequency] to: ../analysis/P15-clust-tree-cm-goods/v9/table.qza
-Saved FeatureData[Sequence] to: ../analysis/P15-clust-tree-cm-goods/v9/rep-seqs.qza
-Saved FeatureData[Sequence] to: ../analysis/P15-clust-tree-cm-goods/v9/new-ref-seqs.qza
-Saved Visualization to: ../analysis/P15-clust-tree-cm-goods/v9/table.qzv
-Saved Visualization to: ../analysis/P15-clust-tree-cm-goods/v9/rep-seqs.qzv
-Saved Visualization to: ../analysis/P15-clust-tree-cm-goods/v9/new-ref-seqs.qzv
-inputfile = orig
-23 x 210 - 22 d
-nthread = 4
-nthreadpair = 4
-nthreadtb = 4
-ppenalty_ex = 0
-stacksize: -1 kb
-generating a scoring matrix for nucleotide (dist=200) ... done
-Gap Penalty = -1.53, +0.00, +0.00
-
-
-
-Making a distance matrix ..
-    1 / 23 (thread    0)
-done.
-
-Constructing a UPGMA tree (efffree=0) ... 
-    0 / 23   10 / 23   20 / 23
-done.
-
-Progressive alignment 1/2... 
-STEP     1 / 22 (thread    0) fSTEP     3 / 22 (thread    2) fSTEP     2 / 22 (thread    1) fSTEP     5 / 22 (thread    0) fSTEP     6 / 22 (thread    2) fSTEP     7 / 22 (thread    1) fSTEP     4 / 22 (thread    3) fSTEP     8 / 22 (thread    0) fSTEP    10 / 22 (thread    1) fSTEP    11 / 22 (thread    3) fSTEP     9 / 22 (thread    0) fSTEP    13 / 22 (thread    1) fSTEP    12 / 22 (thread    2) fSTEP    14 / 22 (thread    1) fSTEP    15 / 22 (thread    2) fSTEP    16 / 22 (thread    3) fSTEP    17 / 22 (thread    0) fSTEP    18 / 22 (thread    1) fSTEP    19 / 22 (thread    2) fSTEP    20 / 22 (thread    3) fSTEP    21 / 22 (thread    0) fSTEP    22 / 22 (thread    1) f
-done.
-
-Making a distance matrix from msa.. 
-    0 / 23 (thread    0)
-done.
-
-Constructing a UPGMA tree (efffree=1) ... 
-    0 / 23   10 / 23   20 / 23
-done.
-
-Progressive alignment 2/2... 
-STEP     1 / 22 (thread    0) fSTEP     3 / 22 (thread    2) fSTEP     2 / 22 (thread    1) fSTEP     4 / 22 (thread    3) fSTEP     5 / 22 (thread    0) fSTEP     6 / 22 (thread    2) fSTEP     7 / 22 (thread    3) fSTEP     8 / 22 (thread    1) fSTEP     9 / 22 (thread    0) fSTEP    10 / 22 (thread    1) fSTEP    11 / 22 (thread    0) fSTEP    12 / 22 (thread    2) fSTEP    15 / 22 (thread    0) fSTEP    13 / 22 (thread    3) fSTEP    14 / 22 (thread    1) fSTEP    16 / 22 (thread    0) fSTEP    17 / 22 (thread    2) fSTEP    18 / 22 (thread    3) fSTEP    19 / 22 (thread    1) fSTEP    20 / 22 (thread    0) fSTEP    21 / 22 (thread    2) fSTEP    22 / 22 (thread    3) f
-done.
-
-disttbfast (nuc) Version 7.470
-alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-4 thread(s)
-
-
-Strategy:
- FFT-NS-2 (Fast but rough)
- Progressive method (guide trees were built 2 times.)
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-
-FastTree Version 2.1.10 Double precision (No SSE3), OpenMP (4 threads)
-Alignment: /home-1/cjone228@jhu.edu/scratch/qiime2-archive-50bgjgue/e93ed3f1-a7e4-43e1-97a4-6375b8797373/data/aligned-dna-sequences.fasta
-Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
-Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
-TopHits: 1.00*sqrtN close=default refresh=0.80
-ML Model: Jukes-Cantor, CAT approximation with 20 rate categories
-Initial topology in 0.00 seconds
-Refining topology: 18 rounds ME-NNIs, 2 rounds ME-SPRs, 9 rounds ML-NNIs
-Total branch-length 2.705 after 0.03 sec
-ML-NNI round 1: LogLk = -1656.353 NNIs 2 max delta 0.76 Time 0.04
-Switched to using 20 rate categories (CAT approximation)
-Rate categories were divided by 0.766 so that average rate = 1.0
-CAT-based log-likelihoods may not be comparable across runs
-Use -gamma for approximate but comparable Gamma(20) log-likelihoods
-ML-NNI round 2: LogLk = -1542.470 NNIs 1 max delta 0.00 Time 0.06
-Turning off heuristics for final round of ML NNIs (converged)
-ML-NNI round 3: LogLk = -1542.470 NNIs 1 max delta 0.00 Time 0.06 (final)
-Optimize all lengths: LogLk = -1542.470 Time 0.07
-Total time: 0.09 seconds Unique: 23/23 Bad splits: 0/20
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: mafft --preservecase --inputorder --thread 4 /home-1/cjone228@jhu.edu/scratch/qiime2-archive-pl9ha4e9/61883c13-7fb2-48e1-aa05-dd6f60f2445b/data/dna-sequences.fasta
-
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: FastTreeMP -quote -nt /home-1/cjone228@jhu.edu/scratch/qiime2-archive-50bgjgue/e93ed3f1-a7e4-43e1-97a4-6375b8797373/data/aligned-dna-sequences.fasta
-
-Saved FeatureData[AlignedSequence] to: ../data/P15-clust-tree-cm-goods/v9/v9-alignment.qza
-Saved FeatureData[AlignedSequence] to: ../data/P15-clust-tree-cm-goods/v9/v9-masked-alignment.qza
-Saved Phylogeny[Unrooted] to: ../data/P15-clust-tree-cm-goods/v9/v9-unrooted-tree.qza
-Saved Phylogeny[Rooted] to: ../data/P15-clust-tree-cm-goods/v9/v9-rooted-tree.qza

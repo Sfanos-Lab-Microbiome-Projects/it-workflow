@@ -91,7 +91,7 @@ qiime tools export \
   --output-path $outDir/$REGION/exported-shannon-vector
   
 qiime tools export \
-  --input-path $outDir/$REGION/core-metrics-results/observed_otus_vector.qza \
+  --input-path $outDir/$REGION/core-metrics-results/observed_features_vector.qza \
   --output-path $outDir/$REGION/exported-observed-otus-vector
 
 #taxonomic classification
