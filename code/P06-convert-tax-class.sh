@@ -17,7 +17,7 @@ declare -a arr=("v2" "v3" "v4" "v67" "v8" "v9")
 #TASKID=1
 REGION=${arr[${SLURM_ARRAY_TASK_ID}-1]}
 echo "$REGION"
-outDir=../analysis/P06-convert-tax-class/
+outDir=../analysis/P06-convert-tax-class
 
 qiime tools export \
   --input-path ../analysis/P05-clust-tree-cm-goods/$REGION/table.qza \
@@ -25,13 +25,13 @@ qiime tools export \
 
 # we need to reformat the column names in $outDir/$REGION/tax-class/taxonomy.tsv
 # before adding to $outDir/$REGION/exported-feature-table/feature-table.biom
-perl -pe "s/Feature ID\tTaxon\tConsensus/#OTUID\ttaxonomy\tconfidence/g" $outDir/$REGION/tax-class/taxonomy.tsv > $outDir/$REGION/exported-feature-table/t.txt
-mv $outDir/$REGION/exported-feature-table/t.txt $outDir/$REGION/tax-class/taxonomy.tsv
+perl -pe "s/Feature ID\tTaxon\tConsensus/#OTUID\ttaxonomy\tconfidence/g" ../analysis/P05-clust-tree-cm-goods/$REGION/tax-class/taxonomy.tsv > $outDir/$REGION/exported-feature-table/t.txt
+mv $outDir/$REGION/exported-feature-table/t.txt $outDir/$REGION/taxonomy.tsv
 
 biom add-metadata \
 -i $outDir/$REGION/exported-feature-table/feature-table.biom \
 -o $outDir/$REGION/exported-feature-table/feature-table-w-taxonomy.biom \
---observation-metadata-fp $outDir/$REGION/tax-class/taxonomy.tsv \
+--observation-metadata-fp $outDir/$REGION/taxonomy.tsv \
 --sc-separated taxonomy
 
 biom convert \

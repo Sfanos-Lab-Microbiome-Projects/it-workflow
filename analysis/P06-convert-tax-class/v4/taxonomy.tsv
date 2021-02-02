@@ -1,0 +1,48 @@
+#OTUID	taxonomy	confidence
+0b172a1b0a7afa244da9a8c050a9b2b8	Unassigned	1.0
+21329a9fb9f21fdc6982e3e419d84d18	Unassigned	1.0
+2c8e49ac00291e9fcc49db96d07f4801	Unassigned	1.0
+3cd10ac797690f936f8a68438a96b095	Unassigned	1.0
+3e2f057eac3e7d69d6b2d308797f6b9f	Unassigned	1.0
+3e6df4097d1697a5b81b3bc42999192d	Unassigned	1.0
+55a92ea53d21aed54fbe528cd7680830	Unassigned	1.0
+76b24b7e85e9d03726097656ac40e520	Unassigned	1.0
+7e68ab40276d313a96d839cdf50cae13	Unassigned	1.0
+7f0d2e4a156bae073605319a0ce46804	Unassigned	1.0
+8915c5ee0375ea52fe86793469053973	Unassigned	1.0
+8be684e96e435a136668f6e2fafe1d05	Unassigned	1.0
+9862defc21d8daf9b720d97c7a945a41	Unassigned	1.0
+AB050111	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus	0.9
+AB686281	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus_cereus	0.6
+AB819042	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus	1.0
+AE000513	k__Bacteria; p__DeinococcusThermus; c__Deinococci; o__Deinococcales; f__Deinococcaceae; g__Deinococcus; s__Deinococcus_radiodurans	1.0
+AF414809	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_gingivalis	1.0
+ANDZ01000001	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_agalactiae	1.0
+APBS01000004	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Neisseria; s__Neisseria_meningitidis	1.0
+AY366421	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Helicobacter; s__Helicobacter_pylori	1.0
+EU024161	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus_metallidurans	1.0
+EU156766	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_mutans	1.0
+EU429939	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus_metallidurans	1.0
+FJ611793	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium_adolescentis	0.6
+HG799993	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus	1.0
+JF803601	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus	0.8571428571428571
+JILU01000043	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus	0.6
+JMGV01000069	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli	0.8
+JN700236	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_acnes	0.9
+JX629262	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae	1.0
+KF318815	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas_aeruginosa	1.0
+KF372582	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1	0.9
+KJ776413	k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter_sphaeroides	0.8
+KM405318	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus	1.0
+KP091275	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus	1.0
+LN611370	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii	0.9
+a04ca7d5e614359e02b5a00e877e273a	Unassigned	1.0
+abee4cabdc6cab6e99d61c6f6a7f2e7c	Unassigned	1.0
+b482e30ae93a015e03f7a9a1c71932b2	Unassigned	1.0
+b50a16e1ed63ec613fdc7821926e2180	Unassigned	1.0
+be2e775e810dc93a3b4176184e099e90	Unassigned	1.0
+c3f585b7786688498ab6fd028b25becb	Unassigned	1.0
+df44a2c044182914bbcf697c083fe516	Unassigned	1.0
+e04ae8d3dbba5f8eeae8db2403b0229d	Unassigned	1.0
+e21259fec2d4e3ea8d1bb57bdb67bbc0	Unassigned	1.0
+e67df8898801d736d89b24d52f3bd469	Unassigned	1.0
