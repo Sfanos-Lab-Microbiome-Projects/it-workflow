@@ -1,0 +1,6 @@
+Region	SampleID	Unassigned; p__unassigned; c__unassigned; o__unassigned	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales	k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales
+v9	atcc1	0.220443841521117	0.0311794019024905	0	54.2018346616488	45.5465420949276
+v9	atcc2	0.331948972149035	0	0	57.0513106774438	42.6167403504071
+v9	atcc3	0	0	0.035106196243637	51.7553098121818	48.2095839915745
+v9	atcc4	0.021225413895571	0	0	51.9621715956795	48.016602990425
+v9	atcc5	0.0566294170945334	0	0	53.881002718212	46.0623678646934
