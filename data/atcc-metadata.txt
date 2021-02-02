@@ -1,0 +1,6 @@
+sample.id	sample.name	barcode	chip	date.sequenced
+atcc1	atcc1	11	1	6.21.2019
+atcc2	atcc2	12	1	6.21.2019
+atcc3	atcc3	53	2	2.27.2020
+atcc4	atcc4	2	3	3.6.2020
+atcc5	atcc5	53	3	3.6.2020
