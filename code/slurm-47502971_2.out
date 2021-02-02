@@ -1,316 +1,0 @@
-Note that users no longer need to load the SLURM module. You may remove 'module
-load slurm' from your scripts. 
-Please read this resource guide to understand the above behavior:
-https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
-
-Lmod is automatically replacing "intel/18.0" with "gcc/5.5.0".
-
-
-Due to MODULEPATH changes, the following have been reloaded:
-  1) openmpi/3.1
-
-Note that users no longer need to load the SLURM module. You may remove 'module
-load slurm' from your scripts. 
-Please read this resource guide to understand the above behavior:
-https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
-v3
-../external/P12-dada2/v3/patient-chip1-v3-table.qza
-../external/P12-dada2/v3/patient-chip1-v3-rep-seqs.qza
-Saved FeatureTable[Frequency] to: ../analysis/P15-clust-tree-cm-goods/v3/table.qza
-Saved FeatureData[Sequence] to: ../analysis/P15-clust-tree-cm-goods/v3/rep-seqs.qza
-Saved FeatureData[Sequence] to: ../analysis/P15-clust-tree-cm-goods/v3/new-ref-seqs.qza
-Plugin error from feature-table:
-
-  The following IDs are not present in the metadata: 'Patient1-fresh', 'Patient1-frozen', 'Patient2-fresh', 'Patient2-frozen', 'Patient3-fresh', 'Patient3-frozen'
-
-Debug info has been saved to /home-1/cjone228@jhu.edu/scratch/qiime2-q2cli-err-rlcj9t1v.log
-Saved Visualization to: ../analysis/P15-clust-tree-cm-goods/v3/rep-seqs.qzv
-Saved Visualization to: ../analysis/P15-clust-tree-cm-goods/v3/new-ref-seqs.qzv
-inputfile = orig
-402 x 180 - 35 d
-nthread = 4
-nthreadpair = 4
-nthreadtb = 4
-ppenalty_ex = 0
-stacksize: -1 kb
-generating a scoring matrix for nucleotide (dist=200) ... done
-Gap Penalty = -1.53, +0.00, +0.00
-
-
-
-Making a distance matrix ..
-    1 / 402 (thread    0)  101 / 402 (thread    1)  201 / 402 (thread    2)  301 / 402 (thread    3)  401 / 402 (thread    2)
-done.
-
-Constructing a UPGMA tree (efffree=0) ... 
-    0 / 402   10 / 402   20 / 402   30 / 402   40 / 402   50 / 402   60 / 402   70 / 402   80 / 402   90 / 402  100 / 402  110 / 402  120 / 402  130 / 402  140 / 402  150 / 402  160 / 402  170 / 402  180 / 402  190 / 402  200 / 402  210 / 402  220 / 402  230 / 402  240 / 402  250 / 402  260 / 402  270 / 402  280 / 402  290 / 402  300 / 402  310 / 402  320 / 402  330 / 402  340 / 402  350 / 402  360 / 402  370 / 402  380 / 402  390 / 402  400 / 402
-done.
-
-Progressive alignment 1/2... 
-STEP     1 / 401 (thread    0)STEP     2 / 401 (thread    1) f fSTEP     4 / 401 (thread    3) fSTEP     5 / 401 (thread    0) fSTEP     3 / 401 (thread    2) fSTEP     6 / 401 (thread    1) fSTEP     9 / 401 (thread    0) fSTEP     8 / 401 (thread    1) fSTEP    10 / 401 (thread    2) fSTEP     7 / 401 (thread    3) fSTEP    11 / 401 (thread    0) fSTEP    12 / 401 (thread    1) fSTEP    13 / 401 (thread    0) fSTEP    14 / 401 (thread    1) fSTEP    15 / 401 (thread    0) fSTEP    16 / 401 (thread    2) fSTEP    17 / 401 (thread    1) fSTEP    18 / 401 (thread    3) fSTEP    19 / 401 (thread    0) fSTEP    20 / 401 (thread    2) fSTEP    21 / 401 (thread    1) fSTEP    22 / 401 (thread    3) fSTEP    23 / 401 (thread    0) fSTEP    24 / 401 (thread    2) fSTEP    25 / 401 (thread    1) fSTEP    26 / 401 (thread    3) fSTEP    27 / 401 (thread    0) fSTEP    28 / 401 (thread    2) fSTEP    29 / 401 (thread    1) fSTEP    30 / 401 (thread    3) fSTEP    31 / 401 (thread    0) fSTEP    32 / 401 (thread    2) fSTEP    33 / 401 (thread    1) fSTEP    34 / 401 (thread    3) fSTEP    35 / 401 (thread    0) fSTEP    36 / 401 (thread    2) fSTEP    37 / 401 (thread    1) fSTEP    38 / 401 (thread    3) fSTEP    39 / 401 (thread    2) fSTEP    40 / 401 (thread    0) fSTEP    42 / 401 (thread    3) fSTEP    43 / 401 (thread    2) fSTEP    41 / 401 (thread    1) fSTEP    44 / 401 (thread    3) fSTEP    45 / 401 (thread    0) fSTEP    46 / 401 (thread    2) fSTEP    47 / 401 (thread    1) fSTEP    48 / 401 (thread    0) fSTEP    50 / 401 (thread    3) fSTEP    49 / 401 (thread    2) fSTEP    51 / 401 (thread    1) fSTEP    52 / 401 (thread    0) fSTEP    53 / 401 (thread    3) fSTEP    54 / 401 (thread    0) fSTEP    55 / 401 (thread    2) fSTEP    56 / 401 (thread    3) fSTEP    57 / 401 (thread    1) fSTEP    58 / 401 (thread    2) fSTEP    59 / 401 (thread    3) fSTEP    60 / 401 (thread    0) fSTEP    61 / 401 (thread    1) fSTEP    62 / 401 (thread    2) fSTEP    63 / 401 (thread    3) fSTEP    64 / 401 (thread    0) fSTEP    65 / 401 (thread    1) fSTEP    66 / 401 (thread    2) fSTEP    67 / 401 (thread    3) fSTEP    69 / 401 (thread    0) fSTEP    70 / 401 (thread    3) fSTEP    68 / 401 (thread    1) fSTEP    71 / 401 (thread    2) fSTEP    72 / 401 (thread    0) fSTEP    73 / 401 (thread    2) fSTEP    74 / 401 (thread    3) fSTEP    75 / 401 (thread    1) fSTEP    76 / 401 (thread    0) fSTEP    77 / 401 (thread    2) fSTEP    78 / 401 (thread    3) fSTEP    79 / 401 (thread    1) fSTEP    80 / 401 (thread    3) fSTEP    81 / 401 (thread    0) fSTEP    82 / 401 (thread    2) fSTEP    83 / 401 (thread    3) fSTEP    84 / 401 (thread    1) fSTEP    85 / 401 (thread    2) fSTEP    86 / 401 (thread    3) fSTEP    87 / 401 (thread    0) fSTEP    89 / 401 (thread    3) fSTEP    90 / 401 (thread    0) fSTEP    88 / 401 (thread    2) fSTEP    91 / 401 (thread    1) fSTEP    92 / 401 (thread    3) fSTEP    93 / 401 (thread    1) fSTEP    94 / 401 (thread    0) fSTEP    95 / 401 (thread    2) fSTEP    96 / 401 (thread    3) fSTEP    97 / 401 (thread    2) fSTEP    98 / 401 (thread    1) fSTEP    99 / 401 (thread    3) fSTEP   100 / 401 (thread    0) fSTEP   101 / 401 (thread    2) fSTEP   102 / 401 (thread    1) fSTEP   104 / 401 (thread    0) fSTEP   105 / 401 (thread    1) fSTEP   106 / 401 (thread    2) fSTEP   107 / 401 (thread    0) fSTEP   103 / 401 (thread    3) fSTEP   108 / 401 (thread    1) fSTEP   109 / 401 (thread    2) fSTEP   110 / 401 (thread    0) fSTEP   111 / 401 (thread    3) fSTEP   112 / 401 (thread    1) fSTEP   113 / 401 (thread    2) fSTEP   114 / 401 (thread    0) fSTEP   115 / 401 (thread    3) fSTEP   116 / 401 (thread    1) fSTEP   117 / 401 (thread    2) fSTEP   119 / 401 (thread    3) fSTEP   120 / 401 (thread    1) fSTEP   118 / 401 (thread    0) fSTEP   121 / 401 (thread    2) fSTEP   122 / 401 (thread    3) fSTEP   123 / 401 (thread    2) fSTEP   124 / 401 (thread    1) fSTEP   125 / 401 (thread    0) fSTEP   126 / 401 (thread    3) fSTEP   127 / 401 (thread    2) fSTEP   128 / 401 (thread    0) fSTEP   129 / 401 (thread    1) fSTEP   130 / 401 (thread    0) fSTEP   131 / 401 (thread    3) fSTEP   132 / 401 (thread    2) fSTEP   133 / 401 (thread    1) fSTEP   134 / 401 (thread    0) fSTEP   135 / 401 (thread    3) fSTEP   136 / 401 (thread    1) fSTEP   137 / 401 (thread    2) fSTEP   138 / 401 (thread    0) fSTEP   139 / 401 (thread    1) fSTEP   140 / 401 (thread    3) fSTEP   141 / 401 (thread    2) fSTEP   142 / 401 (thread    1) fSTEP   143 / 401 (thread    0) fSTEP   144 / 401 (thread    2) fSTEP   145 / 401 (thread    3) fSTEP   146 / 401 (thread    1) fSTEP   147 / 401 (thread    3) fSTEP   148 / 401 (thread    0) fSTEP   150 / 401 (thread    1) fSTEP   149 / 401 (thread    2) fSTEP   151 / 401 (thread    3) fSTEP   152 / 401 (thread    0) fSTEP   153 / 401 (thread    1) fSTEP   154 / 401 (thread    0) fSTEP   155 / 401 (thread    2) fSTEP   156 / 401 (thread    1) fSTEP   157 / 401 (thread    3) fSTEP   158 / 401 (thread    0) fSTEP   159 / 401 (thread    3) fSTEP   160 / 401 (thread    1) fSTEP   161 / 401 (thread    2) fSTEP   162 / 401 (thread    0) fSTEP   163 / 401 (thread    3) fSTEP   164 / 401 (thread    2) fSTEP   165 / 401 (thread    1) fSTEP   166 / 401 (thread    3) fSTEP   167 / 401 (thread    2) fSTEP   168 / 401 (thread    1) fSTEP   169 / 401 (thread    0) fSTEP   170 / 401 (thread    3) fSTEP   171 / 401 (thread    2) fSTEP   172 / 401 (thread    0) fSTEP   173 / 401 (thread    1) fSTEP   174 / 401 (thread    3) fSTEP   175 / 401 (thread    2) fSTEP   176 / 401 (thread    0) fSTEP   178 / 401 (thread    0) fSTEP   179 / 401 (thread    3) fSTEP   180 / 401 (thread    2) fSTEP   177 / 401 (thread    1) fSTEP   181 / 401 (thread    0) fSTEP   182 / 401 (thread    3) fSTEP   183 / 401 (thread    2) fSTEP   184 / 401 (thread    3) fSTEP   185 / 401 (thread    1) fSTEP   186 / 401 (thread    0) fSTEP   187 / 401 (thread    2) fSTEP   188 / 401 (thread    0) fSTEP   189 / 401 (thread    3) fSTEP   190 / 401 (thread    1) fSTEP   191 / 401 (thread    2) fSTEP   192 / 401 (thread    3) fSTEP   193 / 401 (thread    1) fSTEP   194 / 401 (thread    0) fSTEP   195 / 401 (thread    2) fSTEP   196 / 401 (thread    3) fSTEP   197 / 401 (thread    1) fSTEP   198 / 401 (thread    0) fSTEP   199 / 401 (thread    2) fSTEP   200 / 401 (thread    0) fSTEP   202 / 401 (thread    3) fSTEP   203 / 401 (thread    1) fSTEP   201 / 401 (thread    2) fSTEP   204 / 401 (thread    0) fSTEP   205 / 401 (thread    3) fSTEP   206 / 401 (thread    1) fSTEP   207 / 401 (thread    2) fSTEP   208 / 401 (thread    0) fSTEP   209 / 401 (thread    3) fSTEP   210 / 401 (thread    0) fSTEP   211 / 401 (thread    2) fSTEP   212 / 401 (thread    1) fSTEP   213 / 401 (thread    3) fSTEP   214 / 401 (thread    0) fSTEP   215 / 401 (thread    0) fSTEP   216 / 401 (thread    2) fSTEP   218 / 401 (thread    1) fSTEP   217 / 401 (thread    3) fSTEP   219 / 401 (thread    1) fSTEP   220 / 401 (thread    0) fSTEP   221 / 401 (thread    2) fSTEP   222 / 401 (thread    1) fSTEP   223 / 401 (thread    3) fSTEP   224 / 401 (thread    0) fSTEP   225 / 401 (thread    1)STEP   226 / 401 (thread    3) f fSTEP   227 / 401 (thread    2) fSTEP   228 / 401 (thread    0) fSTEP   229 / 401 (thread    2) fSTEP   230 / 401 (thread    3) fSTEP   231 / 401 (thread    1) fSTEP   232 / 401 (thread    0) fSTEP   233 / 401 (thread    3) fSTEP   235 / 401 (thread    1) fSTEP   234 / 401 (thread    2) fSTEP   236 / 401 (thread    0) fSTEP   237 / 401 (thread    1) fSTEP   238 / 401 (thread    3) fSTEP   239 / 401 (thread    2) fSTEP   241 / 401 (thread    2) fSTEP   242 / 401 (thread    1) fSTEP   240 / 401 (thread    0) fSTEP   243 / 401 (thread    3) fSTEP   244 / 401 (thread    3) fSTEP   245 / 401 (thread    1) fSTEP   246 / 401 (thread    2) fSTEP   247 / 401 (thread    0) fSTEP   248 / 401 (thread    3) fSTEP   249 / 401 (thread    0) fSTEP   250 / 401 (thread    1) fSTEP   251 / 401 (thread    2) fSTEP   252 / 401 (thread    1) fSTEP   254 / 401 (thread    0) fSTEP   253 / 401 (thread    3) fSTEP   255 / 401 (thread    2) fSTEP   256 / 401 (thread    1) fSTEP   257 / 401 (thread    0) fSTEP   259 / 401 (thread    3) fSTEP   258 / 401 (thread    2) fSTEP   260 / 401 (thread    1) fSTEP   261 / 401 (thread    0) fSTEP   262 / 401 (thread    3) fSTEP   263 / 401 (thread    2) fSTEP   265 / 401 (thread    0) fSTEP   264 / 401 (thread    1) fSTEP   266 / 401 (thread    3) fSTEP   267 / 401 (thread    2) fSTEP   268 / 401 (thread    1) fSTEP   269 / 401 (thread    0) fSTEP   270 / 401 (thread    3) fSTEP   271 / 401 (thread    2) fSTEP   272 / 401 (thread    1) fSTEP   273 / 401 (thread    0) fSTEP   274 / 401 (thread    3) fSTEP   275 / 401 (thread    2) fSTEP   276 / 401 (thread    0) fSTEP   277 / 401 (thread    1) fSTEP   278 / 401 (thread    3) fSTEP   279 / 401 (thread    2) fSTEP   280 / 401 (thread    0) fSTEP   281 / 401 (thread    1) fSTEP   282 / 401 (thread    3) fSTEP   283 / 401 (thread    2) fSTEP   284 / 401 (thread    0) fSTEP   285 / 401 (thread    3) fSTEP   286 / 401 (thread    1) fSTEP   287 / 401 (thread    2) fSTEP   288 / 401 (thread    0) fSTEP   289 / 401 (thread    3) fSTEP   290 / 401 (thread    1) fSTEP   291 / 401 (thread    2) fSTEP   292 / 401 (thread    0)STEP   293 / 401 (thread    3) fSTEP   294 / 401 (thread    1) f fSTEP   295 / 401 (thread    3) fSTEP   296 / 401 (thread    2) fSTEP   297 / 401 (thread    1) fSTEP   298 / 401 (thread    0) fSTEP   299 / 401 (thread    3) fSTEP   300 / 401 (thread    2) fSTEP   301 / 401 (thread    1) fSTEP   302 / 401 (thread    0) fSTEP   303 / 401 (thread    2) fSTEP   304 / 401 (thread    3) fSTEP   305 / 401 (thread    1) fSTEP   306 / 401 (thread    0) fSTEP   307 / 401 (thread    2) fSTEP   308 / 401 (thread    3) fSTEP   309 / 401 (thread    1) fSTEP   310 / 401 (thread    2) fSTEP   311 / 401 (thread    0) fSTEP   312 / 401 (thread    3) fSTEP   313 / 401 (thread    2) fSTEP   314 / 401 (thread    0) fSTEP   315 / 401 (thread    1) fSTEP   316 / 401 (thread    3) fSTEP   317 / 401 (thread    1) fSTEP   318 / 401 (thread    2) fSTEP   319 / 401 (thread    3) fSTEP   321 / 401 (thread    1) fSTEP   320 / 401 (thread    0) fSTEP   323 / 401 (thread    3) fSTEP   324 / 401 (thread    1) fSTEP   325 / 401 (thread    0) fSTEP   322 / 401 (thread    2) fSTEP   326 / 401 (thread    3) fSTEP   327 / 401 (thread    1) fSTEP   328 / 401 (thread    0) fSTEP   330 / 401 (thread    2) fSTEP   329 / 401 (thread    3) fSTEP   331 / 401 (thread    1) fSTEP   333 / 401 (thread    2) fSTEP   334 / 401 (thread    3) fSTEP   332 / 401 (thread    0) fSTEP   335 / 401 (thread    1) fSTEP   336 / 401 (thread    2) fSTEP   337 / 401 (thread    3) fSTEP   338 / 401 (thread    0) fSTEP   339 / 401 (thread    1) fSTEP   340 / 401 (thread    2) fSTEP   341 / 401 (thread    3) fSTEP   342 / 401 (thread    1) fSTEP   344 / 401 (thread    3) fSTEP   343 / 401 (thread    0) fSTEP   346 / 401 (thread    1) fSTEP   347 / 401 (thread    3) fSTEP   349 / 401 (thread    3) fSTEP   350 / 401 (thread    0) fSTEP   348 / 401 (thread    1) fSTEP   345 / 401 (thread    2) fSTEP   353 / 401 (thread    0) fSTEP   354 / 401 (thread    2) fSTEP   351 / 401 (thread    1) fSTEP   355 / 401 (thread    0) fSTEP   357 / 401 (thread    0) fSTEP   352 / 401 (thread    3) dSTEP   359 / 401 (thread    0) fSTEP   360 / 401 (thread    3) fSTEP   356 / 401 (thread    2) d hSTEP   361 / 401 (thread    0) fSTEP   362 / 401 (thread    3) fSTEP   358 / 401 (thread    1) d hSTEP   364 / 401 (thread    0) fSTEP   365 / 401 (thread    3) fSTEP   366 / 401 (thread    1) fSTEP   363 / 401 (thread    2) d hSTEP   367 / 401 (thread    0) fSTEP   368 / 401 (thread    1) fSTEP   370 / 401 (thread    2) fSTEP   369 / 401 (thread    3) d hSTEP   372 / 401 (thread    1) fSTEP   373 / 401 (thread    2) fSTEP   374 / 401 (thread    3) fSTEP   371 / 401 (thread    0) d hSTEP   376 / 401 (thread    2) f
-Reallocating..done. *alloclen = 1367
-STEP   378 / 401 (thread    3) fSTEP   375 / 401 (thread    1) d hSTEP   377 / 401 (thread    0) d hSTEP   382 / 401 (thread    0) fSTEP   379 / 401 (thread    2) d hSTEP   380 / 401 (thread    3) d hSTEP   381 / 401 (thread    1) d hSTEP   386 / 401 (thread    1) fSTEP   383 / 401 (thread    0) d hSTEP   388 / 401 (thread    0) fSTEP   384 / 401 (thread    2) d hSTEP   385 / 401 (thread    3) d hSTEP   387 / 401 (thread    1) d hSTEP   389 / 401 (thread    2) d hSTEP   390 / 401 (thread    0) d hSTEP   391 / 401 (thread    3) d hSTEP   395 / 401 (thread    3) fSTEP   392 / 401 (thread    1) d hSTEP   393 / 401 (thread    2) d hSTEP   394 / 401 (thread    0) d hSTEP   396 / 401 (thread    3) d hSTEP   397 / 401 (thread    1) d hSTEP   398 / 401 (thread    2) d hSTEP   399 / 401 (thread    0) d hSTEP   400 / 401 (thread    3) d hSTEP   401 / 401 (thread    1) d h
-done.
-
-Making a distance matrix from msa.. 
-    0 / 402 (thread    0)  100 / 402 (thread    3)  200 / 402 (thread    1)  300 / 402 (thread    1)  400 / 402 (thread    0)
-done.
-
-Constructing a UPGMA tree (efffree=1) ... 
-    0 / 402   10 / 402   20 / 402   30 / 402   40 / 402   50 / 402   60 / 402   70 / 402   80 / 402   90 / 402  100 / 402  110 / 402  120 / 402  130 / 402  140 / 402  150 / 402  160 / 402  170 / 402  180 / 402  190 / 402  200 / 402  210 / 402  220 / 402  230 / 402  240 / 402  250 / 402  260 / 402  270 / 402  280 / 402  290 / 402  300 / 402  310 / 402  320 / 402  330 / 402  340 / 402  350 / 402  360 / 402  370 / 402  380 / 402  390 / 402  400 / 402
-done.
-
-Progressive alignment 2/2... 
-STEP     1 / 401 (thread    0) fSTEP     3 / 401 (thread    2) fSTEP     2 / 401 (thread    1) fSTEP     4 / 401 (thread    3) fSTEP     5 / 401 (thread    0) fSTEP     6 / 401 (thread    2) fSTEP     7 / 401 (thread    1) fSTEP     8 / 401 (thread    0) fSTEP     9 / 401 (thread    3) fSTEP    10 / 401 (thread    2) fSTEP    11 / 401 (thread    1) fSTEP    12 / 401 (thread    0) fSTEP    14 / 401 (thread    2) fSTEP    16 / 401 (thread    0) fSTEP    13 / 401 (thread    3) fSTEP    17 / 401 (thread    2) fSTEP    15 / 401 (thread    1) fSTEP    18 / 401 (thread    0) fSTEP    19 / 401 (thread    2) fSTEP    20 / 401 (thread    3) fSTEP    21 / 401 (thread    0) fSTEP    22 / 401 (thread    2) fSTEP    24 / 401 (thread    0) fSTEP    25 / 401 (thread    1) fSTEP    23 / 401 (thread    3) fSTEP    26 / 401 (thread    2) fSTEP    27 / 401 (thread    0) fSTEP    28 / 401 (thread    1) fSTEP    29 / 401 (thread    3) fSTEP    30 / 401 (thread    1) fSTEP    32 / 401 (thread    3) fSTEP    33 / 401 (thread    0) fSTEP    31 / 401 (thread    2) fSTEP    34 / 401 (thread    1) fSTEP    35 / 401 (thread    3) fSTEP    36 / 401 (thread    0) fSTEP    37 / 401 (thread    1) fSTEP    38 / 401 (thread    3) fSTEP    39 / 401 (thread    0) fSTEP    40 / 401 (thread    2) fSTEP    41 / 401 (thread    1) fSTEP    42 / 401 (thread    3) fSTEP    43 / 401 (thread    1) fSTEP    44 / 401 (thread    3) fSTEP    45 / 401 (thread    0) fSTEP    46 / 401 (thread    2) fSTEP    47 / 401 (thread    1) fSTEP    50 / 401 (thread    2) fSTEP    48 / 401 (thread    3) fSTEP    51 / 401 (thread    2) fSTEP    52 / 401 (thread    1) fSTEP    49 / 401 (thread    0) fSTEP    53 / 401 (thread    3) fSTEP    54 / 401 (thread    2) fSTEP    55 / 401 (thread    1) fSTEP    56 / 401 (thread    3) fSTEP    57 / 401 (thread    0) fSTEP    58 / 401 (thread    1) fSTEP    59 / 401 (thread    2) fSTEP    60 / 401 (thread    0) fSTEP    61 / 401 (thread    1) fSTEP    62 / 401 (thread    3) fSTEP    63 / 401 (thread    3) fSTEP    64 / 401 (thread    2) fSTEP    65 / 401 (thread    0) fSTEP    66 / 401 (thread    1) fSTEP    67 / 401 (thread    3) fSTEP    68 / 401 (thread    2) fSTEP    69 / 401 (thread    0) fSTEP    70 / 401 (thread    1) fSTEP    71 / 401 (thread    3) fSTEP    72 / 401 (thread    2) fSTEP    73 / 401 (thread    0) fSTEP    74 / 401 (thread    3) fSTEP    76 / 401 (thread    2) fSTEP    77 / 401 (thread    0) fSTEP    78 / 401 (thread    3) fSTEP    75 / 401 (thread    1) fSTEP    79 / 401 (thread    2) fSTEP    80 / 401 (thread    0) fSTEP    81 / 401 (thread    0) fSTEP    82 / 401 (thread    1) fSTEP    83 / 401 (thread    3) fSTEP    84 / 401 (thread    2) fSTEP    86 / 401 (thread    1) fSTEP    85 / 401 (thread    0) fSTEP    87 / 401 (thread    2) fSTEP    89 / 401 (thread    3) fSTEP    88 / 401 (thread    1) fSTEP    90 / 401 (thread    0) fSTEP    91 / 401 (thread    3) fSTEP    92 / 401 (thread    1) fSTEP    93 / 401 (thread    2) fSTEP    94 / 401 (thread    0) fSTEP    95 / 401 (thread    3) fSTEP    96 / 401 (thread    1) fSTEP    97 / 401 (thread    2) fSTEP    98 / 401 (thread    0) fSTEP    99 / 401 (thread    3) fSTEP   100 / 401 (thread    1) fSTEP   101 / 401 (thread    2) fSTEP   102 / 401 (thread    0) fSTEP   103 / 401 (thread    3) fSTEP   104 / 401 (thread    0) fSTEP   105 / 401 (thread    1) fSTEP   107 / 401 (thread    3) fSTEP   106 / 401 (thread    2) fSTEP   108 / 401 (thread    0) fSTEP   109 / 401 (thread    1) fSTEP   111 / 401 (thread    3) fSTEP   112 / 401 (thread    2) fSTEP   113 / 401 (thread    0) fSTEP   110 / 401 (thread    1) fSTEP   114 / 401 (thread    3) fSTEP   115 / 401 (thread    2) fSTEP   116 / 401 (thread    0) fSTEP   117 / 401 (thread    2) fSTEP   118 / 401 (thread    1) fSTEP   119 / 401 (thread    3) fSTEP   120 / 401 (thread    0) fSTEP   121 / 401 (thread    1) fSTEP   122 / 401 (thread    3) fSTEP   123 / 401 (thread    2) fSTEP   124 / 401 (thread    0) fSTEP   125 / 401 (thread    2) fSTEP   126 / 401 (thread    1) fSTEP   127 / 401 (thread    3) fSTEP   128 / 401 (thread    0) fSTEP   129 / 401 (thread    1) fSTEP   130 / 401 (thread    2) fSTEP   131 / 401 (thread    3) fSTEP   132 / 401 (thread    0) fSTEP   133 / 401 (thread    1) fSTEP   134 / 401 (thread    2) fSTEP   135 / 401 (thread    3) fSTEP   136 / 401 (thread    0) fSTEP   137 / 401 (thread    1) fSTEP   138 / 401 (thread    2) fSTEP   139 / 401 (thread    3) fSTEP   140 / 401 (thread    0) fSTEP   141 / 401 (thread    1) fSTEP   142 / 401 (thread    2) fSTEP   143 / 401 (thread    0) fSTEP   144 / 401 (thread    3) fSTEP   145 / 401 (thread    1) fSTEP   146 / 401 (thread    2) fSTEP   147 / 401 (thread    3) fSTEP   149 / 401 (thread    1) fSTEP   150 / 401 (thread    2) fSTEP   148 / 401 (thread    0) fSTEP   151 / 401 (thread    1) fSTEP   152 / 401 (thread    0) fSTEP   153 / 401 (thread    3) fSTEP   154 / 401 (thread    2) fSTEP   155 / 401 (thread    1) fSTEP   156 / 401 (thread    0) fSTEP   157 / 401 (thread    3) fSTEP   158 / 401 (thread    2) fSTEP   159 / 401 (thread    1) fSTEP   160 / 401 (thread    0) fSTEP   161 / 401 (thread    2) fSTEP   162 / 401 (thread    3) fSTEP   163 / 401 (thread    1) fSTEP   164 / 401 (thread    0) fSTEP   166 / 401 (thread    1) fSTEP   165 / 401 (thread    3) fSTEP   168 / 401 (thread    0) fSTEP   169 / 401 (thread    1) fSTEP   167 / 401 (thread    2) fSTEP   170 / 401 (thread    3) fSTEP   171 / 401 (thread    0) fSTEP   172 / 401 (thread    1) fSTEP   174 / 401 (thread    3) fSTEP   173 / 401 (thread    2) fSTEP   175 / 401 (thread    0) fSTEP   176 / 401 (thread    3) fSTEP   177 / 401 (thread    1)STEP   179 / 401 (thread    3) fSTEP   178 / 401 (thread    2) fSTEP   180 / 401 (thread    0) f fSTEP   181 / 401 (thread    1) fSTEP   182 / 401 (thread    3) fSTEP   183 / 401 (thread    0) fSTEP   184 / 401 (thread    2) fSTEP   185 / 401 (thread    3) fSTEP   186 / 401 (thread    1)STEP   187 / 401 (thread    0) f fSTEP   188 / 401 (thread    2) fSTEP   189 / 401 (thread    3) fSTEP   190 / 401 (thread    0) fSTEP   191 / 401 (thread    1) fSTEP   192 / 401 (thread    2) fSTEP   193 / 401 (thread    3) fSTEP   194 / 401 (thread    0) fSTEP   195 / 401 (thread    0) fSTEP   196 / 401 (thread    1) fSTEP   197 / 401 (thread    2) fSTEP   198 / 401 (thread    3) fSTEP   199 / 401 (thread    3) fSTEP   200 / 401 (thread    0) fSTEP   201 / 401 (thread    1) fSTEP   202 / 401 (thread    2) fSTEP   203 / 401 (thread    3) fSTEP   204 / 401 (thread    0) fSTEP   205 / 401 (thread    1) fSTEP   207 / 401 (thread    2) fSTEP   206 / 401 (thread    3) fSTEP   208 / 401 (thread    0) fSTEP   209 / 401 (thread    1) fSTEP   210 / 401 (thread    2) fSTEP   211 / 401 (thread    3) fSTEP   212 / 401 (thread    0) fSTEP   213 / 401 (thread    2) fSTEP   214 / 401 (thread    3) fSTEP   215 / 401 (thread    1) fSTEP   216 / 401 (thread    2) fSTEP   217 / 401 (thread    0) fSTEP   218 / 401 (thread    1) fSTEP   219 / 401 (thread    3) fSTEP   220 / 401 (thread    1) fSTEP   221 / 401 (thread    2) fSTEP   222 / 401 (thread    0) fSTEP   223 / 401 (thread    3) fSTEP   224 / 401 (thread    1) fSTEP   225 / 401 (thread    2) fSTEP   226 / 401 (thread    0) fSTEP   227 / 401 (thread    3) fSTEP   228 / 401 (thread    1) fSTEP   229 / 401 (thread    2)STEP   231 / 401 (thread    1) fSTEP   230 / 401 (thread    3) f fSTEP   232 / 401 (thread    0) fSTEP   233 / 401 (thread    1) fSTEP   234 / 401 (thread    3) fSTEP   235 / 401 (thread    0) fSTEP   236 / 401 (thread    2) fSTEP   237 / 401 (thread    3) fSTEP   238 / 401 (thread    1) fSTEP   239 / 401 (thread    0) fSTEP   240 / 401 (thread    2) fSTEP   241 / 401 (thread    3) fSTEP   242 / 401 (thread    2) fSTEP   243 / 401 (thread    1) fSTEP   244 / 401 (thread    0) fSTEP   245 / 401 (thread    0) fSTEP   246 / 401 (thread    3) fSTEP   247 / 401 (thread    2) fSTEP   248 / 401 (thread    1) fSTEP   249 / 401 (thread    0) fSTEP   250 / 401 (thread    3) fSTEP   251 / 401 (thread    2) fSTEP   252 / 401 (thread    1) fSTEP   253 / 401 (thread    3) fSTEP   254 / 401 (thread    0) fSTEP   255 / 401 (thread    2) fSTEP   256 / 401 (thread    3) fSTEP   258 / 401 (thread    1) fSTEP   257 / 401 (thread    0) fSTEP   259 / 401 (thread    2) fSTEP   260 / 401 (thread    1) fSTEP   261 / 401 (thread    3) fSTEP   262 / 401 (thread    0) fSTEP   263 / 401 (thread    2) fSTEP   264 / 401 (thread    3) fSTEP   265 / 401 (thread    1) fSTEP   266 / 401 (thread    0) fSTEP   267 / 401 (thread    2) fSTEP   268 / 401 (thread    3) fSTEP   270 / 401 (thread    0) fSTEP   271 / 401 (thread    3) fSTEP   272 / 401 (thread    2) fSTEP   269 / 401 (thread    1) fSTEP   273 / 401 (thread    0) fSTEP   274 / 401 (thread    3) fSTEP   275 / 401 (thread    2) fSTEP   276 / 401 (thread    1) fSTEP   277 / 401 (thread    0) fSTEP   278 / 401 (thread    3) fSTEP   279 / 401 (thread    1) fSTEP   280 / 401 (thread    2) fSTEP   281 / 401 (thread    0) fSTEP   282 / 401 (thread    3) fSTEP   283 / 401 (thread    1) fSTEP   284 / 401 (thread    2) fSTEP   285 / 401 (thread    0) fSTEP   286 / 401 (thread    1) fSTEP   287 / 401 (thread    3) fSTEP   288 / 401 (thread    0) fSTEP   289 / 401 (thread    2) fSTEP   290 / 401 (thread    1) fSTEP   291 / 401 (thread    3) fSTEP   292 / 401 (thread    2) fSTEP   293 / 401 (thread    0) fSTEP   294 / 401 (thread    1) fSTEP   295 / 401 (thread    3) fSTEP   296 / 401 (thread    2) fSTEP   297 / 401 (thread    0) fSTEP   298 / 401 (thread    1) fSTEP   299 / 401 (thread    3) fSTEP   300 / 401 (thread    1) fSTEP   301 / 401 (thread    0) fSTEP   302 / 401 (thread    2) fSTEP   303 / 401 (thread    3) fSTEP   304 / 401 (thread    1) fSTEP   305 / 401 (thread    0) fSTEP   306 / 401 (thread    2) fSTEP   307 / 401 (thread    1) fSTEP   308 / 401 (thread    3) fSTEP   309 / 401 (thread    0) fSTEP   310 / 401 (thread    2) fSTEP   311 / 401 (thread    1) fSTEP   312 / 401 (thread    3) fSTEP   313 / 401 (thread    0) fSTEP   314 / 401 (thread    2) fSTEP   315 / 401 (thread    1) fSTEP   316 / 401 (thread    3) fSTEP   317 / 401 (thread    0) fSTEP   318 / 401 (thread    3) fSTEP   320 / 401 (thread    2) fSTEP   319 / 401 (thread    1) fSTEP   321 / 401 (thread    0) fSTEP   322 / 401 (thread    3) fSTEP   323 / 401 (thread    1) fSTEP   324 / 401 (thread    2) fSTEP   325 / 401 (thread    0) fSTEP   326 / 401 (thread    1) fSTEP   327 / 401 (thread    3) fSTEP   328 / 401 (thread    2) fSTEP   329 / 401 (thread    0) fSTEP   330 / 401 (thread    1) fSTEP   331 / 401 (thread    3) fSTEP   332 / 401 (thread    0) fSTEP   333 / 401 (thread    2) fSTEP   334 / 401 (thread    3) fSTEP   335 / 401 (thread    1) fSTEP   336 / 401 (thread    0) fSTEP   337 / 401 (thread    2) fSTEP   338 / 401 (thread    0) fSTEP   340 / 401 (thread    3) fSTEP   339 / 401 (thread    1) fSTEP   341 / 401 (thread    2) fSTEP   342 / 401 (thread    3) fSTEP   343 / 401 (thread    0) fSTEP   346 / 401 (thread    3) fSTEP   347 / 401 (thread    0) fSTEP   348 / 401 (thread    3) fSTEP   344 / 401 (thread    2) fSTEP   349 / 401 (thread    0) fSTEP   345 / 401 (thread    1) dSTEP   351 / 401 (thread    2) fSTEP   352 / 401 (thread    0) fSTEP   353 / 401 (thread    2) fSTEP   350 / 401 (thread    3) d hSTEP   355 / 401 (thread    0) fSTEP   356 / 401 (thread    2) fSTEP   354 / 401 (thread    1) d hSTEP   359 / 401 (thread    2) fSTEP   357 / 401 (thread    3) fSTEP   360 / 401 (thread    1) fSTEP   358 / 401 (thread    0) d hSTEP   362 / 401 (thread    2) fSTEP   363 / 401 (thread    3) fSTEP   364 / 401 (thread    0) fSTEP   361 / 401 (thread    1) d hSTEP   365 / 401 (thread    2) fSTEP   366 / 401 (thread    3) fSTEP   367 / 401 (thread    1) d hSTEP   368 / 401 (thread    0) fSTEP   369 / 401 (thread    2) fSTEP   370 / 401 (thread    3) fSTEP   371 / 401 (thread    1) fSTEP   372 / 401 (thread    0) fSTEP   374 / 401 (thread    3) d hSTEP   373 / 401 (thread    2) fSTEP   376 / 401 (thread    1) fSTEP   375 / 401 (thread    0) d hSTEP   378 / 401 (thread    1) d hSTEP   379 / 401 (thread    0) fSTEP   380 / 401 (thread    2) fSTEP   377 / 401 (thread    3) fSTEP   381 / 401 (thread    1) d hSTEP   385 / 401 (thread    1) fSTEP   382 / 401 (thread    2) d hSTEP   387 / 401 (thread    2) fSTEP   383 / 401 (thread    0) d hSTEP   389 / 401 (thread    0) fSTEP   384 / 401 (thread    3) d hSTEP   390 / 401 (thread    3) fSTEP   386 / 401 (thread    1) d hSTEP   388 / 401 (thread    2) d hSTEP   391 / 401 (thread    0) d hSTEP   392 / 401 (thread    3) d h
-Reallocating..done. *alloclen = 1363
-STEP   393 / 401 (thread    1) d hSTEP   394 / 401 (thread    2) d hSTEP   395 / 401 (thread    0) d hSTEP   396 / 401 (thread    3) d hSTEP   397 / 401 (thread    1) d hSTEP   398 / 401 (thread    2) d hSTEP   399 / 401 (thread    0) d hSTEP   400 / 401 (thread    3) d hSTEP   401 / 401 (thread    1) d h
-done.
-
-disttbfast (nuc) Version 7.470
-alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-4 thread(s)
-
-
-Strategy:
- FFT-NS-2 (Fast but rough)
- Progressive method (guide trees were built 2 times.)
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-
-FastTree Version 2.1.10 Double precision (No SSE3), OpenMP (4 threads)
-Alignment: /home-1/cjone228@jhu.edu/scratch/qiime2-archive-3ecimcrw/5c948404-fd42-4f10-bed3-a6a43cf3c84b/data/aligned-dna-sequences.fasta
-Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
-Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
-TopHits: 1.00*sqrtN close=default refresh=0.80
-ML Model: Jukes-Cantor, CAT approximation with 20 rate categories
-Initial topology in 0.10 seconds
-Refining topology: 35 rounds ME-NNIs, 2 rounds ME-SPRs, 17 rounds ML-NNIs
-      0.10 seconds: ME NNI round 1 of 35, 101 of 395 splits, 19 changes (max delta 0.025)
-      0.20 seconds: SPR round   1 of   2, 201 of 792 nodes
-      0.31 seconds: SPR round   1 of   2, 501 of 792 nodes
-      0.42 seconds: ME NNI round 12 of 35, 1 of 395 splits
-      0.54 seconds: SPR round   2 of   2, 301 of 792 nodes
-      0.65 seconds: SPR round   2 of   2, 601 of 792 nodes
-Total branch-length 12.932 after 0.75 sec
-      0.76 seconds: ML Lengths 101 of 395 splits
-      0.90 seconds: ML NNI round 1 of 17, 201 of 395 splits, 47 changes (max delta 7.752)
-ML-NNI round 1: LogLk = -12615.014 NNIs 93 max delta 7.75 Time 0.97
-      1.00 seconds: Site likelihoods with rate category 9 of 20
-Switched to using 20 rate categories (CAT approximation)
-Rate categories were divided by 0.989 so that average rate = 1.0
-CAT-based log-likelihoods may not be comparable across runs
-Use -gamma for approximate but comparable Gamma(20) log-likelihoods
-      1.13 seconds: ML NNI round 2 of 17, 201 of 395 splits, 18 changes (max delta 1.639)
-ML-NNI round 2: LogLk = -10686.027 NNIs 41 max delta 2.48 Time 1.22
-      1.26 seconds: ML NNI round 3 of 17, 101 of 395 splits, 3 changes (max delta 2.210)
-ML-NNI round 3: LogLk = -10668.163 NNIs 16 max delta 4.27 Time 1.34
-      1.38 seconds: ML NNI round 4 of 17, 101 of 395 splits, 7 changes (max delta 4.216)
-ML-NNI round 4: LogLk = -10661.514 NNIs 7 max delta 4.22 Time 1.40
-ML-NNI round 5: LogLk = -10659.712 NNIs 2 max delta 1.41 Time 1.44
-ML-NNI round 6: LogLk = -10656.258 NNIs 0 max delta 0.00 Time 1.47
-Turning off heuristics for final round of ML NNIs (converged)
-      1.51 seconds: ML NNI round 7 of 17, 101 of 395 splits, 1 changes (max delta 0.883)
-ML-NNI round 7: LogLk = -10654.915 NNIs 2 max delta 0.88 Time 1.64 (final)
-      1.63 seconds: ML Lengths 1 of 395 splits
-Optimize all lengths: LogLk = -10654.856 Time 1.71
-      1.79 seconds: ML split tests for    100 of    394 internal splits
-      1.95 seconds: ML split tests for    300 of    394 internal splits
-Total time: 2.03 seconds Unique: 397/402 Bad splits: 1/394 Worst delta-LogLk 1.822
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: mafft --preservecase --inputorder --thread 4 /home-1/cjone228@jhu.edu/scratch/qiime2-archive-eckbsh3r/d2c859fb-3d60-4be4-bfcb-3326c4c89383/data/dna-sequences.fasta
-
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: FastTreeMP -quote -nt /home-1/cjone228@jhu.edu/scratch/qiime2-archive-3ecimcrw/5c948404-fd42-4f10-bed3-a6a43cf3c84b/data/aligned-dna-sequences.fasta
-
-Saved FeatureData[AlignedSequence] to: ../data/P15-clust-tree-cm-goods/v3/v3-alignment.qza
-Saved FeatureData[AlignedSequence] to: ../data/P15-clust-tree-cm-goods/v3/v3-masked-alignment.qza
-Saved Phylogeny[Unrooted] to: ../data/P15-clust-tree-cm-goods/v3/v3-unrooted-tree.qza
-Saved Phylogeny[Rooted] to: ../data/P15-clust-tree-cm-goods/v3/v3-rooted-tree.qza
-/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/sklearn/metrics/pairwise.py:1761: DataConversionWarning: Data was converted to boolean for metric jaccard
-  warnings.warn(msg, DataConversionWarning)
-Traceback (most recent call last):
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/q2cli/commands.py", line 329, in __call__
-    results = action(**arguments)
-  File "<decorator-gen-400>", line 2, in core_metrics_phylogenetic
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/qiime2/sdk/action.py", line 245, in bound_callable
-    output_types, provenance)
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/qiime2/sdk/action.py", line 484, in _callable_executor_
-    outputs = self._callable(scope.ctx, **view_args)
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/q2_diversity/_core_metrics.py", line 57, in core_metrics_phylogenetic
-    metadata=metadata, n_jobs=n_jobs_or_threads)
-  File "<decorator-gen-530>", line 2, in core_metrics
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/qiime2/sdk/action.py", line 245, in bound_callable
-    output_types, provenance)
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/qiime2/sdk/action.py", line 484, in _callable_executor_
-    outputs = self._callable(scope.ctx, **view_args)
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/q2_diversity/_core_metrics.py", line 42, in core_metrics
-    results += emperor_plot(pcoa=pcoa, metadata=metadata)
-  File "<decorator-gen-539>", line 2, in plot
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/qiime2/sdk/action.py", line 245, in bound_callable
-    output_types, provenance)
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/qiime2/sdk/action.py", line 452, in _callable_executor_
-    ret_val = self._callable(output_dir=temp_dir, **view_args)
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/q2_emperor/_plot.py", line 65, in plot
-    custom_axes=custom_axes, plot_name='plot')
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/q2_emperor/_plot.py", line 41, in generic_plot
-    procrustes=procrustes, remote='.')
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/emperor/core.py", line 247, in __init__
-    ignore_missing_samples)
-  File "/home-1/cjone228@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/emperor/core.py", line 325, in _validate_metadata
-    ' to the same dataset.' % kind)
-ValueError: None of the sample identifiers match between the metadata and the coordinates. Verify that you are using metadata and coordinates corresponding to the same dataset.
-
-Plugin error from diversity:
-
-  None of the sample identifiers match between the metadata and the coordinates. Verify that you are using metadata and coordinates corresponding to the same dataset.
-
-See above for debug info.
-Usage: qiime tools export [OPTIONS]
-
-  Exporting extracts (and optionally transforms) data stored inside an
-  Artifact or Visualization. Note that Visualizations cannot be transformed
-  with --output-format
-
-Options:
-  --input-path ARTIFACT/VISUALIZATION
-                        Path to file that should be exported        [required]
-  --output-path PATH    Path to file or directory where data should be
-                        exported to                                 [required]
-  --output-format TEXT  Format which the data should be exported as. This
-                        option cannot be used with Visualizations
-  --help                Show this message and exit.
-
-                    There was a problem with the command:                     
- (1/1) Invalid value for '--input-path': File '../analysis/P15-clust-tree-cm-
-  goods/v3/core-metrics-results/faith_pd_vector.qza' does not exist.
-Usage: qiime tools export [OPTIONS]
-
-  Exporting extracts (and optionally transforms) data stored inside an
-  Artifact or Visualization. Note that Visualizations cannot be transformed
-  with --output-format
-
-Options:
-  --input-path ARTIFACT/VISUALIZATION
-                        Path to file that should be exported        [required]
-  --output-path PATH    Path to file or directory where data should be
-                        exported to                                 [required]
-  --output-format TEXT  Format which the data should be exported as. This
-                        option cannot be used with Visualizations
-  --help                Show this message and exit.
-
-                    There was a problem with the command:                     
- (1/1) Invalid value for '--input-path': File '../analysis/P15-clust-tree-cm-
-  goods/v3/core-metrics-results/evenness_vector.qza' does not exist.
-Usage: qiime tools export [OPTIONS]
-
-  Exporting extracts (and optionally transforms) data stored inside an
-  Artifact or Visualization. Note that Visualizations cannot be transformed
-  with --output-format
-
-Options:
-  --input-path ARTIFACT/VISUALIZATION
-                        Path to file that should be exported        [required]
-  --output-path PATH    Path to file or directory where data should be
-                        exported to                                 [required]
-  --output-format TEXT  Format which the data should be exported as. This
-                        option cannot be used with Visualizations
-  --help                Show this message and exit.
-
-                    There was a problem with the command:                     
- (1/1) Invalid value for '--input-path': File '../analysis/P15-clust-tree-cm-
-  goods/v3/core-metrics-results/shannon_vector.qza' does not exist.
-Usage: qiime tools export [OPTIONS]
-
-  Exporting extracts (and optionally transforms) data stored inside an
-  Artifact or Visualization. Note that Visualizations cannot be transformed
-  with --output-format
-
-Options:
-  --input-path ARTIFACT/VISUALIZATION
-                        Path to file that should be exported        [required]
-  --output-path PATH    Path to file or directory where data should be
-                        exported to                                 [required]
-  --output-format TEXT  Format which the data should be exported as. This
-                        option cannot be used with Visualizations
-  --help                Show this message and exit.
-
-                    There was a problem with the command:                     
- (1/1) Invalid value for '--input-path': File '../analysis/P15-clust-tree-cm-
-  goods/v3/core-metrics-results/observed_otus_vector.qza' does not exist.
-vsearch v2.7.0_linux_x86_64, 125.5GB RAM, 24 cores
-https://github.com/torognes/vsearch
-
-Reading file /home-1/cjone228@jhu.edu/scratch/qiime2-archive-etg12sz3/d009fdf2-df54-4690-8450-270c39c6b224/data/dna-sequences.fasta 100%
-105012606 nt in 72682 seqs, min 900, max 2200, avg 1445
-Masking 100%
-Counting k-mers 100%
-Creating k-mer index 100%
-Searching 100%
-Matching query sequences: 202 of 402 (50.25%)
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: vsearch --usearch_global /home-1/cjone228@jhu.edu/scratch/qiime2-archive-pawas___/d2c859fb-3d60-4be4-bfcb-3326c4c89383/data/dna-sequences.fasta --id 0.99 --query_cov 0.8 --strand both --maxaccepts 10 --maxrejects 0 --db /home-1/cjone228@jhu.edu/scratch/qiime2-archive-etg12sz3/d009fdf2-df54-4690-8450-270c39c6b224/data/dna-sequences.fasta --threads 1 --output_no_hits --blast6out /home-1/cjone228@jhu.edu/scratch/tmpeak_s4f6
-
-Saved FeatureData[Taxonomy] to: ../analysis/P15-clust-tree-cm-goods/v3/tax-class.qza
-Exported ../analysis/P15-clust-tree-cm-goods/v3/tax-class.qza as TSVTaxonomyDirectoryFormat to directory ../analysis/P15-clust-tree-cm-goods/v3/tax-class
-Usage: qiime diversity alpha [OPTIONS]
-
-  Computes a user-specified alpha diversity metric for all samples in a
-  feature table.
-
-Inputs:
-  --i-table ARTIFACT FeatureTable[Frequency]
-                       The feature table containing the samples for which
-                       alpha diversity should be computed.          [required]
-Parameters:
-  --p-metric TEXT Choices('heip_e', 'kempton_taylor_q', 'berger_parker_d',
-    'esty_ci', 'brillouin_d', 'fisher_alpha', 'margalef', 'mcintosh_d',
-    'simpson', 'michaelis_menten_fit', 'doubles', 'lladser_ci', 'pielou_e',
-    'observed_otus', 'goods_coverage', 'mcintosh_e', 'chao1_ci', 'shannon',
-    'lladser_pe', 'ace', 'chao1', 'dominance', 'simpson_e', 'menhinick',
-    'singles', 'enspie', 'osd', 'gini_index', 'robbins', 'strong')
-                       The alpha diversity metric to be computed.   [required]
-Outputs:
-  --o-alpha-diversity ARTIFACT SampleData[AlphaDiversity]
-                       Vector containing per-sample alpha diversities.
-                                                                    [required]
-Miscellaneous:
-  --output-dir PATH    Output unspecified results to a directory
-  --verbose / --quiet  Display verbose output to stdout and/or stderr during
-                       execution of this action. Or silence output if
-                       execution is successful (silence is golden).
-  --examples           Show usage examples and exit.
-  --citations          Show citations and exit.
-  --help               Show this message and exit.
-
-                    There was a problem with the command:                     
- (1/1) Invalid value for '--i-table': '../analysis/P15-clust-tree-cm-
-  goods/v3/core-metrics-results/rarefied_table.qza' is not a valid filepath
-Usage: qiime tools export [OPTIONS]
-
-  Exporting extracts (and optionally transforms) data stored inside an
-  Artifact or Visualization. Note that Visualizations cannot be transformed
-  with --output-format
-
-Options:
-  --input-path ARTIFACT/VISUALIZATION
-                        Path to file that should be exported        [required]
-  --output-path PATH    Path to file or directory where data should be
-                        exported to                                 [required]
-  --output-format TEXT  Format which the data should be exported as. This
-                        option cannot be used with Visualizations
-  --help                Show this message and exit.
-
-                    There was a problem with the command:                     
- (1/1) Invalid value for '--input-path': File '../analysis/P15-clust-tree-cm-
-  goods/v3/observed_otus_vector.qza' does not exist.

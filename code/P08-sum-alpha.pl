@@ -7,7 +7,7 @@ my $outDir = "../analysis/P08-sum-alpha";
 `rm -r $outDir`;
 `mkdir $outDir`;
 # ------------------------
-my $files = `ls ../analysis/P05-clust-tree-cm-goods/*/*exp/alpha-diversity.tsv`;
+my $files = `ls ../analysis/P05-clust-tree-cm-goods/*/exp*/alpha-diversity.tsv`;
 chomp($files);
 my @files = split "\n", $files;
 # ------------------------
