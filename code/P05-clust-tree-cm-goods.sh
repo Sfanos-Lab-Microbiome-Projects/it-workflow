@@ -2,7 +2,7 @@
 #SBATCH -c 5
 #SBATCH -t 24:00:00
 #SBATCH --mail-type=all
-#SBATCH --mail-user=cjone228@jhu.edu
+#SBATCH --mail-user=lpeiffe1@jhu.edu
 #SBATCH --job-name="P05-clust-tree-cm-goods"
 #SBATCH --mem=5G
 #SBATCH -p parallel
@@ -96,6 +96,10 @@ qiime tools export \
 
 # export beta diversity files
 qiime tools export \
+ --input-path $outDir/$REGION/core-metrics-results/bray_curtis_distance_matrix.qza \
+ --output-path $outDir/$REGION/core-metrics-results/bray-curtis-dm
+
+qiime tools export \
  --input-path $outDir/$REGION/core-metrics-results/jaccard_distance_matrix.qza \
  --output-path $outDir/$REGION/core-metrics-results/jaccard-dm 
 
@@ -130,4 +134,4 @@ qiime diversity alpha \
 # export Good's Coverage qza files
 qiime tools export \
   --input-path $outDir/$REGION/observed_otus_vector.qza \
-  --output-path $outDir/$REGION/exported-goods-coverage
+  --output-path $outDir/$REGION/goods-coverage
