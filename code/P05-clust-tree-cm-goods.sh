@@ -89,10 +89,23 @@ qiime tools export \
 qiime tools export \
   --input-path $outDir/$REGION/core-metrics-results/shannon_vector.qza \
   --output-path $outDir/$REGION/exported-shannon-vector
-  
+
 qiime tools export \
-  --input-path $outDir/$REGION/core-metrics-results/observed_otus_vector.qza \
+  --input-path $outDir/$REGION/core-metrics-results/observed_features_vector.qza \
   --output-path $outDir/$REGION/exported-observed-otus-vector
+
+# export beta diversity files
+qiime tools export \
+ --input-path $outDir/$REGION/core-metrics-results/jaccard_distance_matrix.qza \
+ --output-path $outDir/$REGION/core-metrics-results/jaccard-dm 
+
+qiime tools export \
+ --input-path $outDir/$REGION/core-metrics-results/unweighted_unifrac_distance_matrix.qza \
+ --output-path $outDir/$REGION/core-metrics-results/unweighted-unifrac-dm
+
+qiime tools export \
+ --input-path $outDir/$REGION/core-metrics-results/weighted_unifrac_distance_matrix.qza \
+ --output-path $outDir/$REGION/core-metrics-results/weighted-unifrac-dm
 
 #taxonomic classification
 qiime feature-classifier classify-consensus-vsearch \
