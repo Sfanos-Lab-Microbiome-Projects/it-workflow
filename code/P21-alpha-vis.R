@@ -6,7 +6,7 @@ library(reshape2)
 # ---------------------------------------------------
 # configure per user ---
 #setwd("") # git repository already cloned to desktop
-analysisdir = "../analysis/P09-alpha-vis" #create the analysis directory you want outputs to go into
+analysisdir = "../analysis/P21-alpha-vis" #create the analysis directory you want outputs to go into
 unlink(analysisdir, recursive=TRUE)
 dir.create(analysisdir)
 # ---------------------------------------------------
