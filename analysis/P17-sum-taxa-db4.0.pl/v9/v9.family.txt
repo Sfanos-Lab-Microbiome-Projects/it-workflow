@@ -1,0 +1,7 @@
+Region	SampleID	Unassigned; p__unassigned; c__unassigned; o__unassigned; f__unassigned	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI	k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae
+v9	Patient1-fresh	0	0	0	2.30769230769231	0	0	78.4615384615385	19.2307692307692
+v9	Patient1-frozen	0	0	0	0	0	0	78.7671232876712	21.2328767123288
+v9	Patient2-fresh	0.158499537709682	0	0	58.0306432439572	0.429269581297055	0	41.3815876370361	0
+v9	Patient2-frozen	0.115573533660792	0	0	55.5041895405952	0	0.332273909274776	43.8312626408552	0.216700375613984
+v9	Patient3-fresh	0.147906635285989	0.0615377971627837	0.0215922095308013	4.38213892427612	0	95.324207026105	0.049662081920843	0.0129553257184808
+v9	Patient3-frozen	0.410756339339504	0.116837358745459	0	8.109242930427	0	91.3029191083849	0.0602442631031272	0

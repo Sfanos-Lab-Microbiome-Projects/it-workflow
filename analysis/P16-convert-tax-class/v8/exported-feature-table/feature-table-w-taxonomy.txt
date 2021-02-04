@@ -1,0 +1,373 @@
+# Constructed from biom file
+#OTU ID	Patient1-fresh	Patient1-frozen	Patient2-fresh	Patient2-frozen	Patient3-fresh	Patient3-frozen	taxonomy
+AF542227	3885.0	3539.0	24122.0	18006.0	4874.0	1359.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Finegoldia; s__Finegoldia_magna
+D14146	1540.0	1311.0	12613.0	6079.0	15066.0	18556.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Anaerococcus
+DQ174182	0.0	0.0	28033.0	9046.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter_hominis
+HG324078	21913.0	9648.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Fusobacteria; c__Fusobacteriia; o__Fusobacteriales; f__Fusobacteriaceae; g__Fusobacterium; s__Fusobacterium_mortiferum
+JX029051	0.0	0.0	0.0	0.0	23365.0	7355.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Pectobacterium; s__Pectobacterium_carotovorum
+AJ576075	0.0	0.0	19550.0	4383.0	163.0	12.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Mobiluncus; s__Mobiluncus_curtisii
+AJ510251	1616.0	1160.0	10092.0	8737.0	5958.0	4885.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Varibaculum; s__Varibaculum_cambriense
+AB109772	0.0	0.0	605.0	510.0	19400.0	2282.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Finegoldia; s__Finegoldia_magna
+JF342693	2858.0	4328.0	7139.0	5359.0	1723.0	287.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1; s__Corynebacterium_striatum
+AB640691	2680.0	2622.0	7482.0	4677.0	15035.0	2573.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Finegoldia; s__Finegoldia_magna
+D14143	1250.0	490.0	0.0	0.0	9813.0	4705.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Parvimonas; s__Parvimonas_micra
+ARKX01000002	0.0	0.0	4136.0	2722.0	3245.0	1278.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Peptoniphilus_lacrimalis
+KF148833	6155.0	4233.0	0.0	0.0	121.0	35.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_salivarius
+ACHM02000001	6893.0	6170.0	766.0	675.0	1891.0	2214.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Finegoldia; s__Finegoldia_magna
+EU483154	2426.0	1629.0	807.0	916.0	2822.0	4019.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Ezakiella; s__Sporobacterium_sp
+KC311747	2455.0	2156.0	812.0	584.0	7331.0	1152.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Anaerococcus; s__Anaerococcus_hydrogenalis
+AB109770	2844.0	2931.0	5045.0	4081.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Finegoldia; s__Finegoldia_magna
+AF338413	3853.0	3629.0	0.0	0.0	62.0	0.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Anaeroglobus; s__Anaeroglobus_geminatus
+M23731	4362.0	2387.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Erysipelatoclostridium; s__Erysipelatoclostridium_ramosum
+KF444244	2439.0	3928.0	19.0	5.0	0.0	0.0	k__Bacteria; p__Fusobacteria; c__Fusobacteriia; o__Fusobacteriales; f__Fusobacteriaceae; g__Fusobacterium; s__Fusobacterium_nucleatum
+X72865	2729.0	1505.0	561.0	401.0	234.0	167.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Acidaminococcaceae; g__Phascolarctobacterium; s__Phascolarctobacterium_faecium
+AJ566849	3938.0	1635.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Sutterella; s__Sutterella_stercoricanis
+DQ911243	0.0	0.0	0.0	0.0	3691.0	1728.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Anaerococcus; s__Anaerococcus_murdochii
+AF542232	459.0	416.0	2206.0	2177.0	1945.0	132.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Anaerococcus; s__Anaerococcus_prevotii
+AZJF01000012	92.0	34.0	0.0	0.0	3289.0	1104.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnoclostridium; s__Ruminococcus_gnavus
+AY169430	0.0	0.0	2570.0	1413.0	186.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Faecalibacterium; s__Faecalibacterium_prausnitzii
+HE586272	683.0	255.0	1864.0	1181.0	78.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1; s__Corynebacterium_amycolatum
+FN401324	1385.0	1360.0	300.0	212.0	206.0	200.0	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter_ureolyticus
+FR798912	0.0	0.0	2124.0	1423.0	967.0	787.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Candidatus_Peptoniphilus_massiliensis
+AB006120	0.0	0.0	2083.0	1454.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_anginosus
+AB109771	0.0	0.0	107.0	125.0	3527.0	651.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Finegoldia; s__Finegoldia_magna
+FN401326	0.0	0.0	0.0	0.0	951.0	2056.0	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter_ureolyticus
+HQ455040	1065.0	616.0	454.0	166.0	309.0	307.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Flavonifractor; s__Flavonifractor_plautii
+EU156768	136.0	122.0	1130.0	924.0	511.0	69.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus
+JX101687	1753.0	923.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnoclostridium; s__Candidatus_Dorea_massiliensis_AP6
+DM464569	0.0	0.0	0.0	0.0	796.0	1668.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Tyzzerella_4; s__Tyzzerella_nexilis
+AM084229	235.0	223.0	629.0	486.0	79.0	6.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_neuii
+X82500	0.0	0.0	1413.0	443.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Dialister; s__Dialister_pneumosintes
+KP233308	0.0	0.0	0.0	0.0	870.0	596.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Collinsella; s__Collinsella_aerofaciens
+X75908	521.0	322.0	347.0	228.0	0.0	19.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Erysipelatoclostridium; s__Clostridium_spiroforme
+AB558167	0.0	0.0	147.0	92.0	741.0	404.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Eggerthella; s__Eggerthella_lenta
+AY033434	2094.0	613.0	120.0	63.0	129.0	180.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Tyzzerella; s__Clostridium_lactatifermentans
+KF598968	0.0	0.0	0.0	0.0	959.0	345.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Morganella; s__Morganella_morganii
+FR749934	824.0	215.0	312.0	175.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerostipes; s__Anaerostipes_hadrus
+EU239122	0.0	0.0	0.0	0.0	737.0	412.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas_aeruginosa
+GU938836	0.0	0.0	76.0	100.0	1017.0	80.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Peptoniphilus_coxii
+AF028352	971.0	610.0	44.0	23.0	575.0	743.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Clostridium; s__Clostridium_innocuum
+AB355616	288.0	204.0	316.0	158.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_salivarius
+AF537605	0.0	0.0	376.0	477.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1; s__Corynebacterium_sundsvallense
+FJ685627	76.0	0.0	454.0	282.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Haemophilus; s__Haemophilus_parainfluenzae
+EU156771	83.0	0.0	419.0	305.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_parasanguinis
+AJ132842	0.0	0.0	426.0	246.0	31.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Dorea; s__Dorea_longicatena
+CP003058	0.0	0.0	0.0	0.0	370.0	328.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Acidaminococcaceae; g__Acidaminococcus; s__Acidaminococcus_intestini
+AY362908	0.0	0.0	424.0	224.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Haemophilus; s__Haemophilus_parainfluenzae
+DQ789120	381.0	242.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Enterorhabdus; s__Enterorhabdus_caecimuris
+AQOB01000015	399.0	223.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Butyricicoccus; s__Butyricicoccus_pullicaecorum
+AZJE01000037	0.0	0.0	352.0	249.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnoclostridium; s__Ruminococcus_lactaris
+GU561405	0.0	0.0	0.0	0.0	444.0	151.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Family_XI; g__Gemella; s__Gemella_morbillorum
+AY162469	238.0	351.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Dialister; s__Dialister_invisus
+AB370250	74.0	26.0	492.0	267.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Parasutterella; s__Parasutterella_excrementihominis
+HF545616	0.0	0.0	0.0	0.0	373.0	126.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Ruminococcus_1; s__Ruminococcus_bicirculans
+X82064	0.0	0.0	302.0	190.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1
+ABGD02000031	0.0	0.0	8.0	0.0	172.0	311.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Anaerotruncus; s__Anaerotruncus_colihominis
+EF436500	0.0	0.0	122.0	112.0	219.0	10.0	k__Bacteria; p__Synergistetes; c__Synergistia; o__Synergistales; f__Synergistaceae; g__Jonquetella; s__Jonquetella_anthropi
+JPJG01000126	0.0	0.0	0.0	0.0	343.0	278.0	k__Bacteria
+DQ911241	55.0	62.0	125.0	73.0	122.0	15.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus
+CP001104	0.0	0.0	263.0	175.0	14.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Eubacterium; s__Eubacterium_eligens
+U82813	0.0	0.0	105.0	50.0	165.0	121.0	k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Bilophila; s__Bilophila_wadsworthia
+Y07841	160.0	203.0	159.0	115.0	410.0	52.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Anaerococcus; s__Anaerococcus_octavius
+FQ312002	0.0	0.0	253.0	166.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Haemophilus; s__Haemophilus_parainfluenzae
+AF192154	0.0	0.0	0.0	0.0	217.0	198.0	k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio_desulfuricans
+X82062	0.0	0.0	272.0	139.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1
+FJ751783	0.0	0.0	275.0	128.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus_salivarius
+CAEN01000062	104.0	43.0	169.0	67.0	46.0	72.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Dielma; s__Dielma_fastidiosa
+AB693938	0.0	0.0	210.0	168.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Adlercreutzia; s__Adlercreutzia_equolifaciens
+FJ185225	69.0	30.0	81.0	71.0	396.0	52.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium; s__Corynebacterium_pyruviciproducens
+KC311367	43.0	19.0	208.0	106.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Intestinimonas; s__Intestinimonas_butyriciproducens
+AB698910	365.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Fusicatenibacter; s__Fusicatenibacter_saccharivorans
+L16496	0.0	0.0	0.0	0.0	181.0	172.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Odoribacter; s__Odoribacter_splanchnicus
+AJ003058	132.0	216.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_avidum
+X78719	99.0	79.0	19.0	0.0	122.0	9.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_radingae
+JN837491	81.0	19.0	194.0	134.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Peptoniphilus_grossensis
+EU526291	0.0	0.0	157.0	167.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Peptoniphilus_koenoeneniae
+HG798414	181.0	115.0	12.0	7.0	8.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Lactococcus; s__Lactococcus_lactis
+ACCF01000268	178.0	88.0	21.0	20.0	30.0	24.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Holdemania; s__Holdemania_filiformis
+CAHB01000032	143.0	90.0	0.0	5.0	303.0	16.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Peptoniphilus_obesi
+JN037416	76.0	31.0	135.0	43.0	18.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Faecalibacterium; s__Faecalibacterium_prausnitzii
+CQ889266	252.0	49.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerostipes; s__Anaerostipes_hadrus
+L76604	0.0	0.0	0.0	0.0	161.0	104.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnoclostridium; s__Ruminococcus_torques
+EF519868	0.0	0.0	172.0	74.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus_salivarius
+AY850119	41.0	27.0	28.0	30.0	55.0	57.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Dialister; s__Dialister_propionicifaciens
+ACUX02000006	230.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Slackia; s__Slackia_exigua
+GU562446	0.0	0.0	0.0	0.0	100.0	128.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Subdoligranulum
+EF031542	0.0	0.0	217.0	130.0	14.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Coprococcus_3; s__Coprococcus_comes
+AWCK01000002	0.0	0.0	0.0	0.0	219.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae
+AY764158	0.0	0.0	0.0	0.0	85.0	131.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Macellibacteroides; s__Bacteroides_sp
+AB595132	0.0	0.0	0.0	0.0	168.0	43.0	k__Bacteria; p__Fusobacteria; c__Fusobacteriia; o__Fusobacteriales; f__Fusobacteriaceae; g__Fusobacterium; s__Fusobacterium_varium
+JX435052	0.0	0.0	47.0	30.0	122.0	10.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_avidum
+DQ497994	0.0	0.0	104.0	89.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnospira
+EU541436	0.0	0.0	133.0	54.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Flavonifractor; s__Flavonifractor_plautii
+ADLU01000111	149.0	65.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Dorea; s__Dorea_formicigenerans
+KP091275	0.0	0.0	103.0	80.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus
+AJ011522	0.0	0.0	112.0	67.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Roseburia; s__Eubacterium_ramulus
+X95624	107.0	69.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Blautia; s__Blautia_hydrogenotrophica
+FP929059	0.0	0.0	63.0	42.0	36.0	16.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Ruminiclostridium_6; s__Eubacterium_siraeum
+FN295567	0.0	0.0	40.0	36.0	79.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1
+KM087103	87.0	64.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis
+AF101240	0.0	145.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Slackia; s__Slackia_exigua
+AP010969	81.0	63.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_constellatus
+JQ780830	95.0	46.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Varibaculum; s__Varibaculum_sp
+KF814111	0.0	0.0	0.0	0.0	118.0	104.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Eisenbergiella; s__Eisenbergiella_tayi
+AJ234043	86.0	0.0	27.0	19.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus
+AB554232	0.0	0.0	78.0	50.0	49.0	33.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes_putredinis
+Y10772	28.0	38.0	35.0	18.0	8.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Aerococcaceae; g__Facklamia
+AJTC01000001	0.0	34.0	89.0	0.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Haemophilus; s__Haemophilus_parainfluenzae
+GU561357	0.0	0.0	0.0	0.0	90.0	33.0	k__Bacteria; p__Fusobacteria; c__Fusobacteriia; o__Fusobacteriales; f__Fusobacteriaceae; g__Fusobacterium; s__Fusobacterium_nucleatum
+Y08828	70.0	48.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_europaeus
+GQ149247	62.0	46.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Synergistetes; c__Synergistia; o__Synergistales; f__Synergistaceae; g__Fretibacterium; s__Fretibacterium_fastidiosum
+M23730	0.0	0.0	53.0	55.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Faecalicoccus; s__Faecalicoccus_pleomorphus
+X55797	0.0	0.0	64.0	103.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Peptococcus; s__Peptococcus_niger
+AY033814	0.0	0.0	0.0	0.0	71.0	24.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus
+BAME01000208	0.0	0.0	0.0	0.0	94.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_bennonis
+M22516	0.0	0.0	0.0	0.0	62.0	32.0	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae
+FJ715928	36.0	26.0	0.0	9.0	23.0	4.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Negativicoccus; s__Negativicoccus_succinicivorans
+AB679112	48.0	20.0	0.0	13.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Veillonella
+AF487681	0.0	0.0	39.0	38.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinotignum; s__Actinotignum_schaalii
+AY974071	0.0	0.0	0.0	0.0	32.0	43.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes_onderdonkii
+KC753457	40.0	34.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Leuconostocaceae; g__Leuconostoc; s__Leuconostoc_mesenteroides
+AB037874	0.0	2.0	44.0	22.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XIII; g__Mogibacterium
+JX629460	35.0	28.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_lugdunensis
+EU414673	0.0	0.0	36.0	59.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_bennonis
+AB932543	0.0	0.0	0.0	0.0	45.0	14.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium_longum
+FJ823142	20.0	19.0	0.0	0.0	18.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Micrococcaceae; g__Rothia
+Y07839	0.0	0.0	0.0	0.0	55.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Peptoniphilus_harei
+LN558625	0.0	0.0	0.0	0.0	38.0	16.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Proteus; s__Proteus_mirabilis
+AY974072	30.0	21.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Rikenellaceae; g__Alistipes; s__Alistipes_shahii
+AJ278694	0.0	0.0	32.0	19.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Alloscardovia; s__Alloscardovia_omnicolens
+FJ263375	0.0	0.0	22.0	29.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Dermabacteraceae; g__Dermabacter
+AB910737	0.0	0.0	0.0	0.0	50.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnoclostridium; s__Clostridium_hylemonae
+HW313926	0.0	0.0	0.0	49.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Oscillibacter; s__Clostridium_leptum
+JF824809	0.0	0.0	0.0	0.0	29.0	17.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Senegalimassilia; s__Senegalimassilia_anaerobia
+AB078819	14.0	0.0	19.0	12.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_acnes
+FN554713	0.0	0.0	0.0	0.0	44.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_capitis
+AM084228	0.0	0.0	41.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_neuii
+AF439641	0.0	0.0	35.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Veillonella; s__Veillonella_atypica
+AJ234041	0.0	33.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus
+AY365452	0.0	0.0	0.0	0.0	30.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Haemophilus; s__Haemophilus_parainfluenzae
+GU401493	0.0	0.0	0.0	0.0	29.0	0.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Dialister; s__Dialister_invisus
+GU561311	28.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_naeslundii
+AY136666	0.0	0.0	28.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Flavonifractor; s__Flavonifractor_plautii
+AJ867043	27.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus
+FR749935	27.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnoclostridium; s__Eubacterium_fissicatena
+ASSQ01000021	0.0	0.0	0.0	0.0	0.0	27.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Parabacteroides; s__Parabacteroides_goldsteinii
+Y18186	26.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnoclostridium; s__Clostridium_scindens
+AF287802	12.0	13.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Veillonellaceae; g__Selenomonas_3
+ABXI02000116	0.0	0.0	0.0	0.0	24.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides
+CU463952	0.0	0.0	0.0	0.0	15.0	7.0	k__Bacteria; p__Synergistetes; c__Synergistia; o__Synergistales; f__Synergistaceae; g__Cloacibacillus; s__Cloacibacillus_evryensis
+GU811876	0.0	0.0	0.0	0.0	9.0	12.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Coprobacillus; s__Coprobacillus_cateniformis
+FJ263921	19.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_ursingii
+AB022027	19.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Granulicatella
+AJ540309	0.0	0.0	14.0	5.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_graevenitzii
+DQ518919	0.0	0.0	0.0	19.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella; s__Prevotella_timonensis
+AF292372	7.0	9.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Atopobium; s__Atopobium_parvulum
+AJ810271	14.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Fusobacteria; c__Fusobacteriia; o__Fusobacteriales; f__Fusobacteriaceae; g__Fusobacterium; s__Fusobacterium_periodonticum
+JN837493	0.0	0.0	14.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Coriobacteriia; o__Coriobacteriales; f__Coriobacteriaceae; g__Collinsella; s__Enorma_massiliensis
+X87757	0.0	0.0	14.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Dermacoccaceae; g__Dermacoccus; s__Dermacoccus_nishinomiyaensis
+AGXT01000001	0.0	12.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_thetaiotaomicron
+HM205109	0.0	0.0	0.0	10.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1; s__Corynebacterium_genitalium
+AY570514	4.0	0.0	0.0	0.0	0.0	9.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_asaccharolytica
+FJ785716	0.0	0.0	0.0	8.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_granulosum
+EU156766	0.0	0.0	7.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_mutans
+AB547676	0.0	0.0	0.0	0.0	7.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae
+EU429939	0.0	6.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus
+EU309492	0.0	0.0	0.0	0.0	6.0	0.0	k__Bacteria; p__Synergistetes; c__Synergistia; o__Synergistales; f__Synergistaceae; g__Pyramidobacter; s__Pyramidobacter_piscolens
+AB775575	0.0	5.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Family_XI; g__Gemella; s__Gemella_sanguinis
+AFUS01000005	4.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Parvimonas; s__Parvimonas_sp
+AF349724	0.0	0.0	3.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Turicibacter; s__Turicibacter_sanguinis
+ACRF02000006	0.0	0.0	0.0	0.0	0.0	3.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Carnobacteriaceae; g__Granulicatella; s__Granulicatella_elegans
+CP001853	2.0	0.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium; s__Bifidobacterium_animalis
+EU240445	0.0	0.0	2.0	0.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_lwoffii
+aaf77ed20b38b92b07d4aef777db9af6	7712.0	4760.0	0.0	0.0	0.0	0.0	Unassigned
+6070f14e6f9b185ae416faaaf68be460	0.0	0.0	745.0	483.0	2280.0	3769.0	Unassigned
+6b1bc4b6b0732213aa938169007af8f9	3193.0	2501.0	0.0	0.0	0.0	0.0	Unassigned
+aa3daeb798cdc2c52430d63beb4e7818	1524.0	1210.0	5134.0	3300.0	2554.0	2411.0	Unassigned
+eade3bb4b21b6193faceecf79a19acc5	1734.0	2277.0	913.0	926.0	509.0	161.0	Unassigned
+caa2563a61257cd4034542f760d9b525	2912.0	1903.0	952.0	893.0	0.0	0.0	Unassigned
+1d7ee5e6ed83088dd275b1566332a1f2	1733.0	1266.0	2934.0	2067.0	0.0	0.0	Unassigned
+d9c2c0a0c708fa19b5e561e52b08bd71	0.0	0.0	2145.0	1489.0	1391.0	98.0	Unassigned
+981c62c20b9b3705db30bff7ad52878e	2440.0	740.0	0.0	0.0	0.0	0.0	Unassigned
+ad45c358ffb66a3d6510822ae029f4ae	1734.0	1139.0	186.0	204.0	0.0	0.0	Unassigned
+f12f45c65cc126768c4e9d76ce944378	766.0	454.0	1349.0	1208.0	0.0	0.0	Unassigned
+357a98ea96cdc0da59b899f16b1a29ac	1209.0	1108.0	54.0	0.0	0.0	0.0	Unassigned
+43967a48fde9d5cc29b19ab0e6535d3b	2114.0	926.0	0.0	0.0	0.0	0.0	Unassigned
+23394eab20c073e4edc78b2e55485314	0.0	0.0	17.0	0.0	959.0	1373.0	Unassigned
+1ebf01ae604be432ff9ffc80f88654b1	1397.0	897.0	0.0	0.0	0.0	0.0	Unassigned
+88d228d23451a7784d11cebb4c8f2ae7	761.0	824.0	0.0	0.0	15.0	0.0	Unassigned
+97284224464d7859b45cbb64713f9918	0.0	0.0	0.0	0.0	871.0	671.0	Unassigned
+839591826305d6f35e9cf23038ab58db	514.0	607.0	79.0	59.0	507.0	29.0	Unassigned
+b0e0ad71f0e3df30507d0b4d30ccbd17	895.0	655.0	0.0	12.0	87.0	57.0	Unassigned
+8979ef1d385d923ccd6fd399a1beb0b8	0.0	0.0	708.0	437.0	0.0	0.0	Unassigned
+2ca370a92f6c84a0cc5e613f07371ee8	733.0	374.0	0.0	0.0	0.0	0.0	Unassigned
+5cd055b14c801e374eb202253e3b35d0	251.0	129.0	392.0	153.0	114.0	135.0	Unassigned
+7caa2e9fa7e4f10539ccead878940844	0.0	0.0	0.0	0.0	1001.0	77.0	Unassigned
+0bb5308d52f4bb04edb470b746bfa2f9	0.0	0.0	0.0	0.0	621.0	409.0	Unassigned
+5868fe0c83bf03d90f90a8be20ef598e	582.0	306.0	80.0	31.0	16.0	0.0	Unassigned
+520ee041bd1e1c29d445ba2f27f56c6b	748.0	249.0	0.0	0.0	0.0	0.0	Unassigned
+7dd4bdf8ac7c5e6c5d62b5cd4fa8d17e	0.0	0.0	579.0	346.0	41.0	15.0	Unassigned
+8e7f499f2b50debce05d27f18e15c2b7	590.0	336.0	35.0	0.0	0.0	0.0	Unassigned
+219a8db50edaab7c0a382d60aacf68c7	502.0	412.0	0.0	0.0	26.0	16.0	Unassigned
+5a4c3ef7749cc4a24e412086ebe0de29	0.0	0.0	0.0	0.0	642.0	827.0	Unassigned
+109a117f59089697b6e0b84251c5c172	0.0	0.0	576.0	325.0	0.0	0.0	Unassigned
+388f7ddfebe47d9326425032ddfd8b85	0.0	0.0	855.0	478.0	0.0	0.0	Unassigned
+5d3e291caca36b28a05fa5a5212e5b33	608.0	334.0	98.0	47.0	19.0	0.0	Unassigned
+5e11c754cb3bc64364f07a7158ca944a	579.0	494.0	0.0	0.0	0.0	0.0	Unassigned
+e857bdb9f33b78cdf0c53cf5b68c2984	0.0	0.0	433.0	248.0	299.0	384.0	Unassigned
+33fbd13d4612622d835c92fa58bf0f94	496.0	199.0	0.0	0.0	0.0	0.0	Unassigned
+cb17881242db2e326c42f2858c11000f	406.0	236.0	0.0	0.0	0.0	0.0	Unassigned
+2b1f78585ac74780f57e18807a9e96cf	89.0	69.0	187.0	115.0	158.0	178.0	Unassigned
+33e74350f085c5464f0189a698e9e7d6	0.0	0.0	208.0	264.0	95.0	0.0	Unassigned
+4e21600660297e024e7d23442c0c7c9c	93.0	35.0	23.0	0.0	192.0	239.0	Unassigned
+e02a144140d52e5cddd351e360be743e	292.0	120.0	0.0	0.0	86.0	67.0	Unassigned
+f9fef9a9984026b8131e3ded9e8ffa0c	0.0	0.0	260.0	142.0	46.0	17.0	Unassigned
+a5d9f9b1d4b9498023ba2a5b1b1e9b4b	0.0	0.0	402.0	0.0	0.0	0.0	Unassigned
+3c23dd12d8cb1f5fafa91e5aa2c51167	0.0	0.0	0.0	0.0	207.0	178.0	Unassigned
+c3f4c8ada482532093f4ac30cf6ed6c5	0.0	0.0	32.0	29.0	300.0	22.0	Unassigned
+0bf46d5d8dd7aa9af036423d5ddcbad0	247.0	121.0	0.0	0.0	0.0	0.0	Unassigned
+f209cddf7a83c7513792656f948fff8f	0.0	0.0	0.0	0.0	334.0	0.0	Unassigned
+bfdf95864c1382fd340370473779a062	326.0	136.0	0.0	0.0	0.0	0.0	Unassigned
+cb325678c81bcb6be46d40f04f853235	200.0	126.0	0.0	0.0	0.0	0.0	Unassigned
+b54a835cb79b5ba122f3a43aabdc2d16	169.0	142.0	0.0	0.0	0.0	0.0	Unassigned
+efa01cf0cbee2b894971d94d4f11c6fa	57.0	40.0	0.0	9.0	115.0	83.0	Unassigned
+ededcb1520afa03962275b04153bb5b2	160.0	88.0	29.0	15.0	113.0	118.0	Unassigned
+085967fbcfd7eb9e3a39b851fc98fcd8	147.0	78.0	11.0	0.0	13.0	29.0	Unassigned
+657659498adad1dced08b45992a8cd59	174.0	97.0	0.0	0.0	0.0	0.0	Unassigned
+dc3472c7ab68214f0bb8a262fc288568	335.0	129.0	97.0	0.0	0.0	0.0	Unassigned
+f1515424eac4d3e474b22a9d20ac25ab	0.0	0.0	115.0	61.0	22.0	17.0	Unassigned
+4d79d852401d2130cdd829cdff27e770	169.0	44.0	0.0	0.0	0.0	0.0	Unassigned
+519bc3435be87414f8b33ba851072164	0.0	0.0	0.0	0.0	165.0	42.0	Unassigned
+eb7d84a99f97cf18792ae96dbe47df1f	0.0	0.0	120.0	77.0	60.0	30.0	Unassigned
+573012f4f4a627660e6d6f8cc18af9a3	115.0	68.0	0.0	0.0	0.0	0.0	Unassigned
+2f05b9b250f163ba6f89c9493dd7ad7f	125.0	45.0	0.0	0.0	0.0	0.0	Unassigned
+d8d38157e18643ac88a89c1dac59c937	0.0	0.0	89.0	78.0	0.0	0.0	Unassigned
+2742e98a846dd04d8adc08eee6562ca3	0.0	0.0	0.0	0.0	119.0	35.0	Unassigned
+879e081acf4534a5408c5bd9fe8d6234	0.0	0.0	57.0	53.0	21.0	21.0	Unassigned
+7219837fb4d19c27e5c9fc82af07d0d1	0.0	0.0	86.0	63.0	0.0	0.0	Unassigned
+b482db5fd9bcc7fd0294fd8fb4831df5	97.0	50.0	0.0	0.0	0.0	0.0	Unassigned
+fc36d929cf92adb07ba0e8321d6d9fe9	93.0	53.0	0.0	0.0	0.0	0.0	Unassigned
+fcd05c4b2d0a98bbfbd5223c39bc0a61	0.0	0.0	0.0	0.0	78.0	61.0	Unassigned
+815e12ba585bb3b37323b6fc20f92728	10.0	0.0	0.0	0.0	61.0	65.0	Unassigned
+a37adf817c7efe1cf5bf103dc8f705cc	78.0	56.0	0.0	0.0	0.0	0.0	Unassigned
+ed1c348ff3c6f1e7c799b82f24a0d8d5	0.0	0.0	0.0	0.0	132.0	0.0	Unassigned
+2d955286cc6c1586b906276ffcd7fa97	0.0	0.0	71.0	58.0	0.0	0.0	Unassigned
+665169b35a3155d50e166198c59c50d5	0.0	0.0	82.0	45.0	16.0	11.0	Unassigned
+e9be5a0576c88109c3d7c867711fdf2d	0.0	0.0	70.0	53.0	0.0	0.0	Unassigned
+2b23bb34f4f807a759ba4893160f484c	0.0	0.0	58.0	65.0	0.0	0.0	Unassigned
+8eca078410d12fd6291f46e435effb18	84.0	37.0	0.0	0.0	0.0	0.0	Unassigned
+a2ec20d3ab165f5a5fc6547fbbaf74b4	78.0	34.0	0.0	0.0	0.0	0.0	Unassigned
+0f6e546b2682e854b5abac9d988f0b9d	0.0	0.0	0.0	0.0	111.0	0.0	Unassigned
+d177c6d465ef0915db76998d6cfb8fee	0.0	0.0	58.0	46.0	0.0	0.0	Unassigned
+cb6568ddd5d4feb2d1b6f8979c4a1abc	0.0	0.0	57.0	45.0	0.0	0.0	Unassigned
+1ed6547a6ed9998ea1f04cc1b6aa579e	0.0	0.0	64.0	35.0	0.0	0.0	Unassigned
+7bd7a5dbe1d6c1ed009fcb14bfd3d271	0.0	0.0	0.0	0.0	45.0	54.0	Unassigned
+002dd7ac7d62e0634eb61115f0b4bf91	68.0	29.0	0.0	0.0	0.0	0.0	Unassigned
+edf79479ded0835618fddfde650d0970	0.0	0.0	52.0	44.0	0.0	0.0	Unassigned
+a0b4883511f560c62525c00597ad9ae7	64.0	29.0	0.0	0.0	0.0	0.0	Unassigned
+62c1a36cb0cc2a4485f8935be512e05d	58.0	30.0	0.0	0.0	0.0	0.0	Unassigned
+6ae3df815ac4146ed5c289b14a2675be	32.0	15.0	0.0	0.0	16.0	24.0	Unassigned
+f386d34ebecedafaa5397cf04ea15237	0.0	0.0	48.0	39.0	0.0	0.0	Unassigned
+fcd8fee3ab3a3a597246bb127b644fd2	54.0	29.0	0.0	0.0	0.0	0.0	Unassigned
+2de91a59bb69c4a4fff065f9cbf23fb6	0.0	0.0	47.0	33.0	0.0	0.0	Unassigned
+0cee016bbedd1f81b6b7a316ad8bdd11	54.0	16.0	0.0	0.0	2.0	7.0	Unassigned
+e4ff3b58785dc22ca08dbc9cc6e4e62c	0.0	0.0	51.0	25.0	0.0	0.0	Unassigned
+5b1b20e3148c442208341e3bb623398b	0.0	0.0	41.0	35.0	0.0	0.0	Unassigned
+8efb8ffda171e7f84e16c042826aa4e9	49.0	26.0	0.0	0.0	0.0	0.0	Unassigned
+d2ad6c5e4871b3cd222a534a2429d3aa	38.0	22.0	5.0	4.0	0.0	0.0	Unassigned
+c860b3d1afabe0c61547632bf024f09e	0.0	0.0	42.0	26.0	0.0	0.0	Unassigned
+a0bdf3f5af70b4ec50b39b81e6f23546	0.0	0.0	0.0	0.0	30.0	35.0	Unassigned
+7c6b872796330f103af1d663c1d135be	0.0	0.0	63.0	34.0	0.0	0.0	Unassigned
+eca4c2b32897ce55d7de0271d56fe91c	0.0	0.0	0.0	0.0	40.0	22.0	Unassigned
+059f366bf22540a060884af82a3ed187	0.0	0.0	0.0	0.0	34.0	25.0	Unassigned
+268c0668894a9de447401e1373af7d4e	37.0	18.0	0.0	0.0	0.0	0.0	Unassigned
+ff51721282f090f7ca07b0671696af98	21.0	33.0	0.0	0.0	0.0	0.0	Unassigned
+ce80c74bf726d024a73be6840b30b78c	0.0	0.0	32.0	22.0	0.0	0.0	Unassigned
+caffdc6a60deabdca3df4f718d5a2f68	0.0	0.0	40.0	14.0	0.0	0.0	Unassigned
+35439f5de6fe5b5690265c4ad10aa64a	0.0	0.0	0.0	0.0	39.0	15.0	Unassigned
+4902723c87de2a8db5c123e5f5501551	0.0	0.0	0.0	0.0	0.0	53.0	Unassigned
+305e6066f578f069cd31e54d4cf84d2f	0.0	48.0	0.0	0.0	0.0	0.0	Unassigned
+924423f0c3887c6b2f9e23386c69e7f8	0.0	0.0	48.0	0.0	0.0	0.0	Unassigned
+86f864882e3cafd655d9381339661019	0.0	0.0	0.0	0.0	48.0	0.0	Unassigned
+6e5285f4160c2883ef1b2787b5ff3a30	0.0	0.0	0.0	0.0	0.0	43.0	Unassigned
+0e9b1294dbed3d7a70089512dc858dbf	20.0	10.0	7.0	0.0	5.0	0.0	Unassigned
+131a0617390ac548fa87cd729b6944e2	28.0	25.0	14.0	11.0	0.0	0.0	Unassigned
+90624cce401650b577b8f347109e7605	0.0	0.0	26.0	15.0	0.0	0.0	Unassigned
+74157b9e92791719463c8606eec51d4c	0.0	0.0	0.0	39.0	0.0	0.0	Unassigned
+c41b170e249ddb5b4661e4f1bb10c144	0.0	0.0	37.0	0.0	0.0	0.0	Unassigned
+430a94643dbb9b8f54af6250a5cdbd1c	0.0	0.0	16.0	19.0	0.0	0.0	Unassigned
+9b6e354027d3673c2a9de59b89f9008f	0.0	0.0	16.0	17.0	0.0	0.0	Unassigned
+37b1d3390b3757018914fab3d9cca693	32.0	23.0	0.0	0.0	0.0	0.0	Unassigned
+53a4b9ff0f58a213f585dce308aa49b1	0.0	0.0	0.0	0.0	19.0	12.0	Unassigned
+681d659632fa42d0ea9b382833487e09	0.0	0.0	0.0	0.0	30.0	0.0	Unassigned
+83f4e379d3a423eca98d68cfeff9c589	13.0	0.0	16.0	0.0	0.0	0.0	Unassigned
+758152f864c21c33c1808d7a59b0f999	0.0	7.0	0.0	0.0	29.0	0.0	Unassigned
+52d71aaa3f571d8853effbc2936bab0e	0.0	0.0	26.0	0.0	0.0	0.0	Unassigned
+3be4b5dc7213ee52ed26191687b863fb	0.0	0.0	13.0	12.0	0.0	0.0	Unassigned
+af2b3d604b851337bdbdbc954878fbcc	0.0	0.0	0.0	0.0	19.0	6.0	Unassigned
+411653f6bc16b9a641a0a6c12e036821	0.0	0.0	0.0	0.0	24.0	0.0	Unassigned
+319618e9919f7db7fba19510744a3c59	0.0	0.0	13.0	10.0	0.0	0.0	Unassigned
+322585b49be0099f79563334c6d1e99a	10.0	12.0	0.0	0.0	0.0	0.0	Unassigned
+50f44fb0c2436cc684f673bd0db51d11	10.0	12.0	0.0	0.0	0.0	0.0	Unassigned
+0017c358ab865ee22564cf72384b8f89	9.0	13.0	0.0	0.0	0.0	0.0	Unassigned
+6645af2751b9e945a3696693648a6fc2	0.0	0.0	22.0	0.0	0.0	0.0	Unassigned
+a4525a9e2e7882fe2656397f79269a2e	0.0	0.0	0.0	22.0	0.0	0.0	Unassigned
+836aefa79d4f0b293d2f5acad79cac8c	12.0	0.0	0.0	0.0	9.0	0.0	Unassigned
+5cf56c31f9c17a8152ef27eeb1841f35	0.0	0.0	0.0	0.0	20.0	0.0	Unassigned
+22b732b4b2040a2be4492c7783010ac1	0.0	0.0	0.0	0.0	0.0	20.0	Unassigned
+33a85c719b0bf7b5b5e94771eec64096	0.0	19.0	0.0	0.0	0.0	0.0	Unassigned
+9ffc2afde4bfdc9619802b246882039d	0.0	0.0	19.0	0.0	0.0	0.0	Unassigned
+e2a0b59464c443dcee9a5156cc08b314	0.0	0.0	18.0	0.0	0.0	0.0	Unassigned
+374b0cf5ed0b7f0b482679143fd26fea	0.0	0.0	18.0	0.0	0.0	0.0	Unassigned
+40877f8d0c86053addac9195d2bbf462	0.0	0.0	18.0	0.0	0.0	0.0	Unassigned
+ab8ea065c68a4e0b6c2f0a16b5730487	0.0	0.0	18.0	0.0	0.0	0.0	Unassigned
+fce3d60e4396d2bb31014e833c3e6abf	0.0	0.0	0.0	0.0	18.0	0.0	Unassigned
+069f282c57824a4b1bda5186371154c7	0.0	0.0	0.0	0.0	18.0	0.0	Unassigned
+e4a3073cd4b307c5fc5e22df4c455561	0.0	0.0	17.0	0.0	0.0	0.0	Unassigned
+f14a6c333c7159db1cad75cbeddeda5c	16.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+736d884b3fe1915b7a536e848510e736	0.0	0.0	15.0	0.0	0.0	0.0	Unassigned
+9247b33a9cf313cc79a27be214c3c297	0.0	0.0	0.0	0.0	14.0	0.0	Unassigned
+5ed3e8e98d2f3335ccfae33a29f210bf	0.0	0.0	0.0	0.0	14.0	0.0	Unassigned
+9b4ccacf944f543502cbedd86563344d	0.0	0.0	0.0	0.0	0.0	14.0	Unassigned
+dc92b026fb9631b0cd44ce2b0f3575d5	0.0	0.0	0.0	0.0	13.0	0.0	Unassigned
+b058b72fbf749f1af5e8ffb3d562a0af	0.0	12.0	0.0	0.0	0.0	0.0	Unassigned
+2f43e3fd8b2d0462bfe01dd3181dfd1b	0.0	0.0	0.0	0.0	12.0	0.0	Unassigned
+b3ce2750e1a3121c1dd7dcd951fd7344	0.0	0.0	0.0	0.0	12.0	0.0	Unassigned
+e81742f2a6ef21c8c51b21a5228c4c93	11.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+9e9cf59e4f9731463e8fdf3b494cc64c	0.0	0.0	11.0	0.0	0.0	0.0	Unassigned
+840f49b0d2a06e6daa0c9ebf4c17a4a2	0.0	0.0	0.0	0.0	11.0	0.0	Unassigned
+a4c2632e65e4173847a0ba0fd37772e4	0.0	0.0	0.0	0.0	11.0	0.0	Unassigned
+c95eae3ef53b2c869ee1f5c029fc45c8	0.0	0.0	0.0	0.0	5.0	6.0	Unassigned
+2f2cfb522935c7c63518a8d855dae284	0.0	0.0	0.0	0.0	11.0	0.0	Unassigned
+76545c64a9d29f086ef8d97590b112e3	10.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+b619135d07308e7b4cd050607d1b3c87	10.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+caea8426cd03d3c3affba3edff0e9abb	10.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+dc02a02e305a0a774f63a372a764ba4c	0.0	0.0	10.0	0.0	0.0	0.0	Unassigned
+0f52f5b4fc6e6ecca9b67092e06cd5a6	0.0	0.0	10.0	0.0	0.0	0.0	Unassigned
+126e1aa6fb5970933791e9415af894a8	0.0	0.0	2.0	8.0	0.0	0.0	Unassigned
+638e47368809c2c84ecdab39b6f3a60a	0.0	0.0	0.0	0.0	10.0	0.0	Unassigned
+bb3e1b4ea12ca782a36c434579789dd5	9.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+26657aefd252905d02f3c6067d2e61f1	9.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+60b77915be914fa0b33281568dca1e9c	9.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+45c9b49bac1a0a27406a41a7820926a1	0.0	0.0	4.0	5.0	0.0	0.0	Unassigned
+d780822b0b33a433bdecc3736f4c11d2	0.0	0.0	0.0	9.0	0.0	0.0	Unassigned
+9714f30fb10ceafce8fc4a4f476e7023	8.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+a2e7915132cd9bd3c1b9525fe71aff59	8.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+bb6b184e79d4697c588ae2a63661ae2c	0.0	8.0	0.0	0.0	0.0	0.0	Unassigned
+f1f912121d83d5094279cae1b2c8b0dc	0.0	0.0	8.0	0.0	0.0	0.0	Unassigned
+5e3786f36b32719bdd8f1d76aac16890	0.0	0.0	0.0	0.0	7.0	0.0	Unassigned
+ce597b304f9d01cd5fd9e8002519427c	0.0	0.0	6.0	0.0	0.0	0.0	Unassigned
+bcb51602168b63cc0f13a7f1d772a082	0.0	0.0	0.0	6.0	0.0	0.0	Unassigned
+cbb49dc1052dbc396e45eb15a53334d0	0.0	0.0	5.0	0.0	0.0	0.0	Unassigned
+e63107b388d88d342cc68c62396bb77b	0.0	0.0	0.0	5.0	0.0	0.0	Unassigned
+c72fcb66b9d417fc5969602a16465480	0.0	0.0	0.0	0.0	5.0	0.0	Unassigned
+0cd45d635e6cd6f9792cb839e792d407	4.0	0.0	0.0	0.0	0.0	0.0	Unassigned
+070185fd71c3720274ffa2525c11ec91	0.0	4.0	0.0	0.0	0.0	0.0	Unassigned
+a6fe7a0cc07218a7685001cfd1b47038	0.0	0.0	3.0	0.0	0.0	0.0	Unassigned
+8668ef54954247c4610a5db0b16f637f	0.0	0.0	3.0	0.0	0.0	0.0	Unassigned
+e0a2ca4c025779f0a3172d26e8b6e3a5	0.0	0.0	0.0	3.0	0.0	0.0	Unassigned
+0856a0a11b1c46a6030e531f0d0ef535	0.0	0.0	0.0	3.0	0.0	0.0	Unassigned
+4f20a3a8aeb70abccaa6ab8c6702d67d	0.0	0.0	0.0	3.0	0.0	0.0	Unassigned
+534e7d849b79382080844824adf77787	0.0	2.0	0.0	0.0	0.0	0.0	Unassigned
+b9dba09d5fa20fba238e01afc988b76f	0.0	0.0	2.0	0.0	0.0	0.0	Unassigned
+a683d050e26be93c5fdc484f44e0ec8c	0.0	0.0	0.0	2.0	0.0	0.0	Unassigned

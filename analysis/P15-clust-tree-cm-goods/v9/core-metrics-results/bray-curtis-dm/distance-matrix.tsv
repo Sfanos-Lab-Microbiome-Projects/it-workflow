@@ -1,0 +1,4 @@
+	Patient2-fresh	Patient3-fresh	Patient3-frozen
+Patient2-fresh	0.0	0.9594	0.9188
+Patient3-fresh	0.9594	0.0	0.045
+Patient3-frozen	0.9188	0.045	0.0

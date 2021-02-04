@@ -1,0 +1,24 @@
+#OTUID	taxonomy	confidence
+12fe040a5a501317c8df824ebda3621c	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli	0.7
+c4b370215eba390323bb84ae8932f79f	k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Bilophila; s__Bilophila_wadsworthia	1.0
+303e16f2de276b1cd0f77051e584467e	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Gallibacterium; s__Gallibacterium_genomosp	0.6
+cbdcfa3e06ba5bb4ad9a79466c6e5a43	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Morganella; s__Morganella_morganii	1.0
+a81426bfb76628614445c3e7ff6e3b69	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae	1.0
+e61be19022dd5e70c227d9d5afb9ee60	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pasteurellales; f__Pasteurellaceae; g__Avibacterium; s__Avibacterium_paragallinarum	0.6
+4dbe00789c1c536c5b3334fa0269e9ff	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_asaccharolytica	0.6
+2dc3a60bc2f6a5e3e532da9f73e554fa	Unassigned	1.0
+a4e5c10795ac172dfa7885f64af8a381	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter_hominis	1.0
+67b5cfdace389776e8aa0b0506e77adc	Unassigned	1.0
+078b7628dd0d5ce8c942d490794f1f6b	Unassigned	1.0
+4c6c5159d53a5568f303aa4c19a32f4b	Unassigned	1.0
+a9bf2a93813500174109a183d2a17beb	Unassigned	1.0
+8a4b6859cea87edba3db2b8317658e70	Unassigned	1.0
+e3d40f9e9033598993e2101548de621d	Unassigned	1.0
+67d7f122fcb4e644fa8bbefb3cd57a71	Unassigned	1.0
+d27c76b08bce6ed1e3e32182666ce6de	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Peptoniphilus_asaccharolyticus	1.0
+89bd21149fc4e9ff8721d481d6020505	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_lwoffii	0.8
+966052aae53b66c9617d80237aeeed8a	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Moraxella	0.9
+a4961cdf9be2ba306ed91803ece03409	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_johnsonii	0.8
+8adce1d6621160a2af734a787885a122	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii	0.9
+a0d481d7b47c90c17407495aef8f140c	Unassigned	1.0
+720247eaa57dbe079491f8ae223fe55a	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Moraxella; s__Moraxella_osloensis	1.0

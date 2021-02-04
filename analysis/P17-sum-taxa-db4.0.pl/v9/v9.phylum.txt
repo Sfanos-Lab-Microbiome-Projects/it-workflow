@@ -1,0 +1,7 @@
+Region	SampleID	Unassigned; p__unassigned	k__Bacteria; p__Bacteroidetes	k__Bacteria; p__Firmicutes	k__Bacteria; p__Proteobacteria
+v9	Patient1-fresh	0	0	0	100
+v9	Patient1-frozen	0	0	0	100
+v9	Patient2-fresh	0.158499537709682	0	0	99.8415004622903
+v9	Patient2-frozen	0.115573533660792	0	0	99.8844264663392
+v9	Patient3-fresh	0.147906635285989	0.0615377971627837	0.0215922095308013	99.7689633580204
+v9	Patient3-frozen	0.410756339339504	0.116837358745459	0	99.472406301915

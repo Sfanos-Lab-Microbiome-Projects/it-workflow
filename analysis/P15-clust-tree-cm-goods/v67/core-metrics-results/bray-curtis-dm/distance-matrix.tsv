@@ -1,0 +1,7 @@
+	Patient1-fresh	Patient1-frozen	Patient2-fresh	Patient2-frozen	Patient3-fresh	Patient3-frozen
+Patient1-fresh	0.0	0.1799	0.8212	0.8043	0.81	0.7814
+Patient1-frozen	0.1799	0.0	0.7974	0.7749	0.7782	0.7658
+Patient2-fresh	0.8212	0.7974	0.0	0.1676	0.7672	0.8311
+Patient2-frozen	0.8043	0.7749	0.1676	0.0	0.7453	0.8222
+Patient3-fresh	0.81	0.7782	0.7672	0.7453	0.0	0.368
+Patient3-frozen	0.7814	0.7658	0.8311	0.8222	0.368	0.0
