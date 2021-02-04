@@ -5,7 +5,7 @@ library(grid)
 library(reshape2)
 # ---------------------------------------------------
 # configure per user ---
-#setwd("") # git repository already cloned to desktop
+#setwd("it-workflow/code") # git repository already cloned to desktop
 analysisdir = "../analysis/P21-alpha-vis" #create the analysis directory you want outputs to go into
 unlink(analysisdir, recursive=TRUE)
 dir.create(analysisdir)
@@ -18,7 +18,12 @@ tablefile = "../analysis/P08-sum-alpha/alpha-diversity-per-sample-region.txt"
 A <- read.table(tablefile, sep="\t", header=TRUE, check.names=FALSE, as.is=TRUE)
 meltA <- melt(A, id.vars=c("Region", "SampleID"))
 colnames(meltA) = c("Region", "SampleID", "Measure", "Value")
-
+meltA$Measure = gsub("exported-","", meltA$Measure)
+meltA$Measure = gsub("-vector","", meltA$Measure)
+meltA$Measure = gsub("evenness","Evenness", meltA$Measure)
+meltA$Measure = gsub("faith-pd","Faith's-PD", meltA$Measure)
+meltA$Measure = gsub("observed-otus","Observed-OTUs", meltA$Measure)
+meltA$Measure = gsub("shannon","Shannon", meltA$Measure)
   # --------------------------------------------------------
   # BEGIN color scheme for major sample metadata features of interest ---------
   mycolors = c()
