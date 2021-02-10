@@ -10,7 +10,7 @@ library(ape)
 #setwd("it-workflow/code")
 
 # set the location place for the analysis outputs ---
-analysisdir = "../analysis/P11-pcoa/"
+analysisdir = "../analysis/P22-pcoa/"
 unlink(analysisdir, recursive=TRUE)
 dir.create(analysisdir)
 
@@ -25,7 +25,7 @@ dist.types = c("bray-curtis", "jaccard", "unweighted-unifrac", "weighted-unifrac
 for (region in regions){
   for (dist in dist.types){
     # specify distance file and output prefix ---
-    distfile   = paste("../analysis/P05-clust-tree-cm-goods/", region, "/exported-", dist, "-dm/distance-matrix.tsv", sep="")
+    distfile   = paste("../analysis/P05-clust-tree-cm-goods/", region,"/", "core-metrics-results/", dist, "-dm/distance-matrix.tsv", sep="")
     prefix     = paste(dist, "-", region, sep="")
     print(paste("Analyzing ", prefix, "...", sep=""))
 

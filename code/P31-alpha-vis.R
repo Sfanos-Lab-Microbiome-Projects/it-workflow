@@ -34,12 +34,12 @@ meltA$Measure = gsub("shannon","Shannon", meltA$Measure)
   mycolors$Region["v8"]  = "#B5EAD7"
   mycolors$Region["v9"]  = "#C7CEEA"
 
-  mycolors$SampleID["P1.fresh"] = "#FFA762"
-  mycolors$SampleID["P1.frozen"] = "#FFD2AF"
-  mycolors$SampleID["P2.fresh"] = "#6D5FA6"
-  mycolors$SampleID["P2.frozen"] = "#B3ACD0"
-  mycolors$SampleID["P3.fresh"] = "#518FBF"
-  mycolors$SampleID["P3.frozen"] = "#62FFF5"
+  mycolors$SampleID["Patient1-fresh"] = "#FFA762"
+  mycolors$SampleID["Patient1-frozen"] = "#FFD2AF"
+  mycolors$SampleID["Patient2-fresh"] = "#6D5FA6"
+  mycolors$SampleID["Patient2-frozen"] = "#B3ACD0"
+  mycolors$SampleID["Patient3-fresh"] = "#518FBF"
+  mycolors$SampleID["Patient3-frozen"] = "#62FFF5"
 
   # END color scheme for major sample metadata features of interest ---------
   # --------------------------------------------------------
