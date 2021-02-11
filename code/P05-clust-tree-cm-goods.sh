@@ -68,6 +68,28 @@ qiime phylogeny align-to-tree-mafft-fasttree \
   --o-rooted-tree ../data/P05-clust-tree-cm-goods/$REGION/$REGION-rooted-tree.qza \
   --verbose
 
+#taxonomic classification
+qiime feature-classifier classify-consensus-vsearch \
+  --i-query ../analysis/P05-clust-tree-cm-goods/$REGION/rep-seqs.qza \
+  --i-reference-reads ../external/db/sfanos_db_v4.0.fasta.qza \
+  --i-reference-taxonomy ../external/db/sfanos_db_v4.0.txt.qza \
+  --p-perc-identity 0.99 \
+  --o-classification ../analysis/P05-clust-tree-cm-goods/$REGION/tax-class.qza \
+  --verbose
+
+# export taxonomic classification qza files
+qiime tools export \
+  --input-path $outDir/$REGION/tax-class.qza \
+  --output-path $outDir/$REGION/tax-class
+
+#filter contaminants out of feature table
+qiime taxa filter-table \
+  --i-table table.qza \
+  --i-taxonomy taxonomy.qza \
+  --p-mode exact \
+  --p-exclude "k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Varibaculum; s__unassigned","s__unassigned, k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1; s__Corynebacterium_amycolatum","__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Microbacterium; s__unassigned" \
+  --o-filtered-table table-no-mitochondria-exact.qza
+  
 #core metrics 
 qiime diversity core-metrics-phylogenetic \
 --i-table ../analysis/P05-clust-tree-cm-goods/$REGION/table.qza \
@@ -110,20 +132,6 @@ qiime tools export \
 qiime tools export \
  --input-path $outDir/$REGION/core-metrics-results/weighted_unifrac_distance_matrix.qza \
  --output-path $outDir/$REGION/core-metrics-results/weighted-unifrac-dm
-
-#taxonomic classification
-qiime feature-classifier classify-consensus-vsearch \
-  --i-query ../analysis/P05-clust-tree-cm-goods/$REGION/rep-seqs.qza \
-  --i-reference-reads ../external/db/sfanos_db_v4.0.fasta.qza \
-  --i-reference-taxonomy ../external/db/sfanos_db_v4.0.txt.qza \
-  --p-perc-identity 0.99 \
-  --o-classification ../analysis/P05-clust-tree-cm-goods/$REGION/tax-class.qza \
-  --verbose
-
-# export taxonomic classification qza files
-qiime tools export \
-  --input-path $outDir/$REGION/tax-class.qza \
-  --output-path $outDir/$REGION/tax-class
 
 # calculate Good's Coverage
 qiime diversity alpha \
