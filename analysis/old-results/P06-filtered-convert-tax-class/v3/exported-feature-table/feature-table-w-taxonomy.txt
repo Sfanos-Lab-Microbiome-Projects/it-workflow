@@ -1,0 +1,29 @@
+# Constructed from biom file
+#OTU ID	atcc1	atcc2	atcc3	atcc4	atcc5	taxonomy
+AY366421	13340.0	9541.0	463.0	2190.0	1073.0	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Helicobacter; s__Helicobacter_pylori
+f0bccabde4d9d6698461ff045d4b4793	0.0	6.0	0.0	0.0	0.0	Unassigned
+AY568492	30490.0	23324.0	1509.0	5984.0	3039.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii
+AB686281	57693.0	43101.0	2254.0	10000.0	5074.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus_cereus
+FJ611793	2908.0	2227.0	101.0	291.0	171.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium
+AF414809	34223.0	23792.0	1233.0	5585.0	2958.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_gingivalis
+HM216570	26845.0	18788.0	990.0	4631.0	2178.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis
+55f82d0c00f8233e7a6ae504a1c9c3dc	15.0	0.0	0.0	0.0	0.0	Unassigned
+da6081e4e62f61468f6ea348a2fc0ef7	0.0	11.0	0.0	0.0	0.0	Unassigned
+KF318815	33779.0	24727.0	1051.0	5410.0	2788.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas_aeruginosa
+EU156766	31348.0	22343.0	1184.0	5618.0	2579.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_mutans
+AJ867050	50416.0	39167.0	1567.0	7447.0	3891.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus
+JQ904752	35972.0	27453.0	1433.0	6435.0	3175.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli
+JBMS01000011	32095.0	22861.0	1197.0	5361.0	2485.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus
+JN700236	1929.0	1395.0	52.0	200.0	120.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_acnes
+KF372582	79706.0	57341.0	2153.0	11955.0	5102.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1
+97feb4f035f7d1f624fbab3b6cfb4b3c	226.0	0.0	0.0	0.0	0.0	Unassigned
+daa183941ea13fb0dc0ea70af8a449a8	4741.0	3339.0	180.0	762.0	441.0	Unassigned
+AJ234037	1749.0	1259.0	71.0	201.0	110.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus
+ANDZ01000001	35746.0	25917.0	1327.0	6657.0	2997.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_agalactiae
+AF468821	23319.0	18104.0	851.0	4264.0	1861.0	k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter_sphaeroides
+10e91475c7fdbee9c9ed85edae567b31	11.0	0.0	0.0	0.0	0.0	Unassigned
+AOAJ01000017	4362.0	3055.0	213.0	724.0	383.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis
+AB233334	15.0	20.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus
+ALZP01000053	19056.0	14711.0	710.0	3419.0	1676.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus; s__Enterococcus_faecalis
+AB976552	42929.0	29943.0	1544.0	6891.0	3505.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus_gasseri
+AJ239308	21376.0	15388.0	963.0	4309.0	2109.0	k__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Neisseria; s__Neisseria_meningitidis

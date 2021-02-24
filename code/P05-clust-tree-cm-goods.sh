@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH -c 5
-#SBATCH -t 24:00:00
+#SBATCH -c 12
+#SBATCH -t 12:00:00
 #SBATCH --mail-type=all
-#SBATCH --mail-user=cjone228@jhu.edu
+#SBATCH --mail-user=lpeiffe1@jhu.edu
 #SBATCH --job-name="P05-clust-tree-cm-goods"
-#SBATCH --mem=5G
-#SBATCH -p parallel
+#SBATCH --mem=200GB
+#SBATCH -p lrgmem
 #SBATCH --array=1-6
 
 # configure

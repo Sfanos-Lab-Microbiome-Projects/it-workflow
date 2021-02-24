@@ -1,0 +1,162 @@
+Note that users no longer need to load the SLURM module. You may remove 'module
+load slurm' from your scripts. 
+Please read this resource guide to understand the above behavior:
+https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
+Note that users no longer need to load the SLURM module. You may remove 'module
+load slurm' from your scripts. 
+Please read this resource guide to understand the above behavior:
+https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
+v3
+../external/P02-dada2/v3/merged-v3-table.qza
+../external/P02-dada2/v3/merged-v3-rep-seqs.qza
+Saved FeatureTable[Frequency] to: ../analysis/P05-clust-tree-cm-goods/v3/table.qza
+Saved FeatureData[Sequence] to: ../analysis/P05-clust-tree-cm-goods/v3/rep-seqs.qza
+Saved FeatureData[Sequence] to: ../analysis/P05-clust-tree-cm-goods/v3/new-ref-seqs.qza
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/table.qzv
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/rep-seqs.qzv
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/new-ref-seqs.qzv
+inputfile = orig
+39 x 179 - 65 d
+nthread = 4
+nthreadpair = 4
+nthreadtb = 4
+ppenalty_ex = 0
+stacksize: -1 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 39 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 39   10 / 39   20 / 39   30 / 39
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 38 (thread    0)STEP     2 / 38 (thread    1) f fSTEP     3 / 38 (thread    2) fSTEP     6 / 38 (thread    1) fSTEP     4 / 38 (thread    3) fSTEP     8 / 38 (thread    1) fSTEP     7 / 38 (thread    0) fSTEP     9 / 38 (thread    1) fSTEP    11 / 38 (thread    0) fSTEP    12 / 38 (thread    3) fSTEP     5 / 38 (thread    2) fSTEP    13 / 38 (thread    0) fSTEP    14 / 38 (thread    3) fSTEP    10 / 38 (thread    1) fSTEP    16 / 38 (thread    0) fSTEP    17 / 38 (thread    3) fSTEP    18 / 38 (thread    0) fSTEP    19 / 38 (thread    3) fSTEP    20 / 38 (thread    1) fSTEP    15 / 38 (thread    2) fSTEP    21 / 38 (thread    0) fSTEP    23 / 38 (thread    1) fSTEP    24 / 38 (thread    2) f
+Reallocating..done. *alloclen = 1364
+STEP    22 / 38 (thread    3) fSTEP    26 / 38 (thread    1) fSTEP    25 / 38 (thread    0) fSTEP    27 / 38 (thread    2) fSTEP    31 / 38 (thread    2) fSTEP    28 / 38 (thread    0) fSTEP    29 / 38 (thread    3) fSTEP    33 / 38 (thread    2) fSTEP    32 / 38 (thread    0) fSTEP    30 / 38 (thread    1) fSTEP    34 / 38 (thread    3) fSTEP    35 / 38 (thread    2) fSTEP    36 / 38 (thread    0) fSTEP    37 / 38 (thread    1) fSTEP    38 / 38 (thread    3) f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 39 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 39   10 / 39   20 / 39   30 / 39
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 38 (thread    0) fSTEP     3 / 38 (thread    2) fSTEP     5 / 38 (thread    0) fSTEP     2 / 38 (thread    1) fSTEP     6 / 38 (thread    2) fSTEP     7 / 38 (thread    0) fSTEP     8 / 38 (thread    2) fSTEP     9 / 38 (thread    0) fSTEP    10 / 38 (thread    2) fSTEP    11 / 38 (thread    0) fSTEP    12 / 38 (thread    2) fSTEP    13 / 38 (thread    0) fSTEP    14 / 38 (thread    2) fSTEP    15 / 38 (thread    2) fSTEP    18 / 38 (thread    1) fSTEP     4 / 38 (thread    3) fSTEP    19 / 38 (thread    1) fSTEP    20 / 38 (thread    1) fSTEP    21 / 38 (thread    1) fSTEP    23 / 38 (thread    3) fSTEP    16 / 38 (thread    0) fSTEP    24 / 38 (thread    3) fSTEP    25 / 38 (thread    0) fSTEP    17 / 38 (thread    2) fSTEP    27 / 38 (thread    0) fSTEP    28 / 38 (thread    2) f
+Reallocating..done. *alloclen = 1360
+STEP    22 / 38 (thread    1) fSTEP    29 / 38 (thread    0) fSTEP    30 / 38 (thread    2) fSTEP    31 / 38 (thread    1) fSTEP    26 / 38 (thread    3) fSTEP    32 / 38 (thread    2) fSTEP    33 / 38 (thread    0) fSTEP    34 / 38 (thread    1) fSTEP    35 / 38 (thread    3) fSTEP    36 / 38 (thread    2) fSTEP    37 / 38 (thread    0) fSTEP    38 / 38 (thread    1) f
+done.
+
+disttbfast (nuc) Version 7.470
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+4 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+FastTree Version 2.1.10 Double precision (No SSE3), OpenMP (4 threads)
+Alignment: /tmp/qiime2-archive-8vvt0fxl/0694d4d0-64f5-403a-bd98-16df55c15aef/data/aligned-dna-sequences.fasta
+Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Jukes-Cantor, CAT approximation with 20 rate categories
+Initial topology in 0.00 seconds
+Refining topology: 21 rounds ME-NNIs, 2 rounds ME-SPRs, 11 rounds ML-NNIs
+Total branch-length 3.249 after 0.04 sec
+ML-NNI round 1: LogLk = -2529.761 NNIs 5 max delta 7.25 Time 0.05
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.878 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -2210.380 NNIs 3 max delta 1.62 Time 0.07
+ML-NNI round 3: LogLk = -2207.409 NNIs 4 max delta 1.32 Time 0.08
+ML-NNI round 4: LogLk = -2205.713 NNIs 2 max delta 1.51 Time 0.09
+ML-NNI round 5: LogLk = -2205.679 NNIs 0 max delta 0.00 Time 0.10
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 6: LogLk = -2205.655 NNIs 1 max delta 0.00 Time 0.11 (final)
+      0.11 seconds: ML Lengths 1 of 37 splits
+Optimize all lengths: LogLk = -2205.655 Time 0.12
+Total time: 0.14 seconds Unique: 39/39 Bad splits: 0/36
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: mafft --preservecase --inputorder --thread 4 /tmp/qiime2-archive-jo33h6xs/2fc65fc7-9951-4484-ad27-b24e5b5b31fd/data/dna-sequences.fasta
+
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: FastTreeMP -quote -nt /tmp/qiime2-archive-8vvt0fxl/0694d4d0-64f5-403a-bd98-16df55c15aef/data/aligned-dna-sequences.fasta
+
+Saved FeatureData[AlignedSequence] to: ../data/P05-clust-tree-cm-goods/v3/v3-alignment.qza
+Saved FeatureData[AlignedSequence] to: ../data/P05-clust-tree-cm-goods/v3/v3-masked-alignment.qza
+Saved Phylogeny[Unrooted] to: ../data/P05-clust-tree-cm-goods/v3/v3-unrooted-tree.qza
+Saved Phylogeny[Rooted] to: ../data/P05-clust-tree-cm-goods/v3/v3-rooted-tree.qza
+vsearch v2.7.0_linux_x86_64, 1007.9GB RAM, 48 cores
+https://github.com/torognes/vsearch
+
+Reading file /tmp/qiime2-archive-ldue3xij/d009fdf2-df54-4690-8450-270c39c6b224/data/dna-sequences.fasta 100%
+105012606 nt in 72682 seqs, min 900, max 2200, avg 1445
+Masking 100%
+Counting k-mers 100%
+Creating k-mer index 100%
+Searching 100%
+Matching query sequences: 33 of 39 (84.62%)
+Running external command line application. This may print messages to stdout and/or stderr.
+The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
+
+Command: vsearch --usearch_global /tmp/qiime2-archive-7yi625lt/2fc65fc7-9951-4484-ad27-b24e5b5b31fd/data/dna-sequences.fasta --id 0.99 --query_cov 0.8 --strand both --maxaccepts 10 --maxrejects 0 --db /tmp/qiime2-archive-ldue3xij/d009fdf2-df54-4690-8450-270c39c6b224/data/dna-sequences.fasta --threads 1 --output_no_hits --blast6out /tmp/tmp4dvl9q1g
+
+Saved FeatureData[Taxonomy] to: ../analysis/P05-clust-tree-cm-goods/v3/tax-class.qza
+Exported ../analysis/P05-clust-tree-cm-goods/v3/tax-class.qza as TSVTaxonomyDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/tax-class
+Saved FeatureTable[Frequency] to: ../analysis/P05-clust-tree-cm-goods/v3/v3-filtered-table.qza
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/v3-filtered-table.qzv
+Saved FeatureTable[Frequency] to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/rarefied_table.qza
+Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/faith_pd_vector.qza
+Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/observed_features_vector.qza
+Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/shannon_vector.qza
+Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/evenness_vector.qza
+Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/unweighted_unifrac_distance_matrix.qza
+Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/weighted_unifrac_distance_matrix.qza
+Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/jaccard_distance_matrix.qza
+Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/bray_curtis_distance_matrix.qza
+Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/unweighted_unifrac_pcoa_results.qza
+Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/weighted_unifrac_pcoa_results.qza
+Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/jaccard_pcoa_results.qza
+Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/bray_curtis_pcoa_results.qza
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/unweighted_unifrac_emperor.qzv
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/weighted_unifrac_emperor.qzv
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/jaccard_emperor.qzv
+Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/bray_curtis_emperor.qzv
+/home-3/lpeiffe1@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/sklearn/metrics/pairwise.py:1761: DataConversionWarning: Data was converted to boolean for metric jaccard
+  warnings.warn(msg, DataConversionWarning)
+/home-3/lpeiffe1@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:188: RuntimeWarning: invalid value encountered in true_divide
+  proportion_explained = eigvals / sum_eigenvalues
+/home-3/lpeiffe1@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/emperor/core.py:634: RuntimeWarning: invalid value encountered in true_divide
+  c_data = (coords / np.max(np.abs(coords)))
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/faith_pd_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/exported-faith-pd-vector
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/evenness_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/exported-evenness-vector
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/shannon_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/exported-shannon-vector
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/observed_features_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/exported-observed-otus-vector
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/bray_curtis_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/bray-curtis-dm
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/jaccard_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/jaccard-dm
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/unweighted_unifrac_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/unweighted-unifrac-dm
+Exported ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/weighted_unifrac_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/core-metrics-results/weighted-unifrac-dm
+Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v3/observed_otus_vector.qza
+Exported ../analysis/P05-clust-tree-cm-goods/v3/observed_otus_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v3/goods-coverage

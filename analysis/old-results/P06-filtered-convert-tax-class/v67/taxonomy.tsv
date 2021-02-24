@@ -1,0 +1,61 @@
+#OTUID	taxonomy	confidence
+1a901c6d139772d02ade3f877874449c	Unassigned	1.0
+32a421ca9f8ddbcdbf2ba0dbb67e4e64	Unassigned	1.0
+363809f5ed2f3a5e7c743859ac3e715c	Unassigned	1.0
+3fb3fdc0085b803c2ccfc65e4b365684	Unassigned	1.0
+3ff340544e5a36917b5e5c1c8341348a	Unassigned	1.0
+514d0dacc07d312898736303340a5a4d	Unassigned	1.0
+61e5978c3211bd9a1b845d0a850b542b	Unassigned	1.0
+7a0cd92bee871610e50e9399c8817216	Unassigned	1.0
+7a9d3c190c1efda5e5d631f26e92089e	Unassigned	1.0
+7d4540927d5ded443b27ed24f339ea44	Unassigned	1.0
+815e0dfc845008a7738cf9874285a958	Unassigned	1.0
+8ac77091e9e9e898db202290d9f581bb	Unassigned	1.0
+90ed11c8df9d4009e91687217af6e2d8	Unassigned	1.0
+941086778c4389c471018174b81335f8	Unassigned	1.0
+97c7d864680d62abd920734650bd5294	Unassigned	1.0
+AB238928	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Parabacteroides; s__Parabacteroides_merdae	1.0
+AB272346	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli	0.9
+AB510703	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_massiliensis	1.0
+AB510710	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_thetaiotaomicron	1.0
+AF414809	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_gingivalis	1.0
+AF468821	k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter_sphaeroides	0.9
+AJ234040	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus	0.9
+AJ510251	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Varibaculum	1.0
+AJ577290	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus_cereus	0.8
+AJ867043	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus	1.0
+AJ867050	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus	1.0
+ALZP01000053	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus; s__Enterococcus_faecalis	0.8
+ANDZ01000001	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_agalactiae	0.8
+AOAJ01000015	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_capitis	0.6
+AP013354	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Helicobacter; s__Helicobacter_pylori	1.0
+CP010437	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium	1.0
+CQ889266	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerostipes; s__Anaerostipes_hadrus	0.75
+DI249641	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus_johnsonii	0.6
+EU136687	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus	1.0
+EU156766	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_mutans	1.0
+EU483154	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Ezakiella; s__Sporobacterium_sp	1.0
+FR798912	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Candidatus_Peptoniphilus_massiliensis	1.0
+FW305997	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli	0.9
+HE586272	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1; s__Corynebacterium_amycolatum	1.0
+HM126553	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis	0.9
+HQ413678	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Microbacterium	1.0
+JILU01000043	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus	0.9
+JN020353	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium	1.0
+JN700236	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_acnes	0.9
+KF318815	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas_aeruginosa	1.0
+KF372576	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1; s__Clostridium_beijerinckii	0.6
+KF372582	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1	0.7
+KP091275	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus	0.9
+LN611370	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii	0.8
+Y11332	k__Bacteria; p__DeinococcusThermus; c__Deinococci; o__Deinococcales; f__Deinococcaceae; g__Deinococcus; s__Deinococcus_radiodurans	1.0
+af368b32a2e2ea15248a44edc2540b27	Unassigned	1.0
+b1322758c90898ee2492814a69d6f576	Unassigned	1.0
+b73bfc8a5a52231dffee50d662018a95	Unassigned	1.0
+b87f467e20076f5e9959f2b3258e96bf	Unassigned	1.0
+c8c6fd83e79463294ac071a0c2f9b2ea	Unassigned	1.0
+cc42fdb95b88d0536dab3df1edce46e6	Unassigned	1.0
+d23cf01e4cdeff7b08968a7adbf8d7c3	Unassigned	1.0
+da17e2e71ac370f03c37f95dfc4a6369	Unassigned	1.0
+ecfae507881cefee6d24f88231d955d1	Unassigned	1.0
+efbacf2a08a5314019719883ae510da5	Unassigned	1.0

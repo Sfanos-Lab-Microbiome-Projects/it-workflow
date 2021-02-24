@@ -1,0 +1,6 @@
+Region	SampleID	Unassigned; p__unassigned; c__unassigned; o__unassigned; f__unassigned; g__unassigned	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter
+v9	atcc1	0.221685580535676	0.00990158920506741	53.9653114324849	45.8031013977743
+v9	atcc2	0.331948972149035	0	57.0513106774438	42.6167403504071
+v9	atcc3	0	0	51.7734855136084	48.2265144863916
+v9	atcc4	0.021225413895571	0	51.9621715956795	48.016602990425
+v9	atcc5	0.0566294170945334	0	53.881002718212	46.0623678646934

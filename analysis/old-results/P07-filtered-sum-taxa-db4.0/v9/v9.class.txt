@@ -1,0 +1,6 @@
+Region	SampleID	Unassigned; p__unassigned; c__unassigned	k__Bacteria; p__Firmicutes; c__Bacilli	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria
+v9	atcc1	0.221685580535676	0.00990158920506741	99.7684128302593
+v9	atcc2	0.331948972149035	0	99.668051027851
+v9	atcc3	0	0	100
+v9	atcc4	0.021225413895571	0	99.9787745861044
+v9	atcc5	0.0566294170945334	0	99.9433705829055
