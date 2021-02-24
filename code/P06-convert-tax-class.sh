@@ -20,7 +20,7 @@ echo "$REGION"
 outDir=../analysis/P06-convert-tax-class
 
 qiime tools export \
-  --input-path ../analysis/P05-clust-tree-cm-goods/$REGION/$REGION-table.qza \
+  --input-path ../analysis/P05-clust-tree-cm-goods/$REGION/table.qza \
   --output-path $outDir/$REGION/exported-feature-table
 
 # we need to reformat the column names in $outDir/$REGION/tax-class/taxonomy.tsv
