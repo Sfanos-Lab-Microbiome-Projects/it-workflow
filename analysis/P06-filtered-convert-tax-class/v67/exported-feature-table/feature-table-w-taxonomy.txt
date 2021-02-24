@@ -1,62 +1,54 @@
 # Constructed from biom file
 #OTU ID	atcc1	atcc2	atcc3	atcc4	atcc5	taxonomy
-HQ413678	2.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Micrococcales; f__Microbacteriaceae; g__Microbacterium
-AJ234040	4508.0	3153.0	145.0	434.0	322.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus
 AF468821	9578.0	6828.0	458.0	2041.0	1127.0	k__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter_sphaeroides
-DI249641	28303.0	18907.0	909.0	3262.0	1933.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus_johnsonii
-LN611370	558.0	526.0	14.0	20.0	31.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii
-CP010437	2513.0	1970.0	71.0	230.0	181.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium
-EU136687	24609.0	14964.0	1535.0	4971.0	3676.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus
-FW305997	4713.0	3471.0	181.0	830.0	438.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli
-KF318815	6961.0	4302.0	345.0	1525.0	698.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas_aeruginosa
-HE586272	3.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Corynebacteriales; f__Corynebacteriaceae; g__Corynebacterium_1; s__Corynebacterium_amycolatum
-ANDZ01000001	12703.0	9130.0	408.0	2066.0	969.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_agalactiae
-CQ889266	0.0	0.0	7.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerostipes; s__Anaerostipes_hadrus
-KF372582	2721.0	1939.0	0.0	454.0	276.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1
-AJ867050	7771.0	5076.0	500.0	1484.0	998.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus
-FR798912	6.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Peptoniphilus; s__Candidatus_Peptoniphilus_massiliensis
-AB238928	0.0	0.0	6.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Parabacteroides; s__Parabacteroides_merdae
-KF372576	75724.0	57898.0	3019.0	11235.0	7764.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1; s__Clostridium_beijerinckii
-AP013354	14015.0	11091.0	347.0	825.0	794.0	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Helicobacter; s__Helicobacter_pylori
+61e5978c3211bd9a1b845d0a850b542b	0.0	0.0	548.0	0.0	0.0	Unassigned
+32a421ca9f8ddbcdbf2ba0dbb67e4e64	0.0	0.0	0.0	0.0	40.0	Unassigned
+b73bfc8a5a52231dffee50d662018a95	6.0	0.0	0.0	0.0	0.0	Unassigned
+8ac77091e9e9e898db202290d9f581bb	21.0	0.0	0.0	0.0	0.0	Unassigned
+3fb3fdc0085b803c2ccfc65e4b365684	0.0	32.0	0.0	0.0	0.0	Unassigned
 EU156766	9429.0	6503.0	274.0	1317.0	626.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_mutans
-AB272346	26883.0	18078.0	1271.0	4042.0	2543.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli
+7a9d3c190c1efda5e5d631f26e92089e	0.0	0.0	0.0	0.0	8.0	Unassigned
+KF372582	2721.0	1939.0	0.0	454.0	276.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1
+DI249641	28303.0	18907.0	909.0	3262.0	1933.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Lactobacillaceae; g__Lactobacillus; s__Lactobacillus_johnsonii
+da17e2e71ac370f03c37f95dfc4a6369	0.0	0.0	0.0	20.0	0.0	Unassigned
+AJ867050	7771.0	5076.0	500.0	1484.0	998.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus
+KF318815	6961.0	4302.0	345.0	1525.0	698.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas_aeruginosa
+LN611370	558.0	526.0	14.0	20.0	31.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii
+d23cf01e4cdeff7b08968a7adbf8d7c3	83.0	0.0	0.0	0.0	0.0	Unassigned
+363809f5ed2f3a5e7c743859ac3e715c	0.0	8.0	0.0	0.0	0.0	Unassigned
+b87f467e20076f5e9959f2b3258e96bf	0.0	0.0	0.0	34.0	0.0	Unassigned
+3ff340544e5a36917b5e5c1c8341348a	0.0	0.0	0.0	0.0	40.0	Unassigned
+941086778c4389c471018174b81335f8	0.0	0.0	0.0	0.0	16.0	Unassigned
+7a0cd92bee871610e50e9399c8817216	19.0	0.0	0.0	0.0	0.0	Unassigned
 AF414809	35595.0	23208.0	1467.0	4654.0	3479.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Porphyromonadaceae; g__Porphyromonas; s__Porphyromonas_gingivalis
-AJ510251	4.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Varibaculum
-HM126553	9136.0	6596.0	376.0	1795.0	842.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis
-Y11332	12896.0	8998.0	465.0	2276.0	1132.0	k__Bacteria; p__DeinococcusThermus; c__Deinococci; o__Deinococcales; f__Deinococcaceae; g__Deinococcus; s__Deinococcus_radiodurans
+ecfae507881cefee6d24f88231d955d1	0.0	18.0	0.0	0.0	0.0	Unassigned
+CP010437	2513.0	1970.0	71.0	230.0	181.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium
+7d4540927d5ded443b27ed24f339ea44	0.0	0.0	0.0	30.0	0.0	Unassigned
+b1322758c90898ee2492814a69d6f576	1598.0	0.0	0.0	0.0	0.0	Unassigned
+AJ234040	4508.0	3153.0	145.0	434.0	322.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Actinomycetales; f__Actinomycetaceae; g__Actinomyces; s__Actinomyces_odontolyticus
+JN020353	11900.0	8286.0	351.0	1036.0	898.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium
 AJ867043	26026.0	18553.0	1358.0	5589.0	3479.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus
-AB510703	0.0	0.0	5.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_massiliensis
-ALZP01000053	6405.0	4260.0	221.0	1022.0	495.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus; s__Enterococcus_faecalis
-AB510710	19.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_thetaiotaomicron
+AP013354	14015.0	11091.0	347.0	825.0	794.0	k__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Helicobacter; s__Helicobacter_pylori
+KF372576	75724.0	57898.0	3019.0	11235.0	7764.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae_1; g__Clostridium_sensu_stricto_1; s__Clostridium_beijerinckii
 JN700236	9061.0	6048.0	333.0	754.0	725.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Propionibacteriales; f__Propionibacteriaceae; g__Propionibacterium; s__Propionibacterium_acnes
-EU483154	10.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Family_XI; g__Ezakiella; s__Sporobacterium_sp
+AB272346	26883.0	18078.0	1271.0	4042.0	2543.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli
+EU136687	24609.0	14964.0	1535.0	4971.0	3676.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_vulgatus
+1a901c6d139772d02ade3f877874449c	5.0	0.0	0.0	0.0	0.0	Unassigned
+AJ577290	29546.0	21265.0	959.0	4172.0	2374.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus_cereus
+efbacf2a08a5314019719883ae510da5	86.0	66.0	13.0	27.0	23.0	Unassigned
 KP091275	1350.0	1035.0	92.0	273.0	160.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus
 AOAJ01000015	1839.0	1222.0	58.0	326.0	178.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_capitis
-JILU01000043	10246.0	7177.0	426.0	1674.0	741.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus
-JN020353	11900.0	8286.0	351.0	1036.0	898.0	k__Bacteria; p__Actinobacteria; c__Actinobacteria; o__Bifidobacteriales; f__Bifidobacteriaceae; g__Bifidobacterium
-AJ577290	29546.0	21265.0	959.0	4172.0	2374.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus_cereus
-1a901c6d139772d02ade3f877874449c	5.0	0.0	0.0	0.0	0.0	Unassigned
-32a421ca9f8ddbcdbf2ba0dbb67e4e64	0.0	0.0	0.0	0.0	40.0	Unassigned
-363809f5ed2f3a5e7c743859ac3e715c	0.0	8.0	0.0	0.0	0.0	Unassigned
-3fb3fdc0085b803c2ccfc65e4b365684	0.0	32.0	0.0	0.0	0.0	Unassigned
-3ff340544e5a36917b5e5c1c8341348a	0.0	0.0	0.0	0.0	40.0	Unassigned
-514d0dacc07d312898736303340a5a4d	0.0	0.0	0.0	14.0	0.0	Unassigned
-61e5978c3211bd9a1b845d0a850b542b	0.0	0.0	548.0	0.0	0.0	Unassigned
-7a0cd92bee871610e50e9399c8817216	19.0	0.0	0.0	0.0	0.0	Unassigned
-7a9d3c190c1efda5e5d631f26e92089e	0.0	0.0	0.0	0.0	8.0	Unassigned
-7d4540927d5ded443b27ed24f339ea44	0.0	0.0	0.0	30.0	0.0	Unassigned
-815e0dfc845008a7738cf9874285a958	0.0	1050.0	0.0	0.0	0.0	Unassigned
-8ac77091e9e9e898db202290d9f581bb	21.0	0.0	0.0	0.0	0.0	Unassigned
-90ed11c8df9d4009e91687217af6e2d8	4.0	0.0	0.0	0.0	0.0	Unassigned
-941086778c4389c471018174b81335f8	0.0	0.0	0.0	0.0	16.0	Unassigned
+HM126553	9136.0	6596.0	376.0	1795.0	842.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_epidermidis
+Y11332	12896.0	8998.0	465.0	2276.0	1132.0	k__Bacteria; p__DeinococcusThermus; c__Deinococci; o__Deinococcales; f__Deinococcaceae; g__Deinococcus; s__Deinococcus_radiodurans
 97c7d864680d62abd920734650bd5294	62.0	56.0	0.0	3.0	0.0	Unassigned
-af368b32a2e2ea15248a44edc2540b27	7.0	0.0	0.0	0.0	0.0	Unassigned
-b1322758c90898ee2492814a69d6f576	1598.0	0.0	0.0	0.0	0.0	Unassigned
-b73bfc8a5a52231dffee50d662018a95	6.0	0.0	0.0	0.0	0.0	Unassigned
-b87f467e20076f5e9959f2b3258e96bf	0.0	0.0	0.0	34.0	0.0	Unassigned
 c8c6fd83e79463294ac071a0c2f9b2ea	0.0	0.0	0.0	0.0	14.0	Unassigned
+ANDZ01000001	12703.0	9130.0	408.0	2066.0	969.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Streptococcaceae; g__Streptococcus; s__Streptococcus_agalactiae
+FW305997	4713.0	3471.0	181.0	830.0	438.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli
+AB510710	19.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_thetaiotaomicron
+90ed11c8df9d4009e91687217af6e2d8	4.0	0.0	0.0	0.0	0.0	Unassigned
+af368b32a2e2ea15248a44edc2540b27	7.0	0.0	0.0	0.0	0.0	Unassigned
+514d0dacc07d312898736303340a5a4d	0.0	0.0	0.0	14.0	0.0	Unassigned
+815e0dfc845008a7738cf9874285a958	0.0	1050.0	0.0	0.0	0.0	Unassigned
+JILU01000043	10246.0	7177.0	426.0	1674.0	741.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus
 cc42fdb95b88d0536dab3df1edce46e6	0.0	0.0	0.0	0.0	178.0	Unassigned
-d23cf01e4cdeff7b08968a7adbf8d7c3	83.0	0.0	0.0	0.0	0.0	Unassigned
-da17e2e71ac370f03c37f95dfc4a6369	0.0	0.0	0.0	20.0	0.0	Unassigned
-ecfae507881cefee6d24f88231d955d1	0.0	18.0	0.0	0.0	0.0	Unassigned
-efbacf2a08a5314019719883ae510da5	86.0	66.0	13.0	27.0	23.0	Unassigned
+ALZP01000053	6405.0	4260.0	221.0	1022.0	495.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Lactobacillales; f__Enterococcaceae; g__Enterococcus; s__Enterococcus_faecalis

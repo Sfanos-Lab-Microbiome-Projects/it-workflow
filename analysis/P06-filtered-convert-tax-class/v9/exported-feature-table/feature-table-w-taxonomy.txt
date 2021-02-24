@@ -1,26 +1,23 @@
 # Constructed from biom file
 #OTU ID	atcc1	atcc2	atcc3	atcc4	atcc5	taxonomy
-032bb217c0b50db5991d99f7adac6ff4	39.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus
+5b9866c5ee4acad38f12e2d4fdd7ee05	0.0	0.0	0.0	0.0	5.0	Unassigned
+8adce1d6621160a2af734a787885a122	83265.0	57259.0	5493.0	20360.0	12201.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii
 12fe040a5a501317c8df824ebda3621c	98103.0	76653.0	5897.0	22033.0	14272.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__EscherichiaShigella; s__Escherichia_coli
+474d82bb198dcbd4f0a900c734b1737c	0.0	28.0	0.0	0.0	0.0	Unassigned
+71eaea5901a094bdc7e9fe3098433920	21.0	0.0	0.0	0.0	0.0	Unassigned
+500717d7e7813b2a2475423541fbd0ca	0.0	56.0	0.0	0.0	0.0	Unassigned
+c5c2af4b8d31fc0a03c213ab253e6aa2	0.0	20.0	0.0	0.0	0.0	Unassigned
+3fb479f2ab3aaea6df25f479ab5400d6	46.0	31.0	0.0	0.0	0.0	Unassigned
+e824a31904d0fed1104925ec12d86dee	52.0	46.0	0.0	0.0	0.0	Unassigned
+70ef7b2721121d26c44fef7552783c62	0.0	0.0	0.0	4.0	0.0	Unassigned
+c6d8833d23569c51e457329500ca2e29	0.0	74.0	0.0	0.0	0.0	Unassigned
+70225078828cad07e913173570d57b91	0.0	48.0	0.0	0.0	0.0	Unassigned
+eae39a17d886f288f6554743ca32681a	0.0	0.0	0.0	0.0	3.0	Unassigned
 19788953078393a5a5d0bf59d0dec18c	18.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Staphylococcaceae; g__Staphylococcus; s__Staphylococcus_aureus
 1c984db3f07ac11e32301be580606a1e	22.0	0.0	0.0	0.0	0.0	Unassigned
-3d9f857b40b4e740c6ba5f91a104ce10	86.0	71.0	0.0	0.0	7.0	Unassigned
-3fb479f2ab3aaea6df25f479ab5400d6	46.0	31.0	0.0	0.0	0.0	Unassigned
-474d82bb198dcbd4f0a900c734b1737c	0.0	28.0	0.0	0.0	0.0	Unassigned
-4bf1031e00c57c5ea34fde5172fad8c7	985.0	0.0	0.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacteriales; f__Enterobacteriaceae; g__Cronobacter; s__Cronobacter_sakazakii
-4f9d04a909f881fd5010c1fe75d4dd5d	36.0	0.0	0.0	5.0	0.0	Unassigned
-500717d7e7813b2a2475423541fbd0ca	0.0	56.0	0.0	0.0	0.0	Unassigned
 577d99d5d5449ae745797b56778374a3	83.0	0.0	0.0	0.0	0.0	Unassigned
-5b9866c5ee4acad38f12e2d4fdd7ee05	0.0	0.0	0.0	0.0	5.0	Unassigned
-5f61dcc756c010f1f6f0c4fe92eed0b3	0.0	43.0	0.0	0.0	0.0	Unassigned
-70225078828cad07e913173570d57b91	0.0	48.0	0.0	0.0	0.0	Unassigned
-70ef7b2721121d26c44fef7552783c62	0.0	0.0	0.0	4.0	0.0	Unassigned
-71eaea5901a094bdc7e9fe3098433920	21.0	0.0	0.0	0.0	0.0	Unassigned
-8adce1d6621160a2af734a787885a122	83265.0	57259.0	5493.0	20360.0	12201.0	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Moraxellaceae; g__Acinetobacter; s__Acinetobacter_baumannii
-a074499e60df3ae9999133ba24d9b46a	0.0	29.0	0.0	0.0	0.0	Unassigned
 a5bb29859419795b9e513884d2c20883	57.0	0.0	0.0	0.0	0.0	Unassigned
-c4b370215eba390323bb84ae8932f79f	0.0	0.0	4.0	0.0	0.0	k__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Bilophila; s__Bilophila_wadsworthia
-c5c2af4b8d31fc0a03c213ab253e6aa2	0.0	20.0	0.0	0.0	0.0	Unassigned
-c6d8833d23569c51e457329500ca2e29	0.0	74.0	0.0	0.0	0.0	Unassigned
-e824a31904d0fed1104925ec12d86dee	52.0	46.0	0.0	0.0	0.0	Unassigned
-eae39a17d886f288f6554743ca32681a	0.0	0.0	0.0	0.0	3.0	Unassigned
+4f9d04a909f881fd5010c1fe75d4dd5d	36.0	0.0	0.0	5.0	0.0	Unassigned
+3d9f857b40b4e740c6ba5f91a104ce10	86.0	71.0	0.0	0.0	7.0	Unassigned
+5f61dcc756c010f1f6f0c4fe92eed0b3	0.0	43.0	0.0	0.0	0.0	Unassigned
+a074499e60df3ae9999133ba24d9b46a	0.0	29.0	0.0	0.0	0.0	Unassigned
