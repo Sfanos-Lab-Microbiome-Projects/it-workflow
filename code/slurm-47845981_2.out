@@ -1,0 +1,10 @@
+Note that users no longer need to load the SLURM module. You may remove 'module
+load slurm' from your scripts. 
+Please read this resource guide to understand the above behavior:
+https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
+Note that users no longer need to load the SLURM module. You may remove 'module
+load slurm' from your scripts. 
+Please read this resource guide to understand the above behavior:
+https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
+v3
+Exported ../analysis/P05-clust-tree-cm-goods/v3/table.qza as BIOMV210DirFmt to directory ../analysis/P06-filtered-convert-tax-class/v3/exported-feature-table
