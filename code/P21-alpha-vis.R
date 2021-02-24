@@ -14,7 +14,7 @@ pdfdir = paste(analysisdir, "/pdfs/", sep="")
 unlink(pdfdir, recursive=TRUE)
 dir.create(pdfdir)
 # ---------------------------------------------------
-tablefile = "../analysis/P08-sum-alpha/alpha-diversity-per-sample-region.txt"
+tablefile = "../analysis/P08-filtered-sum-alpha/alpha-diversity-per-sample-region.txt"
 A <- read.table(tablefile, sep="\t", header=TRUE, check.names=FALSE, as.is=TRUE)
 meltA <- melt(A, id.vars=c("Region", "SampleID"))
 colnames(meltA) = c("Region", "SampleID", "Measure", "Value")
