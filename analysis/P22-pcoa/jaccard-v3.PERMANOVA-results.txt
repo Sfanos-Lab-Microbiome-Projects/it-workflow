@@ -7,7 +7,7 @@ Number of permutations: 119
 
 Terms added sequentially (first to last)
 
-          Df SumsOfSqs   MeanSqs F.Model     R2 Pr(>F)
-chip       2  0.014814 0.0074072 0.80116 0.4448    0.4
-Residuals  2  0.018491 0.0092456         0.5552       
-Total      4  0.033306                   1.0000       
+          Df SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)
+chip       2 0.0052094 0.00260471  5.5116 0.84643    0.2
+Residuals  2 0.0009452 0.00047259         0.15357       
+Total      4 0.0061546                    1.00000       

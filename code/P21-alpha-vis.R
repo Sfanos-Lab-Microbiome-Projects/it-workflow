@@ -3,9 +3,13 @@ library(RColorBrewer) #install these packages first
 library(ggplot2)
 library(grid)
 library(reshape2)
+require(gtools)
+library(ggpubr)
 # ---------------------------------------------------
 # configure per user ---
 #setwd("it-workflow/code") # git repository already cloned to desktop
+setwd(paste0(path.expand("~"),"/Desktop/it-workflow/code"))
+
 analysisdir = "../analysis/P21-alpha-vis" #create the analysis directory you want outputs to go into
 unlink(analysisdir, recursive=TRUE)
 dir.create(analysisdir)
@@ -34,15 +38,16 @@ meltA$Measure = gsub("shannon","Shannon", meltA$Measure)
   mycolors$Region["v8"]  = "#B5EAD7"
   mycolors$Region["v9"]  = "#C7CEEA"
 
-  mycolors$SampleID["atcc1"] = "#F2978B"
-  mycolors$SampleID["atcc2"] = "#D954A0"
-  mycolors$SampleID["atcc3"] = "#6D5FA6"
-  mycolors$SampleID["atcc4"] = "#518FBF"
-  mycolors$SampleID["atcc5"] = "#63BBBF"
+  mycolors$SampleID["atcc1"] = "#FFDFD3"
+  mycolors$SampleID["atcc2"] = "#FEC8D8"
+  mycolors$SampleID["atcc3"] = "#E0BBE4"
+  mycolors$SampleID["atcc4"] = "#D291BC"
+  mycolors$SampleID["atcc5"] = "#957DAD"
 
   # END color scheme for major sample metadata features of interest ---------
   # --------------------------------------------------------
-  outfile1 = paste(pdfdir, "alpha-diversity-by-region.pdf", sep="")
+
+  outfile1 = paste(pdfdir, "alpha-diversity-by-region.1.pdf", sep="")
   p1 <- ggplot(meltA, aes(x=Region, y=Value)) +
     geom_boxplot(mapping=aes(color=Region), alpha=1, outlier.size = NA, coef=1000) +
     geom_point(aes(color=Region), alpha=1, size=2) +
@@ -59,5 +64,49 @@ meltA$Measure = gsub("shannon","Shannon", meltA$Measure)
     xlab(NULL) +
     ylab("Measure Value") +
     facet_wrap(~Measure, ncol=2, scales="free_y")
-  ggsave(outfile1, plot=p1)
-  
+    ggsave(outfile1, plot=p1)
+
+    # comparisons for statistical analysis
+    my_comparisons = list(
+                     c("v2", "v3" ),
+                     c("v2", "v4" ),
+                     c("v2", "v67"),
+                     c("v2", "v8" ),
+                     c("v2", "v9" ),
+                     c("v3", "v4" ),
+                     c("v3", "v67"),
+                     c("v3", "v8" ),
+                     c("v3", "v9" ),
+                     c("v4", "v67"),
+                     c("v4", "v8" ),
+                     c("v4", "v9" ),
+                     c("v67", "v8"),
+                     c("v67", "v9"),
+                     c("v8", "v9"))
+
+    # begin statistical comparisons of alpha diversity estimators by region
+    statRes = c()
+    for (compi in 1:length(my_comparisons)){
+      resultsRow = c(my_comparisons[[compi]][1], my_comparisons[[compi]][2])
+      for (myFeature in unique(meltA$Measure)){
+        mwP = wilcox.test(meltA[meltA$Region==my_comparisons[[compi]][1] &
+                                meltA$Measure==myFeature, "Value"],
+                          meltA[meltA$Region==my_comparisons[[compi]][2] &
+                                meltA$Measure==myFeature, "Value"])$p.value
+        ttP = t.test(meltA[meltA$Region==my_comparisons[[compi]][1] &
+                           meltA$Measure==myFeature, "Value"],
+                     meltA[meltA$Region==my_comparisons[[compi]][2] &
+                           meltA$Measure==myFeature, "Value"])$p.value
+        mn1 = mean(meltA[meltA$Region==my_comparisons[[compi]][1] &
+                                meltA$Measure==myFeature, "Value"])
+        mn2 = mean(meltA[meltA$Region==my_comparisons[[compi]][2] &
+                                meltA$Measure==myFeature, "Value"])
+        resultsRow = c(resultsRow, mn1, mn2, mwP, ttP)
+      }
+      statRes = rbind(statRes, resultsRow)
+    }
+    colnames(statRes) = c("Region 1", "Region 2", "Evenness.Mean1",      "Evenness.Mean2",     "Evenness.MWPval", "Evenness.TTPval",
+                                                  "Faith's-PD.Mean1",    "Faith's-PD.Mean2",    "Faith's-PD.MWPval", "Faith's-PD.TTPval",
+                                                  "Observed-OTUs.Mean1", "Observed-OTUs.Mean2", "Observed-OTUs.MWPval", "Observed-OTUs.TTPval",
+                                                  "Shannon.Mean1",       "Shannon.Mean2",        "Shannon.MWPval", "Shannon.TTPval")
+    write.table(statRes, file=paste(analysisdir, "/alpha-diversity-stats.csv", sep=""), col.names=TRUE, row.names=FALSE, sep=",")
