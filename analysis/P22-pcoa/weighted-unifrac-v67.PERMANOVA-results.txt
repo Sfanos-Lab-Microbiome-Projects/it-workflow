@@ -1,0 +1,13 @@
+
+Call:
+adonis(formula = myDist ~ chip, data = myDistf, permutations = 1000) 
+
+Permutation: free
+Number of permutations: 119
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs    MeanSqs F.Model      R2 Pr(>F)
+chip       2 0.0028061 0.00140307  4.2791 0.81057    0.2
+Residuals  2 0.0006558 0.00032789         0.18943       
+Total      4 0.0034619                    1.00000       

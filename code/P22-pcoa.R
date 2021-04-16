@@ -38,6 +38,10 @@ for (region in regions){
     # limit meta data frame to those IDs matching the remaining IDs in myDist
     meta             = meta[meta$sample.id %in% rownames(myDist),]
 
+    if(sum(myDist) < 1e-6){
+      next
+    }
+
     # execute PCoA ---
     bc.pcoa   = pcoa(myDist)
     # the output in bc.pcoa$vectors has the coordinates in pcoa space ---
@@ -85,7 +89,8 @@ for (region in regions){
     ylab(paste("PCoA Axis 2 (", bc.Ax2PrctVar, "% of Variation)", sep="")) +
     theme_bw() +
     theme(aspect.ratio=1) +
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+    theme(panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank())
     # save p1 as a pdf
     ggsave(paste(analysisdir, prefix,".pcoa.01.pdf",sep=""), p1)
 
@@ -99,8 +104,9 @@ for (region in regions){
     ylab(paste("PCoA Axis 2 (", bc.Ax2PrctVar, "% of Variation)", sep="")) +
     theme_bw() +
     theme(aspect.ratio=1) +
-    theme(axis.title.x = element_text(size=20),axis.title.y = element_text(size=20))
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+    theme(axis.title.x = element_text(size=20),axis.title.y = element_text(size=20)) +
+    theme(panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank())
     # save p1 as a pdf
     ggsave(paste(analysisdir, prefix,".pcoa.02.pdf",sep=""), p1)
   } # end of dist types loop
