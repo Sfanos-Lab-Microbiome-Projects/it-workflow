@@ -86,10 +86,15 @@ for (taxa in unique(meltA$Taxa)){
 colnames(meltAAvg)        = c("Region", "Taxa", "PercentAbundance")
 meltAAvg                  = data.frame(meltAAvg)
 meltAAvg$PercentAbundance = as.numeric(as.character(meltAAvg$PercentAbundance))
+meltAAvg$Taxa             = as.character(meltAAvg$Taxa)
+meltAAvg[meltAAvg$Taxa == "unassigned", "Taxa"] <- "Unassigned"
+nonUnassigned             = unique(meltAAvg$Taxa)[!unique(meltAAvg$Taxa) %in% c("Unassigned")]
+meltAAvg$Taxa             = factor(meltAAvg$Taxa,levels=c(nonUnassigned, "Unassigned"))
+
 # color scheme --
 GroupCols = c("#cbcbcb", "#eb3eab", "#FF9AA2", "#FFDAC1", "#E2F0CB", "#B5EAD7", "#C7CEEA", "#2C3E50", "#2980B9", "#8E44AD", "#C0392B", "#F39C12", "#F1C40F", "#27AE60", "#196f3e")
-numTx     = 34
-GroupCols = colorRampPalette(GroupCols)(numTx+1)
+numTx     = 33
+GroupCols = rev(colorRampPalette(GroupCols)(numTx+1))
 # bar plot stacked
 p1 <- ggplot(meltAAvg, aes(x=Region, y=PercentAbundance, fill=Taxa)) +
 geom_bar(position="stack", stat="identity", colour="white", size=0.25) +
@@ -107,6 +112,12 @@ ylab("% Abundance")
 outfile1 = paste(pdfdir, "percent-taxa-per-region-v-expected.pdf", sep="")
 ggsave(file=outfile1, plot=p1, width=9, height=5)
 
+
+
+meltA$Taxa             = as.character(meltA$Taxa)
+meltA[meltA$Taxa == "unassigned", "Taxa"] <- "Unassigned"
+nonUnassigned          = unique(meltA$Taxa)[!unique(meltA$Taxa) %in% c("Unassigned")]
+meltA$Taxa             = factor(meltA$Taxa,levels=c(nonUnassigned, "Unassigned"))
 
 p1 <- ggplot(meltA, aes(x=SampleID, y=PercentAbundance, fill=Taxa)) +
 geom_bar(position="stack", stat="identity", colour="white", size=0.25) +

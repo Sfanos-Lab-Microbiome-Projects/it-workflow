@@ -1,0 +1,128 @@
+[1] "Fixed Effects GLM results for Evenness"
+
+Call:
+glm(formula = Value ~ Type + Region + PID, data = meltA[meltA$Measure == 
+    measure, ])
+
+Deviance Residuals: 
+      Min         1Q     Median         3Q        Max  
+-0.129547  -0.019737  -0.001778   0.013145   0.217366  
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.774865   0.032709  23.689  < 2e-16 ***
+Typefrozen   0.020312   0.022302   0.911  0.37149    
+Regionv3    -0.014422   0.036753  -0.392  0.69822    
+Regionv4    -0.002706   0.036753  -0.074  0.94191    
+Regionv67   -0.017764   0.036753  -0.483  0.63324    
+Regionv8    -0.037726   0.036753  -1.026  0.31490    
+Regionv9    -0.426050   0.046142  -9.233 2.28e-09 ***
+PIDPatient2 -0.078825   0.028055  -2.810  0.00971 ** 
+PIDPatient3 -0.074171   0.028055  -2.644  0.01422 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 0.004052345)
+
+    Null deviance: 0.672345  on 32  degrees of freedom
+Residual deviance: 0.097256  on 24  degrees of freedom
+AIC: -78.638
+
+Number of Fisher Scoring iterations: 2
+
+[1] "Fixed Effects GLM results for Faith's-PD"
+
+Call:
+glm(formula = Value ~ Type + Region + PID, data = meltA[meltA$Measure == 
+    measure, ])
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-1.93422  -0.51134   0.07696   0.41364   2.52401  
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  18.2424     0.5066  36.012  < 2e-16 ***
+Typefrozen   -0.7125     0.3454  -2.063   0.0501 .  
+Regionv3     -8.0398     0.5692 -14.125 3.99e-13 ***
+Regionv4     -8.2157     0.5692 -14.434 2.50e-13 ***
+Regionv67    -5.4448     0.5692  -9.566 1.16e-09 ***
+Regionv8     -9.5765     0.5692 -16.825 8.69e-15 ***
+Regionv9    -16.8049     0.7146 -23.517  < 2e-16 ***
+PIDPatient2   1.0818     0.4345   2.490   0.0201 *  
+PIDPatient3  -0.1920     0.4345  -0.442   0.6624    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 0.971922)
+
+    Null deviance: 686.035  on 32  degrees of freedom
+Residual deviance:  23.326  on 24  degrees of freedom
+AIC: 102.2
+
+Number of Fisher Scoring iterations: 2
+
+[1] "Fixed Effects GLM results for Observed-OTUs"
+
+Call:
+glm(formula = Value ~ Type + Region + PID, data = meltA[meltA$Measure == 
+    measure, ])
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-35.397   -7.970   -1.063    9.713   26.587  
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  184.079      8.425  21.848  < 2e-16 ***
+Typefrozen   -13.224      5.745  -2.302 0.030324 *  
+Regionv3     -26.500      9.467  -2.799 0.009947 ** 
+Regionv4     -24.167      9.467  -2.553 0.017467 *  
+Regionv67      3.167      9.467   0.335 0.740908    
+Regionv8     -43.333      9.467  -4.577 0.000122 ***
+Regionv9    -163.718     11.885 -13.775 6.84e-13 ***
+PIDPatient2   10.058      7.226   1.392 0.176727    
+PIDPatient3  -15.458      7.226  -2.139 0.042802 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 268.864)
+
+    Null deviance: 81130.0  on 32  degrees of freedom
+Residual deviance:  6452.7  on 24  degrees of freedom
+AIC: 287.75
+
+Number of Fisher Scoring iterations: 2
+
+[1] "Fixed Effects GLM results for Shannon"
+
+Call:
+glm(formula = Value ~ Type + Region + PID, data = meltA[meltA$Measure == 
+    measure, ])
+
+Deviance Residuals: 
+     Min        1Q    Median        3Q       Max  
+-0.49399  -0.13444   0.02109   0.12347   0.57666  
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  5.80219    0.12640  45.905  < 2e-16 ***
+Typefrozen   0.08772    0.08618   1.018 0.318914    
+Regionv3    -0.27174    0.14202  -1.913 0.067700 .  
+Regionv4    -0.16651    0.14202  -1.172 0.252529    
+Regionv67   -0.10771    0.14202  -0.758 0.455598    
+Regionv8    -0.55175    0.14202  -3.885 0.000704 ***
+Regionv9    -4.40658    0.17830 -24.714  < 2e-16 ***
+PIDPatient2 -0.60409    0.10841  -5.572 9.84e-06 ***
+PIDPatient3 -0.57185    0.10841  -5.275 2.08e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for gaussian family taken to be 0.06051129)
+
+    Null deviance: 57.5020  on 32  degrees of freedom
+Residual deviance:  1.4523  on 24  degrees of freedom
+AIC: 10.578
+
+Number of Fisher Scoring iterations: 2
+

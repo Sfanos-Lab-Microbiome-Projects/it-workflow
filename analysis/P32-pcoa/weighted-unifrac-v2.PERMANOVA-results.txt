@@ -1,0 +1,16 @@
+
+Call:
+adonis(formula = myDist ~ Type + PID, data = myDistf, permutations = 1000) 
+
+Permutation: free
+Number of permutations: 719
+
+Terms added sequentially (first to last)
+
+          Df SumsOfSqs  MeanSqs F.Model      R2  Pr(>F)  
+Type       1   0.00726 0.007263  0.5271 0.01917 0.66667  
+PID        2   0.34399 0.171994 12.4815 0.90807 0.06667 .
+Residuals  2   0.02756 0.013780         0.07275          
+Total      5   0.37881                  1.00000          
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
