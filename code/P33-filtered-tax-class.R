@@ -25,7 +25,8 @@ meltA[grepl("frozen", meltA$SampleID),"Type"] = "frozen"
 meltA$PID = gsub("-(fresh|frozen)", "", as.character(meltA$SampleID))
 
 # select the 32 most abundant species ---
-avgPerTaxa = aggregate(PercentAbundance ~Taxa, data=meltA, FUN=mean)
+avgPerTaxa = aggregate(PercentAbundance ~ Taxa, data=meltA, FUN=mean)
+avgPerTaxa = avgPerTaxa[!grepl("g__unassigned; s__unassigned",avgPerTaxa[,1]),]
 avgPerTaxa = avgPerTaxa[order(avgPerTaxa[,2], decreasing=TRUE)[1:32],]
 
 meltA = meltA[meltA$Taxa %in% c(as.character(avgPerTaxa[,1])),]
@@ -84,5 +85,5 @@ theme(axis.text.x = element_text(size=7, colour="black", angle=45, hjust=1, vjus
 xlab(NULL)  +
 ylab("% Abundance") +
 facet_grid(~Region, scale="free_x", space="free_x")
-outfile1 = paste(pdfdir, "percent-taxa-per-region-v-expected-per-sample.1.pdf", sep="")
+outfile1 = paste(pdfdir, "percent-taxa-per-region.1.pdf", sep="")
 ggsave(file=outfile1, plot=p1, width=10, height=5)

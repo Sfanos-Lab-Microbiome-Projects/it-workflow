@@ -74,34 +74,14 @@ meltA$PID = gsub("-(fresh|frozen)", "", as.character(meltA$SampleID))
 mycolors$Type["fresh"]  = "#74c7b8"
 mycolors$Type["frozen"] = "#749fc7"
 
-outfile1 = paste(pdfdir, "alpha-diversity-by-type.1.pdf", sep="")
-p1 <- ggplot(meltA, aes(x=Type, y=Value)) +
-  geom_boxplot(mapping=aes(color=Type), alpha=1, outlier.size = NA, coef=1000) +
-  geom_path(mapping=aes(group=PID), alpha=0.5, color="#c8c8c8") +
-  geom_point(aes(color=Type), alpha=1, size=2) +
-  theme_bw() +
-  scale_color_manual(values=mycolors$Type) +
-  theme(axis.text.x  = element_text(size=9, colour="black"),
-        axis.text.y  = element_text(size=8, colour="black"),
-        axis.title.x = element_text(size=12, colour="black"),
-        axis.title.y = element_text(size=12, colour="black"),
-        plot.title   = element_text(size=10, colour="black"),
-        strip.text.x = element_text(size=7, colour="black"),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        aspect.ratio=1) +
-  xlab(NULL) +
-  ylab("Measure Value") +
-  facet_wrap(Measure~Region, ncol=6, scales="free_y")
-ggsave(outfile1, plot=p1, width=8, height=7)
-
-
 outfile1 = paste(pdfdir, "alpha-diversity-by-type.2.pdf", sep="")
-p1 <- ggplot(meltA, aes(x=Region, y=Value, fill=Type)) +
-  geom_boxplot(mapping=aes(color=Region), alpha=0, outlier.size = NA, coef=1000) +
-  geom_point(aes(color=Region), position=position_dodge(width=0.75), alpha=1, size=2) +
+p1 <- ggplot(meltA, aes(x=Region, y=Value, shape=Type)) +
+  geom_boxplot(mapping=aes(color=Region), alpha=1, outlier.size = NA, coef=1000) +
+  geom_point(data=meltA, aes(fill=Region), color="black", position=position_dodge(width=0.75), alpha=0.65, size=2) +
   theme_bw() +
   scale_color_manual(values=mycolors$Region) +
+  scale_fill_manual(values=mycolors$Region) +
+  scale_shape_manual(values=c(21,23)) +
   theme(axis.text.x  = element_text(size=11, colour="black"),
         axis.text.y  = element_text(size=11, colour="black"),
         axis.title.x = element_text(size=12, colour="black"),
@@ -112,26 +92,7 @@ p1 <- ggplot(meltA, aes(x=Region, y=Value, fill=Type)) +
         aspect.ratio=0.85) +
   xlab(NULL) +
   ylab("Measure Value") +
-  facet_wrap(~Measure, ncol=2, scales="free_y")
-ggsave(outfile1, plot=p1, width=6, height=6)
-
-
-outfile1 = paste(pdfdir, "alpha-diversity-by-type.3.pdf", sep="")
-p1 <- ggplot(meltA, aes(x=Region, y=Value, fill=Type)) +
-  geom_boxplot(mapping=aes(color=Type), alpha=0, outlier.size = NA, coef=1000) +
-  geom_point(aes(color=Type), position=position_dodge(width=0.75), alpha=1, size=2) +
-  theme_bw() +
-  scale_color_manual(values=mycolors$Type) +
-  theme(axis.text.x  = element_text(size=11, colour="black"),
-        axis.text.y  = element_text(size=11, colour="black"),
-        axis.title.x = element_text(size=12, colour="black"),
-        axis.title.y = element_text(size=12, colour="black"),
-        plot.title   = element_text(size=10, colour="black"),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        aspect.ratio=0.85) +
-  xlab(NULL) +
-  ylab("Measure Value") +
+  guides(fill = guide_legend(override.aes=list(shape=21))) +
   facet_wrap(~Measure, ncol=2, scales="free_y")
 ggsave(outfile1, plot=p1, width=6, height=6)
 
