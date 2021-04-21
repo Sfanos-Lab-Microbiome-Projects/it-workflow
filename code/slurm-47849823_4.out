@@ -1,160 +1,0 @@
-Note that users no longer need to load the SLURM module. You may remove 'module
-load slurm' from your scripts. 
-Please read this resource guide to understand the above behavior:
-https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
-Note that users no longer need to load the SLURM module. You may remove 'module
-load slurm' from your scripts. 
-Please read this resource guide to understand the above behavior:
-https://www.marcc.jhu.edu/getting-started/working-with-modules-on-centos-7/ 
-v67
-../external/P02-dada2/v67/merged-v67-table.qza
-../external/P02-dada2/v67/merged-v67-rep-seqs.qza
-Saved FeatureTable[Frequency] to: ../analysis/P05-clust-tree-cm-goods/v67/table.qza
-Saved FeatureData[Sequence] to: ../analysis/P05-clust-tree-cm-goods/v67/rep-seqs.qza
-Saved FeatureData[Sequence] to: ../analysis/P05-clust-tree-cm-goods/v67/new-ref-seqs.qza
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/table.qzv
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/rep-seqs.qzv
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/new-ref-seqs.qzv
-inputfile = orig
-60 x 276 - 62 d
-nthread = 4
-nthreadpair = 4
-nthreadtb = 4
-ppenalty_ex = 0
-stacksize: -1 kb
-generating a scoring matrix for nucleotide (dist=200) ... done
-Gap Penalty = -1.53, +0.00, +0.00
-
-
-
-Making a distance matrix ..
-    1 / 60 (thread    0)
-done.
-
-Constructing a UPGMA tree (efffree=0) ... 
-    0 / 60   10 / 60   20 / 60   30 / 60   40 / 60   50 / 60
-done.
-
-Progressive alignment 1/2... 
-STEP     1 / 59 (thread    0)STEP     2 / 59 (thread    1) fSTEP     4 / 59 (thread    3) fSTEP     3 / 59 (thread    2) f fSTEP     6 / 59 (thread    3) fSTEP     5 / 59 (thread    1) fSTEP     8 / 59 (thread    0) fSTEP     9 / 59 (thread    3) fSTEP    10 / 59 (thread    0) fSTEP    11 / 59 (thread    0) fSTEP    13 / 59 (thread    1) fSTEP    12 / 59 (thread    3) fSTEP     7 / 59 (thread    2) fSTEP    14 / 59 (thread    1) fSTEP    15 / 59 (thread    1) fSTEP    17 / 59 (thread    2) fSTEP    18 / 59 (thread    0) fSTEP    19 / 59 (thread    0) fSTEP    16 / 59 (thread    3) fSTEP    20 / 59 (thread    1) fSTEP    23 / 59 (thread    0) fSTEP    21 / 59 (thread    2) fSTEP    22 / 59 (thread    1) fSTEP    26 / 59 (thread    2) fSTEP    27 / 59 (thread    1) fSTEP    24 / 59 (thread    3) fSTEP    29 / 59 (thread    1) fSTEP    30 / 59 (thread    3) fSTEP    25 / 59 (thread    0) fSTEP    31 / 59 (thread    1) fSTEP    33 / 59 (thread    0) fSTEP    28 / 59 (thread    2) fSTEP    34 / 59 (thread    0) fSTEP    35 / 59 (thread    1) fSTEP    36 / 59 (thread    2) fSTEP    32 / 59 (thread    3) fSTEP    37 / 59 (thread    2) fSTEP    39 / 59 (thread    0) fSTEP    40 / 59 (thread    2) fSTEP    38 / 59 (thread    1) fSTEP    41 / 59 (thread    3) fSTEP    42 / 59 (thread    2) fSTEP    45 / 59 (thread    1) fSTEP    43 / 59 (thread    0) fSTEP    44 / 59 (thread    3) fSTEP    49 / 59 (thread    3) fSTEP    46 / 59 (thread    2) fSTEP    47 / 59 (thread    1) fSTEP    48 / 59 (thread    0) fSTEP    50 / 59 (thread    3) fSTEP    51 / 59 (thread    2) fSTEP    52 / 59 (thread    1) fSTEP    55 / 59 (thread    2) fSTEP    56 / 59 (thread    2) fSTEP    57 / 59 (thread    2) fSTEP    53 / 59 (thread    0) fSTEP    58 / 59 (thread    1) fSTEP    54 / 59 (thread    3) f
-Reallocating..done. *alloclen = 1589
-STEP    59 / 59 (thread    2) f
-done.
-
-Making a distance matrix from msa.. 
-    0 / 60 (thread    0)
-done.
-
-Constructing a UPGMA tree (efffree=1) ... 
-    0 / 60   10 / 60   20 / 60   30 / 60   40 / 60   50 / 60
-done.
-
-Progressive alignment 2/2... 
-STEP     1 / 59 (thread    0) fSTEP     3 / 59 (thread    2) fSTEP     2 / 59 (thread    1) fSTEP     4 / 59 (thread    3) fSTEP     5 / 59 (thread    0) fSTEP     8 / 59 (thread    3) fSTEP     7 / 59 (thread    1) fSTEP     9 / 59 (thread    3) fSTEP    10 / 59 (thread    0) fSTEP     6 / 59 (thread    2) fSTEP    11 / 59 (thread    3) fSTEP    13 / 59 (thread    0) fSTEP    12 / 59 (thread    1) fSTEP    15 / 59 (thread    2) fSTEP    14 / 59 (thread    3) fSTEP    16 / 59 (thread    0) fSTEP    18 / 59 (thread    0) fSTEP    19 / 59 (thread    1) fSTEP    20 / 59 (thread    3) fSTEP    17 / 59 (thread    2) fSTEP    22 / 59 (thread    3) fSTEP    23 / 59 (thread    1) fSTEP    21 / 59 (thread    0) fSTEP    25 / 59 (thread    1) fSTEP    27 / 59 (thread    1) fSTEP    26 / 59 (thread    3) fSTEP    28 / 59 (thread    0) fSTEP    24 / 59 (thread    2) fSTEP    29 / 59 (thread    1) fSTEP    30 / 59 (thread    1) fSTEP    31 / 59 (thread    3) fSTEP    32 / 59 (thread    0) fSTEP    33 / 59 (thread    2) fSTEP    35 / 59 (thread    2) fSTEP    36 / 59 (thread    3) fSTEP    34 / 59 (thread    1) fSTEP    38 / 59 (thread    3) fSTEP    37 / 59 (thread    0) fSTEP    40 / 59 (thread    1) fSTEP    39 / 59 (thread    2) fSTEP    42 / 59 (thread    0) fSTEP    43 / 59 (thread    1) fSTEP    41 / 59 (thread    3) fSTEP    44 / 59 (thread    2) fSTEP    45 / 59 (thread    1) fSTEP    46 / 59 (thread    2) fSTEP    48 / 59 (thread    3) fSTEP    47 / 59 (thread    0) fSTEP    49 / 59 (thread    1) fSTEP    50 / 59 (thread    2) fSTEP    51 / 59 (thread    3) fSTEP    55 / 59 (thread    3) fSTEP    52 / 59 (thread    0) fSTEP    56 / 59 (thread    3) fSTEP    57 / 59 (thread    3) fSTEP    58 / 59 (thread    3) fSTEP    53 / 59 (thread    1) fSTEP    54 / 59 (thread    2) f
-Reallocating..done. *alloclen = 1562
-STEP    59 / 59 (thread    0) f
-done.
-
-disttbfast (nuc) Version 7.470
-alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
-4 thread(s)
-
-
-Strategy:
- FFT-NS-2 (Fast but rough)
- Progressive method (guide trees were built 2 times.)
-
-If unsure which option to use, try 'mafft --auto input > output'.
-For more information, see 'mafft --help', 'mafft --man' and the mafft page.
-
-The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
-It tends to insert more gaps into gap-rich regions than previous versions.
-To disable this change, add the --leavegappyregion option.
-
-FastTree Version 2.1.10 Double precision (No SSE3), OpenMP (4 threads)
-Alignment: /tmp/qiime2-archive-kv4lxwi5/f5b1e00b-ead5-4092-b7ed-b067b0176061/data/aligned-dna-sequences.fasta
-Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
-Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
-TopHits: 1.00*sqrtN close=default refresh=0.80
-ML Model: Jukes-Cantor, CAT approximation with 20 rate categories
-Initial topology in 0.01 seconds
-Refining topology: 24 rounds ME-NNIs, 2 rounds ME-SPRs, 12 rounds ML-NNIs
-      0.10 seconds: SPR round   2 of   2, 101 of 118 nodes
-Total branch-length 6.543 after 0.12 sec
-ML-NNI round 1: LogLk = -5388.863 NNIs 10 max delta 16.80 Time 0.16
-Switched to using 20 rate categories (CAT approximation)
-Rate categories were divided by 0.835 so that average rate = 1.0
-CAT-based log-likelihoods may not be comparable across runs
-Use -gamma for approximate but comparable Gamma(20) log-likelihoods
-ML-NNI round 2: LogLk = -4864.654 NNIs 5 max delta 0.80 Time 0.20
-ML-NNI round 3: LogLk = -4858.582 NNIs 3 max delta 4.07 Time 0.22
-      0.22 seconds: ML NNI round 4 of 12, 1 of 58 splits
-ML-NNI round 4: LogLk = -4858.270 NNIs 0 max delta 0.00 Time 0.24
-Turning off heuristics for final round of ML NNIs (converged)
-ML-NNI round 5: LogLk = -4856.842 NNIs 3 max delta 0.38 Time 0.27 (final)
-Optimize all lengths: LogLk = -4856.668 Time 0.28
-Total time: 0.34 seconds Unique: 60/60 Bad splits: 0/57
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: mafft --preservecase --inputorder --thread 4 /tmp/qiime2-archive-47ppzsm9/e38aae4a-b3d8-4002-a00e-3b88b21077dd/data/dna-sequences.fasta
-
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: FastTreeMP -quote -nt /tmp/qiime2-archive-kv4lxwi5/f5b1e00b-ead5-4092-b7ed-b067b0176061/data/aligned-dna-sequences.fasta
-
-Saved FeatureData[AlignedSequence] to: ../data/P05-clust-tree-cm-goods/v67/v67-alignment.qza
-Saved FeatureData[AlignedSequence] to: ../data/P05-clust-tree-cm-goods/v67/v67-masked-alignment.qza
-Saved Phylogeny[Unrooted] to: ../data/P05-clust-tree-cm-goods/v67/v67-unrooted-tree.qza
-Saved Phylogeny[Rooted] to: ../data/P05-clust-tree-cm-goods/v67/v67-rooted-tree.qza
-vsearch v2.7.0_linux_x86_64, 1007.9GB RAM, 48 cores
-https://github.com/torognes/vsearch
-
-Reading file /tmp/qiime2-archive-zb6t07ri/d009fdf2-df54-4690-8450-270c39c6b224/data/dna-sequences.fasta 100%
-105012606 nt in 72682 seqs, min 900, max 2200, avg 1445
-Masking 100%
-Counting k-mers 100%
-Creating k-mer index 100%
-Searching 100%
-Matching query sequences: 35 of 60 (58.33%)
-Running external command line application. This may print messages to stdout and/or stderr.
-The command being run is below. This command cannot be manually re-run as it will depend on temporary files that no longer exist.
-
-Command: vsearch --usearch_global /tmp/qiime2-archive-qchlqc41/e38aae4a-b3d8-4002-a00e-3b88b21077dd/data/dna-sequences.fasta --id 0.99 --query_cov 0.8 --strand both --maxaccepts 10 --maxrejects 0 --db /tmp/qiime2-archive-zb6t07ri/d009fdf2-df54-4690-8450-270c39c6b224/data/dna-sequences.fasta --threads 1 --output_no_hits --blast6out /tmp/tmpte1geld6
-
-Saved FeatureData[Taxonomy] to: ../analysis/P05-clust-tree-cm-goods/v67/tax-class.qza
-Exported ../analysis/P05-clust-tree-cm-goods/v67/tax-class.qza as TSVTaxonomyDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/tax-class
-Saved FeatureTable[Frequency] to: ../analysis/P05-clust-tree-cm-goods/v67/v67-filtered-table.qza
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/v67-filtered-table.qzv
-Saved FeatureTable[Frequency] to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/rarefied_table.qza
-Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/faith_pd_vector.qza
-Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/observed_features_vector.qza
-Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/shannon_vector.qza
-Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/evenness_vector.qza
-Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/unweighted_unifrac_distance_matrix.qza
-Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/weighted_unifrac_distance_matrix.qza
-Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/jaccard_distance_matrix.qza
-Saved DistanceMatrix to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/bray_curtis_distance_matrix.qza
-Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/unweighted_unifrac_pcoa_results.qza
-Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/weighted_unifrac_pcoa_results.qza
-Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/jaccard_pcoa_results.qza
-Saved PCoAResults to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/bray_curtis_pcoa_results.qza
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/unweighted_unifrac_emperor.qzv
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/weighted_unifrac_emperor.qzv
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/jaccard_emperor.qzv
-Saved Visualization to: ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/bray_curtis_emperor.qzv
-/home-3/lpeiffe1@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/sklearn/metrics/pairwise.py:1761: DataConversionWarning: Data was converted to boolean for metric jaccard
-  warnings.warn(msg, DataConversionWarning)
-/home-3/lpeiffe1@jhu.edu/miniconda3/envs/qiime2-2020.6/lib/python3.6/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:152: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -9.505581485895182e-05 and the largest is 0.012072493627481773.
-  RuntimeWarning
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/faith_pd_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/exported-faith-pd-vector
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/evenness_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/exported-evenness-vector
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/shannon_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/exported-shannon-vector
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/observed_features_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/exported-observed-otus-vector
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/bray_curtis_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/bray-curtis-dm
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/jaccard_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/jaccard-dm
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/unweighted_unifrac_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/unweighted-unifrac-dm
-Exported ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/weighted_unifrac_distance_matrix.qza as DistanceMatrixDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/core-metrics-results/weighted-unifrac-dm
-Saved SampleData[AlphaDiversity] to: ../analysis/P05-clust-tree-cm-goods/v67/observed_otus_vector.qza
-Exported ../analysis/P05-clust-tree-cm-goods/v67/observed_otus_vector.qza as AlphaDiversityDirectoryFormat to directory ../analysis/P05-clust-tree-cm-goods/v67/goods-coverage
