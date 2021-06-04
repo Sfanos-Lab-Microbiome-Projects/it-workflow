@@ -91,6 +91,14 @@ meltAAvg[meltAAvg$Taxa == "unassigned", "Taxa"] <- "Unassigned"
 nonUnassigned             = unique(meltAAvg$Taxa)[!unique(meltAAvg$Taxa) %in% c("Unassigned")]
 meltAAvg$Taxa             = factor(meltAAvg$Taxa,levels=c(nonUnassigned, "Unassigned"))
 
+# correct Expected normalized value to 100 (not 101)
+for (j in 1:nrow(meltAAvg)){
+  if (meltAAvg[j,"Region"] == "Expected"){
+    meltAAvg[j,"PercentAbundance"] = 100*meltAAvg[j,"PercentAbundance"] / 101
+  }
+}
+
+
 # color scheme --
 GroupCols = c("#cbcbcb", "#eb3eab", "#FF9AA2", "#FFDAC1", "#E2F0CB", "#B5EAD7", "#C7CEEA", "#2C3E50", "#2980B9", "#8E44AD", "#C0392B", "#F39C12", "#F1C40F", "#27AE60", "#196f3e")
 numTx     = 33
