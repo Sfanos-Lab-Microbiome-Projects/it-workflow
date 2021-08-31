@@ -7,7 +7,7 @@ my $outDir = "../analysis/P13-summarize-qc";
 `rm -r $outDir`;
 `mkdir $outDir`;
 # ------------------------
-my $files = `ls ../external/P12-dada2/v*/exported-denoise-stats/chip1-v*-stats.tsv`;
+my $files = `ls ../external/P12-dada2/v*/exported-denoise-stats/chip1-v*/stats.tsv`;
 chomp($files);
 my @files = split "\n", $files; # now the @files array holds the path to each sample
 # ------------------------
@@ -31,7 +31,8 @@ foreach my $f (@files){
       next if ($_ =~ /^#/);
       for my $i (1 .. $#A){
         $data{$v}{$A[0]}{$header[$i]} = $A[$i];
-      };
+      }
+    }
   }
   close IN;
 }
