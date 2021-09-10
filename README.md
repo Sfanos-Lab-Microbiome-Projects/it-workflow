@@ -27,6 +27,32 @@ This is a version-controlled repository intended to serve as a resources for sup
 │   ├── P34-diff-ab-fresh-frozen 
 │   └── P35-correl-fresh-frozen
 ├── code                            <-- contains code for analysis
+│   ├── P00-tx-validation.sh    
+│   ├── P01-demux.sh
+│   ├── P02-dada2.sh
+│   ├── P03-sum-denoising-stats.pl   
+│   ├── P04-prep-sfanos-db4.0.sh
+│   ├── P05-clust-tree-cm-goods.sh
+│   ├── P06-convert-tx-class.sh  
+│   ├── P06-filtered-convert-tx-class.sh       
+│   ├── P07-filtered-sum-taxa-db4.0.pl   
+│   ├── P07-sum-taxa-db4.0.pl    
+│   ├── P08-filtered-sum-alpha
+│   ├── P08-sum-alpha
+│   ├── P13-sum-denoising-stats.pl                     
+│   ├── P15-clust-tree-cm-goods.sh
+│   ├── P16-convert-tx-class.sh                      
+│   ├── P17-sum-taxa-db4.0.pl                    
+│   ├── P18-sum-alpha.pl
+│   ├── P20-heatmap-species.r                        
+│   ├── P21-alpha-vis.R                      
+│   ├── P22-pcoa.R
+│   ├── P23-filtered-tax-class.R                    
+│   ├── P31-alpha-vis.R                       
+│   ├── P32-pcoa.R
+│   ├── P33-filtered-tax-class.R 
+│   ├── P34-diff-ab-fresh-frozen.r 
+│   └── P35-correl-fresh-frozen.r
 ├── data                            <-- contains data that may be version controlled
 │   ├── dbs                         <-- location of dada2 16S dbs
 │   ├── final                       
