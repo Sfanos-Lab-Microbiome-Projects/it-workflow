@@ -54,10 +54,17 @@ This is a version-controlled repository intended to serve as a resources for sup
 │   ├── P34-diff-ab-fresh-frozen.r 
 │   └── P35-correl-fresh-frozen.r
 ├── data                            <-- contains data that may be version controlled
-│   ├── dbs                         <-- location of dada2 16S dbs
-│   ├── final                       
-│   ├── processed
-│   └── raw
+│   ├── P05-clust-tree-cm-goods
+│   ├── P15-clust-tree-cm-goods                     
+│   ├── manifests
+│   ├── atcc-metadata.tsv
+│   ├── atcc-metadata.txt
+│   ├── atcc-percent-abundances.xlsx
+│   ├── filtered-percent-abundance.xlsx
+│   ├── patient-metadata.tsv
+│   ├── patient-metadata.txt
+│   ├── patient-simple-ids.xlsx
+│   └── sfanos.2020-06-19.xlsx
 └── external                        <-- too large to version control
 
 ```
