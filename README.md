@@ -57,6 +57,7 @@ This is a version-controlled repository intended to serve as a resources for sup
 │   ├── P05-clust-tree-cm-goods
 │   ├── P15-clust-tree-cm-goods                     
 │   ├── manifests
+│   ├── sfanos_db_v4.0
 │   ├── atcc-metadata.tsv
 │   ├── atcc-metadata.txt
 │   ├── atcc-percent-abundances.xlsx
